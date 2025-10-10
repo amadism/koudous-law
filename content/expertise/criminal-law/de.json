@@ -1,0 +1,40 @@
+{
+  "criminalLaw": {
+    "title": "Strafrecht: Ihr Unternehmen unter Druck verteidigen",
+    "intro": "Wenn Strafrecht in Ihr Unternehmen einbricht – denken Sie an Betrugsvorwürfe, regulatorische Verstöße oder Mitarbeiterfehlverhalten unter deutscher oder EU-Kontrolle.",
+    
+    "howIHelp": {
+      "heading": "Wie ich helfe",
+      "description": "Ich tauche schnell ein – bewerte die Situation mit Präzision: überprüfe Beweise, identifiziere Schlüsselakteure.",
+      "charges": "Anklagen treffen? Ich wechsle die Gänge – seziere die Anklage, baue eine Verteidigung."
+    },
+
+    "services": {
+      "heading": "Zentrale Strafrecht-Dienstleistungen",
+      "list": [
+        "Wirtschaftsstrafrecht-Verteidigung einschließlich Betrugs- und Unterschlagungsfälle",
+        "Regulatorische Verstöße-Verteidigung unter deutschen und EU-Rahmen",
+        "Ermittlungsmanagement mit Polizei- und Staatsanwaltschaftsbehörden",
+        "Steuerhinterziehung-Verteidigung unter deutscher Abgabenordnung",
+        "Insider-Trading-Fälle unter Nutzung EU-Marktmissbrauchsvorschriften",
+        "Compliance-Programmentwicklung zur Verhinderung zukünftiger strafrechtlicher Exposition"
+      ],
+      "strength": "Prävention ist meine andere Stärke: Ich verstärke Ihre internen Schutzmaßnahmen.",
+      "defense": "Meine Unterstützung skaliert – ein kleines Unternehmen bekommt eine schnelle Verteidigung."
+    },
+
+    "whyMe": {
+      "heading": "Warum ich",
+      "description": "Ich habe Jahre im Schmelztiegel des Strafrechts verbracht, deutsche und EU-Unternehmen aus rechtlichen Bränden zu ziehen.",
+      "strength": "Mein Vorteil ist unerschütterliche Klarheit – ich wanke nicht unter Druck.",
+      "clientTrust": "Kunden verlassen sich auf mich, weil ich nicht herumalbere.",
+      "trackRecord": "Meine Erfolgsbilanz steht fest: Ich habe Kunden von falschen Betrugsvorwürfen befreit."
+    },
+
+    "cta": {
+      "heading": "Stehen Sie unter strafrechtlichem Druck auf Ihr Unternehmen?",
+      "text": "Lassen Sie uns besprechen, wie meine Strafverteidigungs-Expertise Ihre Interessen schützen und das bestmögliche Ergebnis unter deutschem und EU-Recht sichern kann.",
+      "button": "Notfall-Beratungstermin vereinbaren"
+    }
+  }
+}

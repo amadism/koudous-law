@@ -1,0 +1,41 @@
+{
+  "contractLaw": {
+    "title": "Contract Law: Securing Your Deals, Avoiding Traps",
+    "intro": "Contracts are the lifeblood of your business—when they're tight, your profits pump strong; when they're sloppy, you bleed out quickly under German or EU law. I draft, review, and negotiate agreements that lock in your advantage and block risks, whether it's a supplier deal in Hamburg, a partnership across the EU, or a client pact in Berlin. My focus is relentless: every line I touch works for you, not against you, ensuring your deals are ironclad and disputes remain rare. From crafting terms that protect your cash flow to enforcing rights when someone breaks the rules, I keep your business humming. Whether you're a startup signing your first major client or an established firm reworking EU supply chains, I bring precision and muscle that turn contracts into victories, not vulnerabilities.",
+    
+    "howIHelp": {
+      "heading": "How I Help",
+      "description": "I start by zeroing in on your deal—its stakes, its players, its goals—so my contracts fit your needs, not some template. I draft from the ground up: supply agreements, service contracts, licensing deals—clear, enforceable under German Civil Code (BGB) and EU regulations, and stacked in your favor. I've written clauses that saved clients from deadbeat suppliers and terms that turned vague handshake promises into binding wins.",
+      "review": "Reviewing a contract? I'm a hawk—catching traps like hidden termination penalties or liability shifts under German law, then rewriting them to shield you. Negotiating? I push your terms hard—better rates, stricter deadlines, tighter protections—while keeping the deal alive under EU competition rules. Breach happens? I enforce your rights—demanding payment, reclaiming assets, or hitting back in court—or defend you if the other side swings, all rooted in German contract law expertise."
+    },
+
+    "services": {
+      "heading": "Key Contract Law Services",
+      "list": [
+        "Contract drafting tailored to your specific business needs and legal framework",
+        "Contract review to identify and eliminate risk factors before signing",
+        "Negotiation support that secures favorable terms while preserving relationships",
+        "Breach resolution through negotiation, mediation, or litigation",
+        "Cross-border agreements compliant with German, EU, and international law",
+        "Contract enforcement to protect your rights and recover damages"
+      ],
+      "surface": "I go beyond the surface. Multi-party EU deals? I align interests without losing your edge, factoring in German HGB and EU cross-border quirks. International scope? I weave in clauses—currency protections, German Gerichtsstand choices—to keep you covered. Burned before? I've salvaged botched deals, turning losses into recoveries under BGB's breach provisions.",
+
+       "licenses ": "I've handled construction pacts dodging German Bauvertragsrecht delays, tech licenses securing IP under EU law, retail deals dodging returns. My support flexes—a small biz gets a quick draft; a big player gets a contract overhaul. Every clause, every fight, keeps your deals profitable and risks buried. You're getting a contract maestro who turns paper into power, not pitfalls."
+    },
+
+    "whyMe": {
+      "heading": "Why Me",
+      "description": "I've been in the contract trenches for years, forging and fighting agreements that define German and EU businesses—startups chasing first wins, SMEs holding steady, corporates scaling fast. I've won enforcement battles reclaiming millions under BGB, rewritten deals that stopped lawsuits dead, and negotiated terms that turned shaky pacts into goldmines.",
+      "strength": "My strength is precision—I catch the fine print others gloss over: the ambiguous term that sparks a German court fight, the missing clause that leverage costs, the sloppy draft that unravels under EU scrutiny. I've worked tech with its IP-heavy deals, manufacturing with its supply chain knots, retail with its client tangles—knowing BGB, HGB, and EU contract law cold.",
+      "clientTrust": "Clients stick with me because I don't faff. I've heard tales of lawyers who churn pages or dodge calls—I say: 'Here's your deal, here's the fix, let's lock it.' I've saved firms by spotting killers early—like a penalty clause under German law that could've sunk a project—or enforcing rights others wrote off.",
+      "trackRecord": "My record's tight: I've turned a startup's first deal into a million €€ stream, kept a retailer's supply chain alive through a breach, and redrafted an EU firm's terms to dodge an audit. You're hiring someone who's seen the traps, fought the fights, and keeps your contracts bulletproof—no fluff, just wins that stick."
+    },
+
+    "cta": {
+      "heading": "Need ironclad contracts that protect your business?",
+      "text": "Let's discuss how my contract law expertise can secure your deals and shield your business from costly disputes.",
+      "button": "Schedule a Consultation"
+    }
+  }
+}

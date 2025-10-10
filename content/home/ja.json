@@ -1,0 +1,143 @@
+{
+    "HeroSection": {
+        "title": "良いだけでは",
+        "highlight": "足りない",
+        "subtitle": "Koudous International Law Office",
+        "discription": "ドイツ・アジアビジネス関係の専門家 - 労働法 - 商事・会社法 - ビジネス法 - 契約法 - コンプライアンス＆データ保護 - IT法 - メディア法 - eスポーツ法 - 交渉 — 数十年の実務経験と実戦で培われた専門知識。",
+        "buttonText": "お問い合わせ",
+        "buttonPath": "/contact"
+    },
+    "sponsers": {
+        "title": "主要な国際企業と業界専門家から信頼されています",
+        "logos":  [
+            {
+                "image_url": "/sponsers/wiresoft.avif",
+                "url": "https://www.wiresoft.com/"
+            },
+            {
+                "image_url": "/sponsers/g2_esports.avif",
+                "url": "https://g2esports.com/"
+            },
+            {
+                "image_url": "/sponsers/blitzhandel24.avif",
+                "url": "https://blitzhandel24.com/"
+            },
+            {
+                "image_url": "/sponsers/recruit.webp",
+                "url": "https://recruit-holdings.com/en/"
+            },
+            {
+                "image_url": "/sponsers/hagiwara.webp",
+                "url": "https://www.hagiwara.co.jp/english/"
+            },
+            {
+                "image_url": "/sponsers/quandoo.avif",
+                "url": "https://www.quandoo.com/"
+            },
+            {
+                "image_url": "/sponsers/hitachi.svg",
+                "url": "https://www.hitachi-ies.com/"
+            },
+            {
+                "image_url": "/sponsers/caster.svg",
+                "url": "https://caster.co.jp/"
+            }
+        ]
+    },
+    "services": {
+        "name": "サービス",
+        "title": "お客様に合わせた法的ソリューション",
+        "subtitle": "ビジネスに対する柔軟で長期的なサポート。お客様のニーズに合わせた明確で実践的なソリューションを提供します。",
+        "cards": [
+            {
+                "title": "リーガル・オン・デマンド",
+                "subtitle": "必要な時に正確な法的アドバイスを — 柔軟で迅速、そして明確に。",
+                "buttonText": "詳しく見る",
+                "buttonPath": "/services/legal-on-demand"
+            },
+            {
+                "title": "ゼネラルカウンセル（顧問契約）",
+                "subtitle": "法的パートナー＆戦略家として月次で継続的なサポート。お好みのチャネルでアクセス可能。",
+                "buttonText": "詳しく見る",
+                "buttonPath": "/services/general-counsel"
+            },
+            {
+                "title": "リーガル・インテリム",
+                "subtitle": "重要なプロジェクトへの短期的サポート。CLO/GCとして一時的にリーダーシップの役割を担い、迅速なソリューションを提供します。",
+                "buttonText": "詳しく見る",
+                "buttonPath": "/services/legal-interim"
+            },
+            {
+                "title": "法務部門構築＆成長支援",
+                "subtitle": "ビジネスの成長をサポートする効率的な法務部門を構築するための包括的なソリューション。",
+                "buttonText": "詳しく見る",
+                "buttonPath": "/services/legal-department"
+            }
+        ]
+    },
+    "owner": {
+        "name": "ROMAN KOUDOUS",
+        "title": "国際ゼネラルカウンセル",
+        "intro1": "Roman Koudousは、正確でビジネス志向のアドバイスで複雑な法的課題を解決する経験豊富な弁護士兼ゼネラルカウンセルです。",
+        "intro2": "豊富なCレベルの経験を持ち、国際企業向けに効率的でカスタマイズされたソリューションを提供します — 迅速、的確、そして常にお客様の利益のために。",
+        "intro3": "彼のアプローチは、法的専門知識と戦略的アドバイスを組み合わせることで、持続可能なビジネスの成功を可能にし、真の異文化間のつながりを構築します。",
+        "buttonText": "お問い合わせ",
+        "buttonPath": "/contact",
+        "image_url": "/owner.avif"
+    },
+    "buisness": {
+        "title": "国際ビジネス関係の専門家＆戦略家",
+        "subtitle": "グローバルビジネス関係成功への架け橋 - 特にドイツと日本",
+        "disc1": "グローバルビジネス関係のためのカスタマイズされたカウンセリングを提供します。多様な文化への深い理解により、お客様の企業が最適に拡大するようサポートします。",
+        "disc2": "長年の経験、正確な分析、戦略的先見性を活用してください — 複雑な課題を明確で成功するソリューションに変えます。",
+        "buttonText": "詳しく見る",
+        "buttonPath": "/buisness",
+        "image_url": "/tokyo-business.avif"
+    },
+    "reviews": {
+        "title": "お客様の声",
+        "subtitle": "戦略的な法的カウンセリングとビジネスソリューションで、業界を超えて主要企業から信頼されています",
+        "cards": [
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
+                "name": "John Doe",
+                "location": "ベルリン、ドイツ",
+                "position": "Quandoo CEO",
+                "text": "Romanの労働法とコーポレートガバナンスの専門知識は、急速な成長段階で非常に重要でした。彼の実践的なソリューションにより、コンプライアンスを維持しながら、野心的な拡大計画をサポートできました",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
+                "name": "Jane Smith",
+                "location": "サンフランシスコ、米国",
+                "position": "Caster 創設者",
+                "text": "Romanの戦略的法的カウンセリングは、複雑な日本市場をナビゲートする上で重要でした。彼のバイリンガルの専門知識と文化的理解が、私たちの市場参入の成功に大きな違いをもたらしました。",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg",
+                "name": "Carlos Alvarez",
+                "location": "マドリード、スペイン",
+                "position": "Wiresoft CTO",
+                "text": "Romanのテクノロジー法と契約交渉の専門知識は、拡大フェーズで非常に貴重でした。彼の戦略的アプローチにより、大幅な時間とリソースを節約し、競争優位性を維持することができました",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
+                "name": "田中 明子",
+                "location": "シドニー、オーストラリア",
+                "position": "Recruit COO",
+                "text": "Romanの労働法とコーポレートガバナンスの専門知識は、急速な成長段階で非常に重要でした。彼の実践的なソリューションにより、コンプライアンスを維持しながら、野心的な拡大計画をサポートできました",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
+                "name": "Liam O'Connor",
+                "location": "ケープタウン、南アフリカ",
+                "position": "Hagiwara 創設者",
+                "text": "Romanは、複雑な国際ビジネスの課題を自信と明確さを持ってナビゲートできるよう、貴重な法的ガイダンスと戦略的洞察を提供してくれました。",
+                "rating": 5
+            }
+        ]
+    }
+}

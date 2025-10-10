@@ -1,0 +1,41 @@
+{
+  "tenancyLaw": {
+    "title": "Tenancy Law: Master Your Real Estate Relationships",
+    "intro": "Lease agreements and rental contracts can bind your business—or set it free.",
+    
+    "howIHelp": {
+      "heading": "How I Help",
+      "description": "I dive into your real estate situation—what you rent, what you offer, where your risks lie.",
+      "disputes": "Tenant problems brewing? I negotiate solutions that preserve relationships when possible."
+    },
+
+    "services": {
+      "heading": "Key Tenancy Law Services",
+      "list": [
+        "Drafting and negotiating lease agreements with comprehensive terms and protective clauses",
+        "Eviction proceedings and enforcement under German tenancy law",
+        "Commercial lease structuring tailored to business operational needs",
+        "Dispute resolution in tenancy matters and payment enforcement strategies",
+        "Property maintenance and damage claims with cost recovery",
+        "Landlord-tenant mediation preserving relationships while protecting rights"
+      ],
+      "basics": "Landlord issues? I defend your rights as a tenant.",
+      "deal": "You get practical solutions that avoid headaches and make your property work for you."
+
+    },
+
+    "whyMe": {
+      "heading": "Why Me",
+      "description": "I've managed tenant disputes and contracts across industries for years.",
+      "strength": "I've seen what breaks real estate relationships: the vague maintenance clause that becomes a money pit.",
+      "clientTrust": "What sets me apart is that I don't just follow the legal playbook—I write new strategies.",
+      "trackRecord": "You're hiring someone who's been in the real estate trenches, facing tough landlords and problematic tenants."
+    },
+
+    "cta": {
+      "heading": "Ready to master your real estate relationships?",
+      "text": "Let's discuss how my tenancy law expertise can protect your interests, resolve disputes, and structure deals that work for your business.",
+      "button": "Secure Your Property Position"
+    }
+  }
+}

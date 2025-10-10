@@ -1,0 +1,62 @@
+{
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Ich biete maßgeschneiderte Lösungen, schnelle Reaktionszeiten und umfassende Unterstützung für alle Ihre rechtlichen Bedürfnisse.",
+    "description": "Kontaktieren Sie mich noch heute für ein unverbindliches Erstgespräch und entdecken Sie, wie mein internationaler Ansatz und meine Erfahrung Ihr Geschäft voranbringen können.",
+    "form": {
+        "fields": {
+            "firstName": {
+                "label": "Vorname",
+                "placeholder": "Vorname"
+            },
+            "lastName": {
+                "label": "Nachname",
+                "placeholder": "Nachname"
+            },
+            "email": {
+                "label": "E-Mail-Adresse",
+                "placeholder": "E-Mail-Adresse"
+            },
+            "phone": {
+                "label": "Telefon",
+                "placeholder": "Telefonnummer"
+            },
+            "expertise": {
+                "label": "Rechtsgebiet",
+                "placeholder": "Rechtsgebiet auswählen"
+            },
+            "message": {
+                "label": "Nachricht",
+                "placeholder": "Schreiben Sie Ihre Nachricht..."
+            }
+        },
+        "expertiseOptions": [
+            "Wirtschaftsrecht",
+            "Compliance",
+            "Vertragsrecht",
+            "Gesellschaftsrecht",
+            "Strafrecht",
+            "Arbeitsrecht",
+            "Esports-Recht",
+            "Medienrecht",
+            "Technologierecht",
+            "Mietrecht",
+            "Vertriebsrecht"
+        ],
+        "submitButton": "Senden"
+    },
+    "contactInfo": {
+        "address": {
+            "line1": "Kurfürstendamm 67",
+            "line2": "10707 Berlin, Deutschland"
+        },
+        "email": {
+            "text": "Senden Sie mir eine Nachricht an",
+            "address": "info@koudous-law.de"
+        },
+        "phone": {
+            "text": "Oder sprechen Sie direkt mit mir",
+            "linkText": "Termin vereinbaren",
+            "link": "https://cal.com/koudous-law"
+        }
+    }
+}

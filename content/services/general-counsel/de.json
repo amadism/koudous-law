@@ -1,0 +1,59 @@
+{
+  "generalCounsel": {
+    "title": "Ihr langfristiger Rechtspartner, integriert in Ihr Team",
+    "intro": "Wenn Ihr Unternehmen wächst oder sich laufend mit rechtlichen Anforderungen konfrontiert sieht, brauchen Sie mehr als eine schnelle Lösung – Sie brauchen einen Partner, der mit Ihnen dabei ist. Mein General Counsel Service bietet konsistente, zuverlässige Unterstützung zu einem festen monatlichen Honorar. Ich werde zu Ihrem rechtlichen Rückgrat und integriere mich in Ihr Führungsteam, um alles von täglichen Fragen bis hin zu großen Herausforderungen zu bewältigen. Das ist nicht nur Beratung; es ist eine Partnerschaft, die Ihren Erfolg vorantreibt.",
+    "whatYouGet": {
+      "heading": "Was Sie erhalten",
+      "description": "Mit diesem Service haben Sie mich auf Kurzwahl – bildlich und buchstäblich. Ich bin über Slack, Discord, WhatsApp, LINE oder welche Plattform Ihr Team auch nutzt, verfügbar.",
+      "features": [
+        {
+          "title": "Tägliche Abläufe:",
+          "details": "Ich prüfe Verträge, erstelle Richtlinien und beantworte Fragen in Echtzeit."
+        },
+        {
+          "title": "Größere Schritte",
+          "details": "(Fundraising, Einstellungen, Expansion): Ich entwickle Strategien mit Ihnen, verhandle Deals und halte Risiken im Griff."
+        }
+      ],
+
+      "descriptionAfter": "Sie erhalten proaktive Führung – Probleme erkennen, bevor sie explodieren – und reaktive Lösungen, wenn sie auftreten. Jeden Monat stimmen wir uns über Prioritäten ab, um sicherzustellen, dass ich an dem arbeite, was für Sie am wichtigsten ist."
+    },
+
+    "howWeWorkTogether": {
+      "heading": "Wie wir zusammenarbeiten",
+      "description": "Ich integriere mich in Ihren Arbeitsablauf. Wir beginnen mit einem Kickoff-Gespräch, um Ihre Ziele, Risiken und rechtlichen Bedürfnisse zu kartieren. Von da an bin ich Teil Ihres Teams – nehme an Meetings teil, brainstorme mit Ihren Führungskräften und bleibe bei wichtigen Entscheidungen in der Schleife.",
+      "features": [
+        {
+          "title": "Kommunikation:",
+          "details": "Direkt – keine langen Memos, nur schnelle Gespräche oder stichpunktartige E-Mails mit klaren Handlungsempfehlungen."
+        },
+        {
+          "title": "Reaktion:",
+          "details": "Schnell – normalerweise am selben Tag – weil Verzögerungen den Schwung töten."
+        }
+      ],
+
+      "descriptionAfter": "Ich markiere, was Ihre Aufmerksamkeit braucht, und kümmere mich um das, was sie nicht braucht. Ob es eine 2-Uhr-morgens-Krise oder ein Routine-Check-in ist, ich bin da."
+    },
+
+    "whoThisIsFor": {
+      "heading": "Für wen dies geeignet ist",
+      "description": "Das ist perfekt für Unternehmen, die bereit sind, auf die nächste Stufe zu steigen:",
+      "list": [
+        "Startups, die schnell skalieren.",
+        "Mittelständische Unternehmen ohne vollständige Rechtsabteilung.",
+        "Etablierte Firmen, die kontinuierliche Unterstützung benötigen."
+      ],
+      "note": "Wenn Sie es leid sind, um rechtliche Hilfe zu kämpfen oder vage Antworten zu bekommen, liefert dieser Service Konsistenz und Klarheit. Er ist für Führungskräfte, die einen vertrauenswürdigen Berater wollen, nicht nur einen Auftragnehmer."
+    },
+    "whyItWorks": {
+      "heading": "Warum es funktioniert",
+      "description": "Ich bringe eine geschäftsorientierte Denkweise mit. Recht geht nicht nur darum, Probleme zu vermeiden – es geht darum, Wachstum zu ermöglichen. Ich habe mit Unternehmen verschiedener Branchen gearbeitet, also weiß ich, wie man Risiko und Chance ausbalanciert. Keine 'Es kommt darauf an'-Ausflüchte hier; ich gebe Ihnen eine klare Antwort und einen Plan. Mit einem festen Honorar werden Sie nicht für Kleinigkeiten zur Kasse gebeten – Sie wissen genau, was Sie bekommen, und ich bin motiviert, Sie erfolgreich zu halten."
+    },
+    "callToAction": {
+      "heading": "Bereit für einen Rechtspartner, nicht nur einen Dienstleister?",
+      "description": "Kontaktieren Sie mich, um zu besprechen, wie ich mich in Ihr Team integrieren und die kontinuierliche Rechtsunterstützung bieten kann, die Ihr Unternehmen für selbstbewusstes Wachstum braucht.",
+      "buttonText": "Beratungstermin vereinbaren"
+    }
+  }
+}

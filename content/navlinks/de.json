@@ -1,0 +1,32 @@
+{
+  "body": [
+    {
+      "label": "Dienstleistungen",
+      "children": [
+        { "label": "Honorare", "path": "/services/fees" },
+        { "label": "General Counsel", "path": "/services/general-counsel" },
+        { "label": "Rechtsabteilung", "path": "/services/legal-department" },
+        { "label": "Rechtlicher Interims", "path": "/services/legal-interim" },
+        { "label": "Recht auf Abruf", "path": "/services/legal-on-demand" }
+      ]
+    },
+    {
+      "label": "Fachgebiete",
+      "children": [
+        { "label": "Wirtschaftsrecht", "path": "/expertise/business-law" },
+        { "label": "Compliance", "path": "/expertise/compliance" },
+        { "label": "Vertragsrecht", "path": "/expertise/contract-law" },
+        { "label": "Gesellschaftsrecht", "path": "/expertise/corporate-law" },
+        { "label": "Strafrecht", "path": "/expertise/criminal-law" },
+        { "label": "Arbeitsrecht", "path": "/expertise/employment-law" },
+        { "label": "Esports-Recht", "path": "/expertise/esports-law" },
+        { "label": "Medienrecht", "path": "/expertise/media-law" },
+        { "label": "Technologierecht", "path": "/expertise/technology-law" },
+        { "label": "Mietrecht", "path": "/expertise/tenancy-law" },
+        { "label": "Vertriebsrecht", "path": "/expertise/distribution-law" }
+      ]
+    },
+    { "label": "Über Mich", "path": "/about" },
+    { "label": "Kontakt", "path": "/contact" }
+  ]
+}

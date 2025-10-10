@@ -1,0 +1,41 @@
+{
+  "technologyLaw": {
+    "title": "Technology Law: Secure Your Digital Advantage",
+    "intro": "Tech drives modern business, and I keep your innovations legally safe.",
+
+    "howIHelp": {
+      "heading": "How I Help",
+      "description": "I dive deep into your tech stack—what you build, how you deploy, where you scale.",
+       "concerns": "Data concerns keeping you up at night? I align you with GDPR, CCPA, or local data protection laws."
+    },
+
+    "services": {
+      "heading": "Key Technology Law Services",
+      "list": [
+        "Software and SaaS agreements with robust IP protection and liability limitations",
+        "Data protection and GDPR compliance for global tech operations",
+        "IP strategy and patent protection for innovations and trade secrets",
+        "Tech partnerships and API licensing with scalable terms",
+        "Cybersecurity incident response and breach management",
+        "AI and emerging tech compliance navigating regulatory boundaries"
+      ],
+      "extra": "Is your IP at risk? I secure patents, trademarks, and trade secrets.",
+       "legalSupport": "You get legal support that keeps pace with your tech's speed and ambition."
+    },
+
+    "whyMe": {
+      "heading": "Why Me",
+      "companies ": "I've guided tech-driven companies through legal mazes for years.",
+      "oversight ": "I've seen what breaks tech companies: the IP oversight that invites copycats.",
+      "innovation": "What sets me apart is that I don't slow your innovation—I accelerate it.",
+      "regulators": "You're hiring someone who's been in the code, faced regulators, and delivered wins that last."
+    },
+
+    "cta": {
+      "heading": "Ready to secure your digital advantage?",
+      "text": "Let’s discuss how my technology law expertise can protect your innovations, ensure compliance, and accelerate your tech-driven growth.",
+      "button": "Optimize Your Legal Tech Stack"
+     
+    }
+  }
+}

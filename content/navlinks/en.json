@@ -1,0 +1,33 @@
+{
+  "body": [
+    {
+      "label": "Services",
+      "children": [
+        { "label": "Fees", "path": "/services/fees" },
+        { "label": "General Counsel", "path": "/services/general-counsel" },
+        { "label": "Legal Department", "path": "/services/legal-department" },
+        { "label": "Legal Interim", "path": "/services/legal-interim" },
+        { "label": "Legal on Demand", "path": "/services/legal-on-demand" }
+      ]
+    },
+    {
+      "label": "Expertise",
+      "children": [
+        { "label": "Business Law", "path": "/expertise/business-law" },
+        { "label": "Compliance", "path": "/expertise/compliance" },
+        { "label": "Contract Law", "path": "/expertise/contract-law" },
+        { "label": "Corporate Law", "path": "/expertise/corporate-law" },
+        { "label": "Criminal Law", "path": "/expertise/criminal-law" },
+        { "label": "Employment Law", "path": "/expertise/employment-law" },
+        { "label": "Esports Law", "path": "/expertise/esports-law" },
+        { "label": "Media Law", "path": "/expertise/media-law" },
+        { "label": "Technology Law", "path": "/expertise/technology-law" },
+        { "label": "Tenancy Law", "path": "/expertise/tenancy-law" },
+        { "label": "Distribution Law", "path": "/expertise/distribution-law" }
+      ]
+    },
+    { "label": "About Me", "path": "/about" },
+    { "label": "Contact Me", "path": "/contact" }
+  ]
+}
+

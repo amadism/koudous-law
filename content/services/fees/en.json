@@ -1,0 +1,44 @@
+{
+"fees":{
+  "feeStructure": {
+    "title":"Fee Structure",
+    "introduction": "At Koudous Law, I believe in fairness and transparency. I work with companies on a retainer basis, i.e. a monthly fixed fee, providing tailored legal solutions to meet your specific needs. All retainer fees are based on the fair use principle, ensuring that you only pay for what you need, with no hidden costs or outdated time charges. For details you are welcome to reach out directly."
+  },
+  "retainerPackages": {
+  "heading": "Retainer Packages",
+  "subheading": "I offer three flexible packages for companies, with fees adjusted according to your specific requirements and business size:",
+  "packages": {
+    "basic": {
+      "name": "Basic Package (S)",
+      "description": "For small startups or companies that require occasional legal advice and support, with up to 5 hours of legal counsel each month. Perfect for businesses just getting started."
+    },
+    "standard": {
+      "name": "Standard Package (M)",
+      "description": "For growing businesses that need more comprehensive legal support, including regular consultations, ongoing legal strategy, and day-to-day legal needs. Includes up to 15 hours of support each month."
+    },
+    "premium": {
+      "name": "Premium Package (L)",
+      "description": "Designed for established companies with complex legal requirements. This package includes unlimited access to legal counsel, priority response times, and in-depth support for multiple legal areas (M&A, compliance, contracts, etc.). The ultimate package for fast-moving, high-demand businesses."
+    }
+  }
+},
+  "customPackages": {
+    "heading": "Custom Packages for Larger Clients",
+    "description": "For large corporations or clients with unique needs, I offer a bespoke service beyond the standard retainer structure. This includes highly specialized legal support and strategic advisory for large-scale operations or complex international matters. Pricing is provided upon request."
+  },
+  "proBonoFlexibleAgreements": {
+    "heading": "Pro Bono & Flexible Agreements",
+    "description": "While my focus is on providing high-level legal services to businesses, I believe in giving back to the community. I usually do not take individual clients, but if you are an individual with a compelling reason to work together, please reach out. Based on your financial situation, I may offer a flexible fee arrangement according to the RVG (German Lawyer Fee Law) or even pro bono.",
+    "note": "If you're looking for an opportunity to work with me but feel financial constraints, I am open to discussing a tailored agreement that works for both parties."
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "description": "I offer tailored solutions, fast response times, and comprehensive support for all your legal needs.",
+    "callToAction": "Contact me today for a no-obligation initial consultation and discover how my international approach and experience can advance your business.",
+    "buttons": [
+      "Contact Me",
+      "Book a Call"
+    ]
+  }
+  }
+}

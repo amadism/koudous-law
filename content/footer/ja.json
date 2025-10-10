@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "title": "お問い合わせ",
+    "email": "info@koudous-law.de",
+    "bookCall": "電話予約"
+  },
+  "location": {
+    "title": "ベルリンオフィス",
+    "address": {
+      "line1": "Kurfürstendamm 67",
+      "line2": "10707 Berlin, Germany"
+    }
+  },
+  "copyright": "© 2025 Koudous International Law Office",
+  "links": {
+    "legalNotice": "法的通知",
+    "privacyPolicy": "プライバシーポリシー"
+  }
+}

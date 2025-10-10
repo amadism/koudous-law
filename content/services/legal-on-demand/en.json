@@ -1,0 +1,58 @@
+{
+  "legalOnDemand": {
+    "title": "Precision Legal Advice, Exactly When You Need It",
+    "intro": "Businesses don't always need a full-time lawyer, but when legal issues pop up, you can't afford to wing it. My Legal Counsel on Demand service is built for those moments—whether it's a sudden lawsuit, a contract dispute, or a regulatory question that's keeping you up at night. I step in as your go-to expert, delivering clear, actionable advice without the fluff. This isn't about long-term commitments; it's about solving your problem fast and getting you back to running your business.",
+
+    "whatYouGet": {
+      "heading": "What You Get",
+      "description": "When you reach out, I start by getting to the core of your issue. No endless back-and-forth—just a quick call or message to understand your situation. From there, I'll break it down: what's at stake, what your options are, and what I recommend. You'll get a straightforward plan—think 'do this, avoid that'—with timelines and next steps.",
+      "features": [
+        {
+          "title": "If it's a lawsuit",
+          "details": "I'll analyze the claim, assess your risks, and map out a defense strategy."
+        },
+        {
+          "title": "If it's a contract",
+          "details": "I'll spot the traps and suggest fixes."
+        },
+        {
+          "title": "If it's something else",
+          "details": "I'll tailor the approach to fit."
+        }
+      ],
+      "descriptionAfter": "You're not paying for vague 'maybes'; you're getting yes-or-no answers and a path forward."
+    },
+
+    "howWeWorkTogether": {
+      "heading": "How We Work Together",
+      "description": "Flexibility is the name of the game. You can ping me via email, phone, or even a quick text—whatever works for you. I'm not here to bog you down with process; I'm here to cut through the noise. Most issues can be tackled remotely, but if you're local or it's a high-stakes situation, I'm happy to meet in person.",
+      "features": [
+        {
+          "title": "Turnaround",
+          "details": "Expect fast responses—usually within 24–48 hours, depending on complexity."
+        },
+        {
+          "title": "Updates",
+          "details": "I'll keep you in the loop with concise updates, not jargon-filled reports."
+        }
+      ],
+      "descriptionAfter": "You stay focused on your business; I handle the legal heavy lifting."
+    },
+
+    "whoThisIsFor": {
+      "heading": "Who This Is For",
+      "description": "This service fits companies that don't have an in-house lawyer or only need occasional support. Maybe you're:",
+      "list": [
+        "A small business facing your first big contract.",
+        "A mid-sized firm dealing with a disgruntled employee.",
+        "A founder unsure about compliance."
+      ],
+      "note": "If you want expert help without the overhead of a retainer or full-time hire, this is your solution."
+    },
+
+    "whyItWorks": {
+      "heading": "Why It Works",
+      "description": "I've spent years cutting through legal complexity for businesses just like yours. My focus is on results—resolving your issue efficiently so it doesn't derail your momentum. You won't get billed for unnecessary hours or buried in legalese. Instead, you'll walk away with clarity and confidence, ready to move forward. Need a one-off fix? Let's get it done."
+    }
+  }
+}

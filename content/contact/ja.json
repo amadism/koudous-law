@@ -1,0 +1,62 @@
+{
+    "title": "お問い合わせ",
+    "subtitle": "お客様の法的ニーズに合わせたオーダーメイドのソリューション、迅速な対応、包括的なサポートを提供いたします。",
+    "description": "今すぐご連絡いただき、無料の初回相談をご予約ください。私の国際的なアプローチと経験が、お客様のビジネスをどのように前進させることができるかをご確認ください。",
+    "form": {
+        "fields": {
+            "firstName": {
+                "label": "名",
+                "placeholder": "名"
+            },
+            "lastName": {
+                "label": "姓",
+                "placeholder": "姓"
+            },
+            "email": {
+                "label": "メールアドレス",
+                "placeholder": "メールアドレス"
+            },
+            "phone": {
+                "label": "電話番号",
+                "placeholder": "電話番号"
+            },
+            "expertise": {
+                "label": "法律分野",
+                "placeholder": "専門分野を選択"
+            },
+            "message": {
+                "label": "メッセージ",
+                "placeholder": "メッセージをご記入ください..."
+            }
+        },
+        "expertiseOptions": [
+            "ビジネス法",
+            "コンプライアンス",
+            "契約法",
+            "企業法",
+            "刑法",
+            "労働法",
+            "eスポーツ法",
+            "メディア法",
+            "テクノロジー法",
+            "賃貸借法",
+            "流通法"
+        ],
+        "submitButton": "送信"
+    },
+    "contactInfo": {
+        "address": {
+            "line1": "Kurfürstendamm 67",
+            "line2": "10707 Berlin, Germany"
+        },
+        "email": {
+            "text": "メッセージを送信",
+            "address": "info@koudous-law.de"
+        },
+        "phone": {
+            "text": "または直接お話しください",
+            "linkText": "通話を予約",
+            "link": "https://cal.com/koudous-law"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "compliance": {
+    "title": "Compliance: Den Regeln voraus sein",
+    "intro": "Compliance ist nicht optional – es ist die harte Linie, die Ihr Unternehmen vor Katastrophen schützen oder versenken kann, wenn Sie die Zeichen ignorieren.",
+
+    "howIHelp": {
+      "heading": "Wie ich helfe",
+      "description": "Ich tauche tief ein – Ihre Branche, Ihre Arbeitsabläufe, Ihre Schwachstellen – um zu kartieren, wo Sie stark und wo Sie exponiert sind.",
+      "details": "Einer Bestie wie GDPR gegenüberstehen? Ich erkläre es einfach – was es verlangt, wie es Sie trifft, was Sie als nächstes tun."
+    },
+
+    "services": {
+      "heading": "Zentrale Compliance-Dienstleistungen",
+      "list": [
+        "Compliance-Audits, die Ihre regulatorischen Schwachstellen identifizieren und angehen",
+        "Maßgeschneiderte Compliance-Programme mit Richtlinien, Schulungen und Überwachungstools",
+        "GDPR und Datenschutz Implementierung und Beratung",
+        "Grenzüberschreitende Compliance für internationale Geschäftstätigkeiten",
+        "Regulatorische Reaktion wenn Behörden kommen",
+        "Proaktive Überwachung mit regelmäßigen Kontrollen und Updates"
+      ],
+      "regulators": "Wenn Regulierungsbehörden kommen, bin ich Ihr Puffer: Ich bearbeite ihre Fragen, bereite Ihre Antworten vor.",
+      "compliance": " Ich habe Compliance-Setups für Tech-Firmen gebaut, die Benutzerdaten jonglieren, Hersteller, die Importverbote vermeiden."
+    },
+
+    "whyMe": {
+      "heading": "Warum ich",
+      "description": "Ich habe Compliance von einem Alptraum in eine Superkraft für Unternehmen aller Art verwandelt.",
+      "strength": "Ich reagiere nicht nur auf Probleme; ich baue Mauern, die sie kalt stoppen.",
+      "clientTrust": "Kunden verlassen sich auf mich, weil ich nicht herumalbere.",
+      "trackRecord": "Der Beweis liegt in den Ergebnissen: Ich habe einen Einzelhändler durch eine Sicherheitsprüfung am Laufen gehalten."
+    },
+
+    "cta": {
+      "heading": "Bereit, Compliance in einen Wettbewerbsvorteil zu verwandeln?",
+      "text": "Lassen Sie uns besprechen, wie meine Compliance-Expertise Ihr Unternehmen schützen und gleichzeitig reibungslos operieren und selbstbewusst wachsen lassen kann.",
+      "button": "Beratungstermin vereinbaren"
+    }
+  }
+}

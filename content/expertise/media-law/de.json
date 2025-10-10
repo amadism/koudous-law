@@ -1,0 +1,41 @@
+{
+  "mediaLaw": {
+    "title": "Medienrecht: Ihre Marke große Züge machen lassen",
+    "intro": "Medienrecht ist der rechtliche Verstärker für Ihren Content – ob Broadcasting, Publishing oder digitale Plattformen.",
+    
+    "howIHelp": {
+      "heading": "Wie ich helfe",
+      "description": "Ich beginne damit, mich auf Ihr Setup einzustellen – was Sie produzieren, wer konsumiert, wohin es geht.",
+      "disputes": "Streitigkeiten ertönen? Ich trete vor – ob es ein deutscher Verlag ist, der Tantiemen vermeidet."
+    },
+
+    "services": {
+      "heading": "Zentrale Medienrecht-Dienstleistungen",
+      "list": [
+        "Lizenzvereinbarungen und Talentdeals mit geschützten Tantiemen und Nutzungsrechten",
+        "Markenpartnerschaften und Sponsoring-Verträge für Mega-Kampagnen",
+        "Grenzüberschreitende TV- und Streaming-Lizenzen für EU-weite Verbreitung",
+        "IP-Schutz und Urheberrechtsdurchsetzung gegen Content-Piraten",
+        "GDPR-Compliance für digitale Plattformen und Benutzerdatenschutz",
+        "Produktionsverträge und Event-Deals für nahtlose Content-Erstellung"
+      ],
+      "basics": "Ich drehe es noch weiter auf. IP unter Angriff?",
+      "deal": "Ich drehe es noch weiter auf. IP unter Angriff?"
+
+    },
+
+    "whyMe": {
+      "heading": "Warum ich",
+      "description": "Meine Erfolgsbilanz mit globalen Marken wie Ralph Lauren, RedBull und Logitech beweist, dass ich High-Stakes-Medienrecht auf höchstem Niveau handhaben kann.",
+      "strength": "Ich verbinde rechtliche Präzision mit Geschäftssinn, um Ihre Marke zum Strahlen zu bringen.",
+      "clientTrust": "Was mich unterscheidet, ist, dass ich nicht nur auf Probleme reagiere – ich entwickle Lösungen, die Ihren Erfolg verstärken.",
+      "trackRecord": "Sie holen sich jemanden, der in den Vorstandszimmern mit großen Marken war."
+    },
+
+    "cta": {
+      "heading": "Bereit, Ihre Medienpräsenz zu verstärken?",
+      "text": "Lassen Sie uns besprechen, wie meine Medienrecht-Expertise Ihren Content schützen, Ihre Reichweite maximieren und Ihre Marke zu einem Kraftpaket machen kann.",
+      "button": "Die Rechtskraft Ihrer Marke stärken"
+    }
+  }
+}

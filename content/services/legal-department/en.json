@@ -1,0 +1,63 @@
+{
+  "buildYourLegalDepartment": {
+    "title": "Your Legal Foundation, Built to Scale",
+    "intro": "Growth is exciting, but it's messy without the right legal setup. My Building Your Legal Department & Business Growth service is about creating a rock-solid legal framework that supports your ambitions. As your legal director, I design and implement systems—teams, processes, policies—that keep you moving forward, not bogged down. This is the full package for businesses ready to scale smart.",
+    "whatYouGet": {
+      "heading": "What You Get",
+      "description": "I start with a deep dive: where are you now, where are you going, and what's in the way? From there, I build what you need.",
+      "features": [
+        {
+          "title": "Need a legal team?",
+          "details": "I'll recruit, train, and structure it."
+        },
+        {
+          "title": "Need protocols?",
+          "details": "I'll craft contracts, compliance plans, and risk management tools that are practical, not theoretical."
+        },
+        {
+          "title": "Expanding globally?",
+          "details": "I'll handle cross-border regs and partnerships."
+        }
+      ],
+
+      "descriptionAfter": "You'll get a custom legal infrastructure—think playbooks, templates, and workflows—plus a roadmap to maintain it after I'm gone."
+    },
+
+    "howWeWorkTogether": {
+      "heading": "How We Work Together",
+      "description": "We kick off with a strategy session to align on your vision. I'll work as your director, embedded in your operations, for 3–12 months (depending on scope). I'll collaborate with your leadership, train your staff, and roll out systems step-by-step.",
+      "features": [
+        {
+          "title": "Progress:",
+          "details": "You'll see fast results—first deliverables within weeks."
+        },
+        {
+          "title": "Updates:",
+          "details": "I'll keep you updated with clear, concise reports."
+        }
+      ],
+
+      "descriptionAfter": "When it's time to transition, I'll hand off to your team or a permanent hire, fully briefed and ready."
+    },
+
+    "whoThisIsFor": {
+      "heading": "Who This Is For",
+      "description": "This is for:",
+      "list": [
+        "Startups building their first legal function.",
+        "Mid-sized firms outgrowing their current setup.",
+        "Companies going international."
+      ],
+      "note": "If you're scaling and legal gaps are slowing you down, this service bridges them. It's for leaders who want efficiency, not bureaucracy."
+    },
+    "whyItWorks": {
+      "heading": "Why It Works",
+      "description": "I've built legal engines for businesses at every stage. My approach is lean—focusing on what drives your growth, not pointless paperwork. You'll end up with a department or system that's agile, effective, and yours to run. Legal stops being a headache and starts being a strength."
+    },
+    "callToAction": {
+      "heading": "Ready to build a legal department that scales with your business?",
+      "description": "Get in touch to discuss how I can help create the legal infrastructure your growing business needs to thrive.",
+      "buttonText": "Schedule a Consultation"
+    }
+  }
+}

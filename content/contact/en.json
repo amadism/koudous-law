@@ -1,0 +1,62 @@
+{
+    "title": "Get in Touch",
+    "subtitle": "I offer tailored solutions, fast response times, and comprehensive support for all your legal needs.",
+    "description": "Contact me today for a no-obligation initial consultation and discover how my international approach and experience can advance your business.",
+    "form": {
+        "fields": {
+            "firstName": {
+                "label": "First Name",
+                "placeholder": "First Name"
+            },
+            "lastName": {
+                "label": "Last Name",
+                "placeholder": "Last Name"
+            },
+            "email": {
+                "label": "Email Address",
+                "placeholder": "Email Address"
+            },
+            "phone": {
+                "label": "Phone",
+                "placeholder": "Phone Number"
+            },
+            "expertise": {
+                "label": "Legal Expertise",
+                "placeholder": "Select expertise"
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "Write your message..."
+            }
+        },
+        "expertiseOptions": [
+            "Business Law",
+            "Compliance",
+            "Contract Law",
+            "Corporate Law",
+            "Criminal Law",
+            "Employment Law",
+            "Esports Law",
+            "Media Law",
+            "Technology Law",
+            "Tenancy Law",
+            "Distribution Law"
+        ],
+        "submitButton": "Send"
+    },
+    "contactInfo": {
+        "address": {
+            "line1": "Kurfürstendamm 67",
+            "line2": "10707 Berlin, Germany"
+        },
+        "email": {
+            "text": "Send me a message at",
+            "address": "info@koudous-law.de"
+        },
+        "phone": {
+            "text": "Or speak with me directly",
+            "linkText": "Book a Call",
+            "link": "https://cal.com/koudous-law"
+        }
+    }
+}

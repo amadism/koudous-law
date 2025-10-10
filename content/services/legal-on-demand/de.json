@@ -1,0 +1,58 @@
+{
+  "legalOnDemand": {
+    "title": "Präzise Rechtsberatung, genau wenn Sie sie brauchen",
+    "intro": "Unternehmen brauchen nicht immer einen Vollzeit-Anwalt, aber wenn rechtliche Probleme auftauchen, können Sie es sich nicht leisten, zu improvisieren. Mein Legal Counsel on Demand Service ist für genau diese Momente konzipiert – ob es ein plötzlicher Rechtsstreit, eine Vertragsstreitigkeit oder eine regulatorische Frage ist, die Sie nachts wach hält. Ich springe als Ihr Experte ein und liefere klare, umsetzbare Beratung ohne unnötigen Ballast. Es geht nicht um langfristige Verpflichtungen; es geht darum, Ihr Problem schnell zu lösen und Sie zurück zu Ihrem Geschäft zu bringen.",
+
+    "whatYouGet": {
+      "heading": "Was Sie erhalten",
+      "description": "Wenn Sie sich melden, gehe ich direkt zum Kern Ihres Problems. Kein endloses Hin und Her – nur ein schneller Anruf oder eine Nachricht, um Ihre Situation zu verstehen. Danach analysiere ich: Was steht auf dem Spiel, welche Optionen haben Sie, und was empfehle ich. Sie erhalten einen klaren Plan – nach dem Motto 'Tun Sie das, vermeiden Sie jenes' – mit Zeitplänen und nächsten Schritten.",
+      "features": [
+        {
+          "title": "Bei einem Rechtsstreit",
+          "details": "Ich analysiere die Klage, bewerte Ihre Risiken und entwickle eine Verteidigungsstrategie."
+        },
+        {
+          "title": "Bei einem Vertrag",
+          "details": "Ich erkenne die Fallen und schlage Lösungen vor."
+        },
+        {
+          "title": "Bei anderen Themen",
+          "details": "Ich passe den Ansatz entsprechend an."
+        }
+      ],
+      "descriptionAfter": "Sie zahlen nicht für vage 'Vielleichts'; Sie erhalten klare Ja-oder-Nein-Antworten und einen Weg nach vorn."
+    },
+
+    "howWeWorkTogether": {
+      "heading": "Wie wir zusammenarbeiten",
+      "description": "Flexibilität ist das A und O. Sie können mich per E-Mail, Telefon oder sogar einer kurzen Textnachricht erreichen – was auch immer für Sie funktioniert. Ich bin nicht da, um Sie mit Prozessen zu belasten; ich bin da, um durch den Lärm zu schneiden. Die meisten Probleme können remote gelöst werden, aber wenn Sie vor Ort sind oder es eine kritische Situation ist, treffe ich Sie gerne persönlich.",
+      "features": [
+        {
+          "title": "Bearbeitungszeit",
+          "details": "Erwarten Sie schnelle Antworten – normalerweise innerhalb von 24–48 Stunden, je nach Komplexität."
+        },
+        {
+          "title": "Updates",
+          "details": "Ich halte Sie mit prägnanten Updates auf dem Laufenden, nicht mit jargonlastigen Berichten."
+        }
+      ],
+      "descriptionAfter": "Sie konzentrieren sich auf Ihr Geschäft; ich übernehme die rechtliche Schwerstarbeit."
+    },
+
+    "whoThisIsFor": {
+      "heading": "Für wen dies geeignet ist",
+      "description": "Dieser Service passt zu Unternehmen, die keinen Inhouse-Anwalt haben oder nur gelegentlich Unterstützung benötigen. Vielleicht sind Sie:",
+      "list": [
+        "Ein kleines Unternehmen, das seinen ersten großen Vertrag bewältigt.",
+        "Ein mittelständisches Unternehmen, das mit einem unzufriedenen Mitarbeiter umgeht.",
+        "Ein Gründer, der unsicher bezüglich Compliance ist."
+      ],
+      "note": "Wenn Sie Expertenunterstützung ohne den Overhead eines Retainers oder einer Vollzeitanstellung wollen, ist dies Ihre Lösung."
+    },
+
+    "whyItWorks": {
+      "heading": "Warum es funktioniert",
+      "description": "Ich habe Jahre damit verbracht, rechtliche Komplexität für Unternehmen wie Ihres zu durchdringen. Mein Fokus liegt auf Ergebnissen – Ihr Problem effizient zu lösen, damit es Ihren Schwung nicht bremst. Sie werden nicht für unnötige Stunden abgerechnet oder in Juristenjargon begraben. Stattdessen gehen Sie mit Klarheit und Vertrauen weg, bereit vorwärts zu gehen. Brauchen Sie eine einmalige Lösung? Lassen Sie es uns anpacken."
+    }
+  }
+}

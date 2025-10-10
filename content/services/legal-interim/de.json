@@ -1,0 +1,54 @@
+{
+  "legalInterim": {
+    "title": "Intensive Führung für kritische Momente",
+    "intro": "Manchmal brauchen Sie einen Schwergewichtler für einen kurzen Einsatz – jemanden, der in die C-Suite einsteigt und Dinge erledigt. Mein Legal Interim Service setzt mich für begrenzte, hochriskante Projekte in Ihren CEO-, CLO- oder GC-Stuhl. Ob es eine Fusion, eine Krise oder eine regulatorische Überholung ist, ich bringe strategische Schlagkraft und praktische Umsetzung mit, um schnell Ergebnisse zu liefern. Es geht um Wirkung, nicht um Dauerhaftigkeit.",
+    "whatYouGet": {
+      "heading": "Was Sie erhalten",
+      "description": "Ich lege sofort los. Am ersten Tag tauche ich in Ihre Situation ein – prüfe Dokumente, treffe Ihr Team und schätze die Herausforderung ein.",
+      "features": [
+        {
+          "title": "Als CEO:",
+          "details": "Ich steuere das Schiff durch Übergang oder Turbulenzen und bringe rechtliche und geschäftliche Ziele in Einklang."
+        },
+        {
+          "title": "Als CLO oder GC:",
+          "details": "Ich packe Ihre rechtlichen Prioritäten an – verhandle Deals, manage Rechtsstreitigkeiten oder überarbeite Compliance."
+        }
+      ],
+      "descriptionAfter": "Sie erhalten einen klaren Fahrplan innerhalb der ersten Woche, mit Meilensteinen und Ergebnissen, die auf Ihren Zeitplan zugeschnitten sind. Ich berate nicht nur; ich führe aus und hinterlasse Sie stärker, wenn ich aussteige."
+    },
+    "howWeWorkTogether": {
+      "heading": "Wie wir zusammenarbeiten",
+      "description": "Das ist vollständige Immersion. Ich bin vor Ort oder tiefgreifend remote engagiert, je nach Ihren Bedürfnissen. Wir legen vorab Erwartungen fest – Umfang, Dauer, Ziele – damit es keine Rätselraterei gibt. Ich arbeite eng mit Ihrem Team zusammen, führe oder unterstütze je nach Bedarf, mit täglichen Check-ins, um die Dinge in Bewegung zu halten.",
+      "features": [
+        {
+          "title": "Kommunikation:",
+          "details": "Knackig – Sie wissen, wo wir stehen und was als nächstes kommt."
+        },
+        {
+          "title": "Dauer:",
+          "details": "Projekte laufen typischerweise 1–6 Monate, aber ich bin flexibel – sobald der Job erledigt ist, übergebe ich die Zügel mit einem sauberen Exit-Plan."
+        }
+      ]
+    },
+    "whoThisIsFor": {
+      "heading": "Für wen dies geeignet ist",
+      "description": "Das passt zu Unternehmen im Wandel:",
+      "list": [
+        "Die vor einer Führungslücke stehen.",
+        "Die einen alles-oder-nichts-Deal bewältigen.",
+        "Die durch eine plötzliche Krise navigieren."
+      ],
+      "note": "Vielleicht ist Ihr GC mitten in der Expansion gegangen, oder Sie bereiten sich auf einen Verkauf vor und brauchen einen Profi, um die rechtliche Seite zu polieren. Wenn Sie erfahrene Expertise ohne eine langfristige Anstellung wollen, ist das Ihre Antwort."
+    },
+    "whyItWorks": {
+      "heading": "Warum es funktioniert",
+      "description": "Ich habe schon durch Chaos und Komplexität geführt. Meine doppelte Brille – rechtlich und exekutiv – bedeutet, dass ich das ganze Bild sehe, nicht nur das Kleingedruckte. Sie bekommen eine Führungskraft, die schwere Entscheidungen treffen, Ihr Team motivieren und unter Druck liefern kann. Keine Einarbeitungszeit, keine Lernkurve – nur Ergebnisse. Wenn sich der Staub gelegt hat, sind Sie in einer besseren Position als zuvor."
+    },
+    "callToAction": {
+      "heading": "Brauchen Sie intensive Führung für eine kritische Phase?",
+      "description": "Kontaktieren Sie mich, um zu besprechen, wie ich als Ihre Interim-Führungskraft einspringen kann, um komplexe Herausforderungen zu navigieren und schnelle Ergebnisse zu liefern.",
+      "buttonText": "Beratungstermin vereinbaren"
+    }
+  }
+}

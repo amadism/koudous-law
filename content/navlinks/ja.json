@@ -1,0 +1,32 @@
+{
+  "body": [
+    {
+      "label": "サービス",
+      "children": [
+        { "label": "料金", "path": "/services/fees" },
+        { "label": "ジェネラルカウンセル", "path": "/services/general-counsel" },
+        { "label": "法務部", "path": "/services/legal-department" },
+        { "label": "法務インターン", "path": "/services/legal-interim" },
+        { "label": "オンデマンド法務", "path": "/services/legal-on-demand" }
+      ]
+    },
+    {
+      "label": "専門分野",
+      "children": [
+        { "label": "商法", "path": "/expertise/business-law" },
+        { "label": "コンプライアンス", "path": "/expertise/compliance" },
+        { "label": "契約法", "path": "/expertise/contract-law" },
+        { "label": "会社法", "path": "/expertise/corporate-law" },
+        { "label": "刑法", "path": "/expertise/criminal-law" },
+        { "label": "労働法", "path": "/expertise/employment-law" },
+        { "label": "eスポーツ法", "path": "/expertise/esports-law" },
+        { "label": "メディア法", "path": "/expertise/media-law" },
+        { "label": "技術法", "path": "/expertise/technology-law" },
+        { "label": "賃貸法", "path": "/expertise/tenancy-law" },
+        { "label": "流通法", "path": "/expertise/distribution-law" }
+      ]
+    },
+    { "label": "私について", "path": "/about" },
+    { "label": "お問い合わせ", "path": "/contact" }
+  ]
+}

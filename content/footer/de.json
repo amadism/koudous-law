@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "email": "info@koudous-law.de",
+    "bookCall": "Termin vereinbaren"
+  },
+  "location": {
+    "title": "Standort Berlin",
+    "address": {
+      "line1": "Kurfürstendamm 67",
+      "line2": "10707 Berlin, Deutschland"
+    }
+  },
+  "copyright": "© 2025 Koudous International Law Office",
+  "links": {
+    "legalNotice": "Impressum",
+    "privacyPolicy": "Datenschutzerklärung"
+  }
+}
