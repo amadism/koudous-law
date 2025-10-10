@@ -1,41 +1,32 @@
 {
-  "technologyLaw": {
-    "title": "Technologierecht: Ihren digitalen Vorteil sichern",
-    "intro": "Tech treibt modernes Geschäft an, und ich halte Ihre Innovationen rechtlich sicher.",
-
-    "howIHelp": {
-      "heading": "Wie ich helfe",
-      "description": "Ich tauche tief in Ihren Tech-Stack ein – was Sie bauen, wie Sie deployen, wo Sie skalieren.",
-       "concerns": "Datenbedenken halten Sie nachts wach? Ich bringe Sie mit GDPR, CCPA oder lokalen Datenschutzgesetzen in Einklang."
-    },
-
-    "services": {
-      "heading": "Zentrale Technologierecht-Dienstleistungen",
-      "list": [
-        "Software- und SaaS-Vereinbarungen mit robustem IP-Schutz und Haftungsbegrenzungen",
-        "Datenschutz und GDPR-Compliance für globale Tech-Operationen",
-        "IP-Strategie und Patentschutz für Innovationen und Betriebsgeheimnisse",
-        "Tech-Partnerschaften und API-Lizenzierung mit skalierbaren Bedingungen",
-        "Cybersicherheit-Zwischenfallreaktion und Breach-Management",
-        "KI und aufkommende Tech-Compliance Navigation regulatorischer Grenzen"
-      ],
-      "extra": "IP gefährdet? Ich sichere Patente, Marken oder Betriebsgeheimnisse.",
-       "legalSupport": "Sie bekommen rechtliche Unterstützung, die mit dem Tempo und Ehrgeiz Ihrer Tech mitgeht."
-    },
-
-    "whyMe": {
-      "heading": "Warum ich",
-      "companies ": "Ich habe tech-getriebene Unternehmen Jahre durch rechtliche Labyrinthe geführt.",
-      "oversight ": "Ich habe gesehen, was Tech-Unternehmen kaputt macht: die IP-Übersicht, die Copycats einlädt.",
-      "innovation": "Was mich auszeichnet, ist, dass ich Ihre Innovation nicht verlangsame – ich beschleunige sie.",
-      "regulators": "Sie holen sich jemanden, der im Code war, den Regulierern gegenüberstand und Siege lieferte, die halten."
-    },
-
-    "cta": {
-      "heading": "Bereit, Ihren digitalen Vorteil zu sichern?",
-      "text": "Lassen Sie uns besprechen, wie meine Technologierecht-Expertise Ihre Innovationen schützen, Compliance sicherstellen und Ihr tech-getriebenes Wachstum beschleunigen kann.",
-      "button": "Ihren rechtlichen Tech-Stack optimieren"
-     
-    }
+  "title": "Technologierecht: Ihren digitalen Vorteil sichern",
+  "intro": "Tech treibt modernes Geschäft an, und ich halte Ihre Innovationen rechtlich sicher.",
+  "howIHelp": {
+    "heading": "Wie ich helfe",
+    "description": "Ich tauche tief in Ihren Tech-Stack ein – was Sie bauen, wie Sie deployen, wo Sie skalieren.",
+    "details": "Datenbedenken halten Sie nachts wach? Ich bringe Sie mit GDPR, CCPA oder lokalen Datenschutzgesetzen in Einklang."
+  },
+  "services": {
+    "heading": "Zentrale Technologierecht-Dienstleistungen",
+    "list": [
+      "Software- und SaaS-Vereinbarungen mit robustem IP-Schutz und Haftungsbegrenzungen",
+      "Datenschutz und GDPR-Compliance für globale Tech-Operationen",
+      "IP-Strategie und Patentschutz für Innovationen und Betriebsgeheimnisse",
+      "Tech-Partnerschaften und API-Lizenzierung mit skalierbaren Bedingungen",
+      "Cybersicherheit-Zwischenfallreaktion und Breach-Management",
+      "KI und aufkommende Tech-Compliance Navigation regulatorischer Grenzen"
+    ],
+    "extra": "IP gefährdet? Ich sichere Patente, Marken oder Betriebsgeheimnisse.",
+    "details": "Sie bekommen rechtliche Unterstützung, die mit dem Tempo und Ehrgeiz Ihrer Tech mitgeht."
+  },
+  "whyMe": {
+    "heading": "Warum ich",
+    "description": "Ich habe tech-getriebene Unternehmen Jahre durch rechtliche Labyrinthe geführt.",
+    "details": "Ich habe gesehen, was Tech-Unternehmen kaputt macht: die IP-Übersicht, die Copycats einlädt. Was mich auszeichnet, ist, dass ich Ihre Innovation nicht verlangsame – ich beschleunige sie. Sie holen sich jemanden, der im Code war, den Regulierern gegenüberstand und Siege lieferte, die halten."
+  },
+  "cta": {
+    "heading": "Bereit, Ihren digitalen Vorteil zu sichern?",
+    "text": "Lassen Sie uns besprechen, wie meine Technologierecht-Expertise Ihre Innovationen schützen, Compliance sicherstellen und Ihr tech-getriebenes Wachstum beschleunigen kann.",
+    "button": "Ihren rechtlichen Tech-Stack optimieren"
   }
 }

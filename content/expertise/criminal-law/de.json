@@ -1,40 +1,32 @@
 {
-  "criminalLaw": {
-    "title": "Strafrecht: Ihr Unternehmen unter Druck verteidigen",
-    "intro": "Wenn Strafrecht in Ihr Unternehmen einbricht – denken Sie an Betrugsvorwürfe, regulatorische Verstöße oder Mitarbeiterfehlverhalten unter deutscher oder EU-Kontrolle.",
-    
-    "howIHelp": {
-      "heading": "Wie ich helfe",
-      "description": "Ich tauche schnell ein – bewerte die Situation mit Präzision: überprüfe Beweise, identifiziere Schlüsselakteure.",
-      "charges": "Anklagen treffen? Ich wechsle die Gänge – seziere die Anklage, baue eine Verteidigung."
-    },
-
-    "services": {
-      "heading": "Zentrale Strafrecht-Dienstleistungen",
-      "list": [
-        "Wirtschaftsstrafrecht-Verteidigung einschließlich Betrugs- und Unterschlagungsfälle",
-        "Regulatorische Verstöße-Verteidigung unter deutschen und EU-Rahmen",
-        "Ermittlungsmanagement mit Polizei- und Staatsanwaltschaftsbehörden",
-        "Steuerhinterziehung-Verteidigung unter deutscher Abgabenordnung",
-        "Insider-Trading-Fälle unter Nutzung EU-Marktmissbrauchsvorschriften",
-        "Compliance-Programmentwicklung zur Verhinderung zukünftiger strafrechtlicher Exposition"
-      ],
-      "strength": "Prävention ist meine andere Stärke: Ich verstärke Ihre internen Schutzmaßnahmen.",
-      "defense": "Meine Unterstützung skaliert – ein kleines Unternehmen bekommt eine schnelle Verteidigung."
-    },
-
-    "whyMe": {
-      "heading": "Warum ich",
-      "description": "Ich habe Jahre im Schmelztiegel des Strafrechts verbracht, deutsche und EU-Unternehmen aus rechtlichen Bränden zu ziehen.",
-      "strength": "Mein Vorteil ist unerschütterliche Klarheit – ich wanke nicht unter Druck.",
-      "clientTrust": "Kunden verlassen sich auf mich, weil ich nicht herumalbere.",
-      "trackRecord": "Meine Erfolgsbilanz steht fest: Ich habe Kunden von falschen Betrugsvorwürfen befreit."
-    },
-
-    "cta": {
-      "heading": "Stehen Sie unter strafrechtlichem Druck auf Ihr Unternehmen?",
-      "text": "Lassen Sie uns besprechen, wie meine Strafverteidigungs-Expertise Ihre Interessen schützen und das bestmögliche Ergebnis unter deutschem und EU-Recht sichern kann.",
-      "button": "Notfall-Beratungstermin vereinbaren"
-    }
+  "title": "Strafrecht: Ihr Unternehmen unter Druck verteidigen",
+  "intro": "Wenn Strafrecht in Ihr Unternehmen einbricht – denken Sie an Betrugsvorwürfe, regulatorische Verstöße oder Mitarbeiterfehlverhalten unter deutscher oder EU-Kontrolle.",
+  "howIHelp": {
+    "heading": "Wie ich helfe",
+    "description": "Ich tauche schnell ein – bewerte die Situation mit Präzision: überprüfe Beweise, identifiziere Schlüsselakteure.",
+    "details": "Anklagen treffen? Ich wechsle die Gänge – seziere die Anklage, baue eine Verteidigung."
+  },
+  "services": {
+    "heading": "Zentrale Strafrecht-Dienstleistungen",
+    "list": [
+      "Wirtschaftsstrafrecht-Verteidigung einschließlich Betrugs- und Unterschlagungsfälle",
+      "Regulatorische Verstöße-Verteidigung unter deutschen und EU-Rahmen",
+      "Ermittlungsmanagement mit Polizei- und Staatsanwaltschaftsbehörden",
+      "Steuerhinterziehung-Verteidigung unter deutscher Abgabenordnung",
+      "Insider-Trading-Fälle unter Nutzung EU-Marktmissbrauchsvorschriften",
+      "Compliance-Programmentwicklung zur Verhinderung zukünftiger strafrechtlicher Exposition"
+    ],
+    "extra": "Prävention ist meine andere Stärke: Ich verschärfe Ihre internen Schutzmaßnahmen – denken Sie an Betrugserkennungsprotokolle, Ethiktraining im Einklang mit deutschen Unternehmensstrafrecht-Debatten – um Risiken zu ersticken, bevor sie sich entzünden. Ich habe eine Reihe bewältigt: Steuerhinterziehungsuntersuchungen, bei denen ich Bußgelder unter der Abgabenordnung gekürzt habe, Insider-Handels-Fälle, bei denen ich EU-Marktmissbrauchsvorschriften genutzt habe, um Unternehmen zu klären, Mitarbeiterdiebstahl, bei denen ich Vermögenswerte aufgespürt und Rückerstattungsanordnungen gewonnen habe.",
+    "details": "Meine Unterstützung skaliert – ein kleines Unternehmen bekommt eine schnelle Verteidigung; ein großes Unternehmen bekommt einen vollständigen Kriegsraum. Jeder Schritt – jedes Gespräch mit einem Staatsanwalt, jede Richtlinien-Anpassung – konzentriert sich darauf, Ihr Unternehmen zu retten, nicht nur den Schlag zu überleben. Sie bekommen einen Verteidiger, der die Einsätze versteht – deutsche Haftstrafen, EU-Sanktionen – und unermüdlich kämpft, um zu gewinnen, und Ihren Betrieb durch das Chaos hindurch stabil hält."
+  },
+  "whyMe": {
+    "heading": "Warum ich",
+    "description": "Ich habe Jahre im Schmelztiegel des Strafrechts verbracht, deutsche und EU-Unternehmen aus rechtlichen Bränden zu ziehen.",
+    "details": "Mein Vorteil ist unerschütterliche Klarheit – ich wanke nicht unter Druck. Kunden verlassen sich auf mich, weil ich nicht herumalbere. Meine Erfolgsbilanz steht fest: Ich habe Kunden von falschen Betrugsvorwürfen befreit."
+  },
+  "cta": {
+    "heading": "Stehen Sie unter strafrechtlichem Druck auf Ihr Unternehmen?",
+    "text": "Lassen Sie uns besprechen, wie meine Strafverteidigungs-Expertise Ihre Interessen schützen und das bestmögliche Ergebnis unter deutschem und EU-Recht sichern kann.",
+    "button": "Notfall-Beratungstermin vereinbaren"
   }
 }

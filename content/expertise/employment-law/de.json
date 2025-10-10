@@ -1,43 +1,32 @@
 {
-  "EmploymentLaw": {
-    "title": "Arbeitsrecht: Ihre Belegschaft und Ihr Unternehmen schützen",
-    "intro": "Arbeitsrecht ist das Fundament jedes Unternehmens, das auf Menschen angewiesen ist – ohne richtige Handhabung sind Sie Risiken ausgesetzt, die Ihren Betrieb versenken können.",
-
-    "howIHelp": {
-      "heading": "Wie ich helfe",
-      "mapping": "Ich beginne damit, Ihr Unternehmen zu verstehen – Ihre Größe, Ihre Branche, Ihre Ziele.",
-       "brewing": "Stehen Sie vor einer Streitigkeit – wie einer unrechtmäßigen Kündigung oder einem Lohnanspruch?"
-    },
-
-    "services": {
-      "heading": "Zentrale Arbeitsrecht-Dienstleistungen",
-      "list": [
-        "Arbeitsverträge und Vereinbarungen von C-Suite bis zu Auftragnehmern",
-        "Mitarbeiterhandbücher und Arbeitsplatzrichtlinien, die Haftung verhindern",
-        "Streitbeilegung und Rechtsstreit-Verteidigung für unrechtmäßige Kündigung und Lohnansprüche",
-        "Multi-jurisdiktionale Compliance für internationale Expansion",
-        "Gewerkschaftsverhandlungen und Arbeitsbeziehungen zum Schutz der Managementrechte",
-        "HR-Compliance-Audits zur proaktiven Identifizierung und Behebung von Risiken"
-      ],
-      "extra": "Für proaktive Kunden führe ich Audits durch, um Risiken zu erkennen, bevor sie explodieren.",
-      "manufacturer": "Jenseits der Grundlagen handhabe ich auch kniffligere Sachen.",
-      "scales":"Meine Unterstützung wächst mit Ihnen – wenn Sie ein Gründer mit fünf Mitarbeitern sind, halte ich es schlank; wenn Sie ein CEO mit 500 Mitarbeitern sind, baue ich ein Rahmenwerk, das Bestand hat. Bei jedem Schritt konzentriere ich mich auf Ihre Bilanz: Minimierung rechtlicher Probleme, Vermeidung kostspieliger Strafen und Sicherstellung, dass Ihr Team sich auf seine Aufgaben konzentrieren kann. Sie bekommen nicht nur einen Anwalt – Sie bekommen einen Partner, der weiß, wie Arbeitsrecht Ihren Erfolg machen oder brechen kann."
-    },
-
-   
-    "whyMe": {
-      "heading": "Warum ich",
-      "description": "Ich habe Jahre in den Gräben des Arbeitsrechts verbracht, Chaos in Ordnung für Unternehmen aller Art zu verwandeln.",
-      "strength": "Ich reagiere nicht nur; ich antizipiere, erkenne Probleme, bevor sie eskalieren.",
-      "clientTrust": "Was mich auszeichnet, ist mein No-BS-Stil.",
-      "trackRecord": "Meine Erfolgsbilanz zeigt, dass ich liefere: ob es ein kleines Unternehmen ist, das ein Arbeitsamt-Audit vermeidet."
-    },
-
-
-    "cta": {
-      "heading": "Brauchen Sie Arbeitsrecht-Unterstützung für Ihr Unternehmen?",
-      "text": "Lassen Sie uns besprechen, wie meine Arbeitsrecht-Expertise Ihre Belegschaft schützen, Risiken minimieren und Ihr Unternehmen reibungslos am Laufen halten kann.",
-      "button": "Beratungstermin vereinbaren"
-    }
+  "title": "Arbeitsrecht: Ihre Belegschaft und Ihr Unternehmen schützen",
+  "intro": "Arbeitsrecht ist das Fundament jedes Unternehmens, das auf Menschen angewiesen ist – ohne richtige Handhabung sind Sie Risiken ausgesetzt, die Ihren Betrieb versenken können.",
+  "howIHelp": {
+    "heading": "Wie ich helfe",
+    "description": "Ich beginne damit, Ihr Unternehmen zu verstehen – Ihre Größe, Ihre Branche, Ihre Ziele.",
+    "details": "Stehen Sie vor einer Streitigkeit – wie einer unrechtmäßigen Kündigung oder einem Lohnanspruch?"
+  },
+  "services": {
+    "heading": "Zentrale Arbeitsrecht-Dienstleistungen",
+    "list": [
+      "Arbeitsverträge und Vereinbarungen von C-Suite bis zu Auftragnehmern",
+      "Mitarbeiterhandbücher und Arbeitsplatzrichtlinien, die Haftung verhindern",
+      "Streitbeilegung und Rechtsstreit-Verteidigung für unrechtmäßige Kündigung und Lohnansprüche",
+      "Multi-jurisdiktionale Compliance für internationale Expansion",
+      "Gewerkschaftsverhandlungen und Arbeitsbeziehungen zum Schutz der Managementrechte",
+      "HR-Compliance-Audits zur proaktiven Identifizierung und Behebung von Risiken"
+    ],
+    "extra": "Für proaktive Kunden führe ich Audits durch, um Risiken zu erkennen, bevor sie explodieren.",
+    "details": "Jenseits der Grundlagen handhabe ich auch kniffligere Sachen."
+  },
+  "whyMe": {
+    "heading": "Warum ich",
+    "description": "Ich habe Jahre in den Gräben des Arbeitsrechts verbracht, Chaos in Ordnung für Unternehmen aller Art zu verwandeln.",
+    "details": "Ich reagiere nicht nur; ich antizipiere, erkenne Probleme, bevor sie eskalieren. Was mich auszeichnet, ist mein No-BS-Stil. Meine Erfolgsbilanz zeigt, dass ich liefere: ob es ein kleines Unternehmen ist, das ein Arbeitsamt-Audit vermeidet."
+  },
+  "cta": {
+    "heading": "Brauchen Sie Arbeitsrecht-Unterstützung für Ihr Unternehmen?",
+    "text": "Lassen Sie uns besprechen, wie meine Arbeitsrecht-Expertise Ihre Belegschaft schützen, Risiken minimieren und Ihr Unternehmen reibungslos am Laufen halten kann.",
+    "button": "Beratungstermin vereinbaren"
   }
 }

@@ -1,44 +1,34 @@
 {
-"fees":{
-  "feeStructure": {
-    "title":"Honorarstruktur",
-    "introduction": "Bei Koudous Law glaube ich an Fairness und Transparenz. Ich arbeite mit Unternehmen auf Retainer-Basis, d.h. zu einem monatlich festen Honorar, und biete maßgeschneiderte rechtliche Lösungen für Ihre spezifischen Bedürfnisse. Alle Retainer-Honorare basieren auf dem Fair-Use-Prinzip, sodass Sie nur für das zahlen, was Sie wirklich brauchen – ohne versteckte Kosten oder veraltete Zeithonorare. Für Details können Sie mich gerne direkt kontaktieren."
+  "serviceName": "Honorarstruktur",
+  "tagline": "Bei Koudous Law glaube ich an Fairness und Transparenz. Ich arbeite mit Unternehmen auf Retainer-Basis, d.h. zu einem monatlich festen Honorar, und biete maßgeschneiderte rechtliche Lösungen für Ihre spezifischen Bedürfnisse. Alle Retainer-Honorare basieren auf dem Fair-Use-Prinzip, sodass Sie nur für das zahlen, was Sie wirklich brauchen – ohne versteckte Kosten oder veraltete Zeithonorare. Für Details können Sie mich gerne direkt kontaktieren.",
+  "overview": {
+    "title": "Retainer-Pakete",
+    "summary": "Ich biete drei flexible Pakete für Unternehmen an, mit Honoraren, die individuell an Ihre Anforderungen und Unternehmensgröße angepasst werden.",
+    "description": "Jedes Paket ist darauf ausgelegt, die richtige Unterstützungsstufe für Ihre Unternehmensphase zu bieten – von Startups am Anfang bis hin zu etablierten Unternehmen mit komplexen rechtlichen Anforderungen. Alle Pakete beinhalten direkten Zugang zu mir, schnelle Reaktionszeiten und umfassende rechtliche Unterstützung, die auf Ihre Branche zugeschnitten ist."
   },
-  "retainerPackages": {
-  "heading": "Retainer-Pakete",
-  "subheading": "Ich biete drei flexible Pakete für Unternehmen an, mit Honoraren, die individuell an Ihre Anforderungen und Unternehmensgröße angepasst werden:",
-  "packages": {
-    "basic": {
-      "name": "Basis-Paket (S)",
-      "description": "Für kleine Startups oder Unternehmen, die gelegentlich rechtliche Beratung und Unterstützung benötigen – bis zu 5 Stunden Rechtsberatung pro Monat. Perfekt für Unternehmen, die gerade starten."
-    },
-    "standard": {
-      "name": "Standard-Paket (M)",
-      "description": "Für wachsende Unternehmen, die umfassendere rechtliche Unterstützung benötigen, einschließlich regelmäßiger Beratung, laufender Rechtsstrategie und alltäglicher Rechtsfragen. Enthält bis zu 15 Stunden Support pro Monat."
-    },
-    "premium": {
-      "name": "Premium-Paket (L)",
-      "description": "Für etablierte Unternehmen mit komplexen rechtlichen Anforderungen. Dieses Paket beinhaltet unbegrenzten Zugang zu Rechtsberatung, bevorzugte Reaktionszeiten und umfassende Unterstützung in mehreren Rechtsgebieten (M&A, Compliance, Verträge etc.). Das ultimative Paket für schnell wachsende, anspruchsvolle Unternehmen."
-    }
-  }
-},
-  "customPackages": {
-    "heading": "Individuelle Pakete für Großkunden",
-    "description": "Für große Unternehmen oder Mandanten mit besonderen Anforderungen biete ich einen <strong>maßgeschneiderten Service</strong> über die Standard-Retainerstruktur hinaus. Dazu gehören hochspezialisierte rechtliche Unterstützung und strategische Beratung für groß angelegte oder internationale Projekte. Die Preisgestaltung erfolgt <strong>auf Anfrage</strong>."
+  "whatYouGet": {
+    "title": "Retainer-Pakete",
+    "summary": "Ich biete drei flexible Pakete für Unternehmen an, mit Honoraren, die individuell an Ihre Anforderungen und Unternehmensgröße angepasst werden.",
+    "details": "Jedes Paket ist darauf ausgelegt, die richtige Unterstützungsstufe für Ihre Unternehmensphase zu bieten – von Startups am Anfang bis hin zu etablierten Unternehmen mit komplexen rechtlichen Anforderungen. Alle Pakete beinhalten direkten Zugang zu mir, schnelle Reaktionszeiten und umfassende rechtliche Unterstützung, die auf Ihre Branche zugeschnitten ist."
   },
-  "proBonoFlexibleAgreements": {
-    "heading": "Pro Bono & Flexible Vereinbarungen",
-    "description": "Mein Fokus liegt auf der Betreuung von Unternehmen, aber ich glaube an gesellschaftliches Engagement. In der Regel nehme ich keine Privatmandate an, aber wenn Sie als Einzelperson einen triftigen Grund für eine Zusammenarbeit haben, melden Sie sich gerne. Je nach finanzieller Situation biete ich flexible Honorarvereinbarungen nach RVG (Rechtsanwaltsvergütungsgesetz) oder sogar pro bono an.",
-    "note": "Wenn Sie mit mir zusammenarbeiten möchten, aber finanzielle Einschränkungen haben, bin ich offen für eine individuelle Vereinbarung, die für beide Seiten passt."
+  "howItWorks": {
+    "title": "Verfügbare Pakete",
+    "features": [
+      "Basis-Paket (S): Für kleine Startups oder Unternehmen, die gelegentlich rechtliche Beratung und Unterstützung benötigen – bis zu 5 Stunden Rechtsberatung pro Monat. Perfekt für Unternehmen, die gerade starten.",
+      "Standard-Paket (M): Für wachsende Unternehmen, die umfassendere rechtliche Unterstützung benötigen, einschließlich regelmäßiger Beratung, laufender Rechtsstrategie und alltäglicher Rechtsfragen. Enthält bis zu 15 Stunden Support pro Monat.",
+      "Premium-Paket (L): Für etablierte Unternehmen mit komplexen rechtlichen Anforderungen. Dieses Paket beinhaltet unbegrenzten Zugang zu Rechtsberatung, bevorzugte Reaktionszeiten und umfassende Unterstützung in mehreren Rechtsgebieten (M&A, Compliance, Verträge etc.). Das ultimative Paket für schnell wachsende, anspruchsvolle Unternehmen."
+    ],
+    "approach": "Alle Pakete beinhalten direkte Kommunikation über Ihre bevorzugte Plattform (Slack, WhatsApp, E-Mail usw.), Reaktionszeiten am selben Tag für dringende Angelegenheiten und proaktive rechtliche Beratung, um Probleme zu verhindern, bevor sie entstehen.",
+    "timeline": "Jedes Paket ist vollständig anpassbar basierend auf Ihren spezifischen Bedürfnissen. Ob Sie gelegentliche Vertragsüberprüfungen oder umfassende Unterstützung für die Rechtsabteilung benötigen, wir finden die richtige Lösung für Ihr Unternehmen und Budget."
   },
-  "contact": {
+  "idealFor": {
+    "title": "Flexible & Faire Preisgestaltung",
+    "target": "Für große Unternehmen oder Mandanten mit besonderen Anforderungen biete ich einen maßgeschneiderten Service über die Standard-Retainerstruktur hinaus. Dazu gehören hochspezialisierte rechtliche Unterstützung und strategische Beratung für groß angelegte oder internationale Projekte. Die Preisgestaltung erfolgt auf Anfrage.",
+    "benefits": "Mein Fokus liegt auf der Betreuung von Unternehmen, aber ich glaube an gesellschaftliches Engagement. In der Regel nehme ich keine Privatmandate an, aber wenn Sie als Einzelperson einen triftigen Grund für eine Zusammenarbeit haben, melden Sie sich gerne. Je nach finanzieller Situation biete ich flexible Honorarvereinbarungen nach RVG (Rechtsanwaltsvergütungsgesetz) oder sogar pro bono an. Wenn Sie mit mir zusammenarbeiten möchten, aber finanzielle Einschränkungen haben, bin ich offen für eine individuelle Vereinbarung, die für beide Seiten passt."
+  },
+  "callToAction": {
     "heading": "Kontakt aufnehmen",
-    "description": "Ich biete maßgeschneiderte Lösungen, schnelle Reaktionszeiten und umfassende Unterstützung für alle Ihre rechtlichen Anliegen.",
-    "callToAction": "Kontaktieren Sie mich für ein unverbindliches Erstgespräch und erfahren Sie, wie mein internationaler Ansatz und meine Erfahrung Ihr Unternehmen voranbringen können.",
-    "buttons": [
-      "Kontakt aufnehmen",
-      "Termin buchen"
-    ]
-  }
+    "message": "Ich biete maßgeschneiderte Lösungen, schnelle Reaktionszeiten und umfassende Unterstützung für alle Ihre rechtlichen Anliegen. Kontaktieren Sie mich für ein unverbindliches Erstgespräch und erfahren Sie, wie mein internationaler Ansatz und meine Erfahrung Ihr Unternehmen voranbringen können.",
+    "buttonText": "Beratungstermin vereinbaren"
   }
 }

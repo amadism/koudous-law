@@ -1,59 +1,37 @@
 {
-  "generalCounsel": {
-    "title": "Your Long-Term Legal Partner, Built Into Your Team",
-    "intro": "If your business is growing or facing ongoing legal demands, you need more than a quick fix—you need a partner who's in it with you. My General Counsel service is about consistent, reliable support on a fixed monthly fee. I become your legal backbone, integrating into your leadership team to handle everything from day-to-day questions to big-picture challenges. This isn't just advice; it's a partnership that drives your success.",
-    "whatYouGet": {
-      "heading": "What You Get",
-      "description": "With this service, you've got me on speed dial—figuratively and literally. I'm available through Slack, Discord, WhatsApp, LINE, or whatever platform your team uses.",
-      "features": [
-        {
-          "title": "Daily operations",
-          "details": "I'll review contracts, draft policies, and answer questions in real time."
-        },
-        {
-          "title": "Bigger moves (fundraising, hiring, expansion)",
-          "details": "I'll strategize with you, negotiate deals, and keep risks in check."
-        }
-      ],
-
-      "descriptionAfter": "You'll get proactive guidance—spotting issues before they blow up—and reactive solutions when they do. Every month, we'll align on priorities, ensuring I'm tackling what matters most to you."
-    },
-
-    "howWeWorkTogether": {
-      "heading": "How We Work Together",
-      "description": "I embed myself in your workflow. We'll set up a kickoff call to map out your goals, risks, and legal needs. From there, I'm part of your team—joining meetings, brainstorming with your execs, and staying looped in on key decisions.",
-      "features": [
-        {
-          "title": "Communication:",
-          "details": "Direct—no long memos, just quick chats or bullet-point emails with clear action items."
-        },
-        {
-          "title": "Response:",
-          "details": "Fast—usually same-day—because delays kill momentum."
-        }
-      ],
-
-      "descriptionAfter": "I'll flag what needs your attention and handle what doesn't. Whether it's a 2 a.m. crisis or a routine check-in, I'm there."
-    },
-
-    "whoThisIsFor": {
-      "heading": "Who This Is For",
-      "description": "This is perfect for businesses ready to level up:",
-      "list": [
-        "Startups scaling fast.",
-        "Mid-sized companies without a full legal department.",
-        "Established firms needing steady support."
-      ],
-      "note": "If you're tired of scrambling for legal help or getting vague answers, this service delivers consistency and clarity. It's for leaders who want a trusted advisor, not just a hired gun."
-    },
-    "whyItWorks": {
-      "heading": "Why It Works",
-      "description": "I bring a business-first mindset to the table. Legal isn't just about avoiding trouble—it's about enabling growth. I've worked with companies across industries, so I know how to balance risk and opportunity. No \"it depends\" cop-outs here; I'll give you a straight answer and a plan. With a fixed fee, you're not nickel-and-dimed—you know exactly what you're getting, and I'm incentivized to keep you thriving."
-    },
-    "callToAction": {
-      "heading": "Ready to have a legal partner, not just a service provider?",
-      "description": "Get in touch to discuss how I can integrate with your team and provide the ongoing legal support your business needs to grow confidently.",
-      "buttonText": "Schedule a Consultation"
-    }
+  "serviceName": "Your Long-Term Legal Partner, Built Into Your Team",
+  "tagline": "If your business is growing or facing ongoing legal demands, you need more than a quick fix—you need a partner who's in it with you. My General Counsel service is about consistent, reliable support on a fixed monthly fee. I become your legal backbone, integrating into your leadership team to handle everything from day-to-day questions to big-picture challenges. This isn't just advice; it's a partnership that drives your success.",
+  "overview": {
+    "title": "What You Get",
+    "summary": "With this service, you've got me on speed dial—figuratively and literally. I'm available through Slack, Discord, WhatsApp, LINE, or whatever platform your team uses.",
+    "description": "For daily operations, I'll review contracts, draft policies, and answer questions in real time. For bigger moves like fundraising, hiring, or expansion, I'll strategize with you, negotiate deals, and keep risks in check. You'll get proactive guidance—spotting issues before they blow up—and reactive solutions when they do. Every month, we'll align on priorities, ensuring I'm tackling what matters most to you."
+  },
+  "whatYouGet": {
+    "title": "What You Get",
+    "summary": "With this service, you've got me on speed dial—figuratively and literally. I'm available through Slack, Discord, WhatsApp, LINE, or whatever platform your team uses.",
+    "details": "For daily operations, I'll review contracts, draft policies, and answer questions in real time. For bigger moves like fundraising, hiring, or expansion, I'll strategize with you, negotiate deals, and keep risks in check. You'll get proactive guidance—spotting issues before they blow up—and reactive solutions when they do. Every month, we'll align on priorities, ensuring I'm tackling what matters most to you."
+  },
+  "howItWorks": {
+    "title": "How We Work Together",
+    "features": [
+      "Embedded in your workflow via Slack, Discord, WhatsApp, LINE, or your preferred platform",
+      "Daily operations support—contract reviews, policy drafting, and real-time answers",
+      "Strategic guidance for fundraising, hiring, expansion, and major business moves",
+      "Direct communication with quick chats or bullet-point emails, no long memos",
+      "Same-day response times to maintain momentum",
+      "Monthly priority alignment to focus on what matters most"
+    ],
+    "approach": "I embed myself in your workflow. We'll set up a kickoff call to map out your goals, risks, and legal needs. From there, I'm part of your team—joining meetings, brainstorming with your execs, and staying looped in on key decisions.",
+    "timeline": "Communication is direct—no long memos, just quick chats or bullet-point emails with clear action items. Response is fast—usually same-day—because delays kill momentum. I'll flag what needs your attention and handle what doesn't. Whether it's a 2 a.m. crisis or a routine check-in, I'm there."
+  },
+  "idealFor": {
+    "title": "Who This Is For & Why It Works",
+    "target": "This is perfect for businesses ready to level up—startups scaling fast, mid-sized companies without a full legal department, or established firms needing steady support. If you're tired of scrambling for legal help or getting vague answers, this service delivers consistency and clarity. It's for leaders who want a trusted advisor, not just a hired gun.",
+    "benefits": "I bring a business-first mindset to the table. Legal isn't just about avoiding trouble—it's about enabling growth. I've worked with companies across industries, so I know how to balance risk and opportunity. No 'it depends' cop-outs here; I'll give you a straight answer and a plan. With a fixed fee, you're not nickel-and-dimed—you know exactly what you're getting, and I'm incentivized to keep you thriving."
+  },
+  "callToAction": {
+    "heading": "Ready to have a legal partner, not just a service provider?",
+    "message": "Get in touch to discuss how I can integrate with your team and provide the ongoing legal support your business needs to grow confidently.",
+    "buttonText": "Schedule a Consultation"
   }
 }

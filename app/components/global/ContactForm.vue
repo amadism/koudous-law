@@ -76,7 +76,9 @@
 <script setup>
 import { watch } from 'vue'
 const { locale } = useI18n()
-const { data: contact, refresh } = await useAsyncData(() => queryCollection('content').path(`/contact/${locale.value}`).first())
+const { data: contact, refresh } = await useAsyncData('contact-form', () => 
+  queryCollection('content').path(`/contact/${locale.value}`).first()
+)
 
 watch(locale, () => {
   refresh()

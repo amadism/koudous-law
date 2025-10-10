@@ -1,59 +1,37 @@
 {
-  "buildYourLegalDepartment": {
-    "title": "Ihr rechtliches Fundament, gebaut zum Skalieren",
-    "intro": "Wachstum ist aufregend, aber es ist chaotisch ohne das richtige rechtliche Setup. Mein Aufbau Ihrer Rechtsabteilung & Unternehmenswachstum Service dreht sich darum, ein solides rechtliches Fundament zu schaffen, das Ihre Ambitionen unterstützt. Als Ihr Rechtsdirektor entwerfe und implementiere ich Systeme – Teams, Prozesse, Richtlinien – die Sie vorwärts bringen, nicht ausbremsen. Das ist das Komplettpaket für Unternehmen, die bereit sind, smart zu skalieren.",
-    "whatYouGet": {
-      "heading": "Was Sie erhalten",
-      "description": "Ich beginne mit einem tiefen Einblick: Wo stehen Sie jetzt, wo wollen Sie hin, und was steht im Weg? Von da an baue ich, was Sie brauchen.",
-      "features": [
-        {
-          "title": "Brauchen Sie ein Rechtsteam?",
-          "details": "Ich rekrutiere, trainiere und strukturiere es."
-        },
-        {
-          "title": "Brauchen Sie Protokolle?",
-          "details": "Ich erstelle Verträge, Compliance-Pläne und Risikomanagement-Tools, die praktisch, nicht theoretisch sind."
-        },
-        {
-          "title": "Expandieren Sie global?",
-          "details": "Ich handle grenzüberschreitende Vorschriften und Partnerschaften."
-        }
-      ],
-      "descriptionAfter": "Sie erhalten eine maßgeschneiderte rechtliche Infrastruktur – denken Sie an Handbücher, Vorlagen und Workflows – plus einen Fahrplan, um sie nach meinem Ausscheiden zu erhalten."
-    },
-    "howWeWorkTogether": {
-      "heading": "Wie wir zusammenarbeiten",
-      "description": "Wir starten mit einer Strategiesitzung, um uns über Ihre Vision abzustimmen. Ich arbeite als Ihr Direktor, eingebettet in Ihre Abläufe, für 3–12 Monate (je nach Umfang). Ich kollaboriere mit Ihrer Führung, trainiere Ihre Mitarbeiter und führe Systeme schrittweise ein.",
-      "features": [
-        {
-          "title": "Fortschritt:",
-          "details": "Sie sehen schnelle Ergebnisse – erste Lieferungen innerhalb von Wochen."
-        },
-        {
-          "title": "Updates:",
-          "details": "Ich halte Sie mit klaren, prägnanten Berichten auf dem Laufenden."
-        }
-      ],
-      "descriptionAfter": "Wenn es Zeit für den Übergang ist, übergebe ich an Ihr Team oder eine permanente Anstellung, vollständig eingewiesen und bereit."
-    },
-    "whoThisIsFor": {
-      "heading": "Für wen dies geeignet ist",
-      "description": "Das ist für:",
-      "list": [
-        "Startups, die ihre erste Rechtsfunktion aufbauen.",
-        "Mittelständische Firmen, die ihr aktuelles Setup entwachsen.",
-        "Unternehmen, die international gehen."
-      ],
-      "note": "Wenn Sie skalieren und rechtliche Lücken Sie verlangsamen, überbrückt dieser Service sie. Er ist für Führungskräfte, die Effizienz wollen, nicht Bürokratie."
-    },
-    "whyItWorks": {
-      "heading": "Warum es funktioniert",
-      "description": "Ich habe rechtliche Motoren für Unternehmen in jeder Phase gebaut. Mein Ansatz ist schlank – fokussiert auf das, was Ihr Wachstum antreibt, nicht sinnloser Papierkram. Sie enden mit einer Abteilung oder einem System, das agil, effektiv und Ihres ist. Recht hört auf, ein Kopfschmerz zu sein, und wird zu einer Stärke."
-    },
-    "callToAction": {
-      "heading": "Bereit, eine Rechtsabteilung aufzubauen, die mit Ihrem Unternehmen skaliert?",
-      "description": "Kontaktieren Sie mich, um zu besprechen, wie ich helfen kann, die rechtliche Infrastruktur zu schaffen, die Ihr wachsendes Unternehmen zum Gedeihen braucht.",
-      "buttonText": "Beratungstermin vereinbaren"
-    }
+  "serviceName": "Ihr rechtliches Fundament, gebaut zum Skalieren",
+  "tagline": "Wachstum ist aufregend, aber es ist chaotisch ohne das richtige rechtliche Setup. Mein Aufbau Ihrer Rechtsabteilung & Unternehmenswachstum Service dreht sich darum, ein solides rechtliches Fundament zu schaffen, das Ihre Ambitionen unterstützt. Als Ihr Rechtsdirektor entwerfe und implementiere ich Systeme – Teams, Prozesse, Richtlinien – die Sie vorwärts bringen, nicht ausbremsen. Das ist das Komplettpaket für Unternehmen, die bereit sind, smart zu skalieren.",
+  "overview": {
+    "title": "Was Sie erhalten",
+    "summary": "Ich beginne mit einem tiefen Einblick: Wo stehen Sie jetzt, wo wollen Sie hin, und was steht im Weg? Von da an baue ich, was Sie brauchen.",
+    "description": "Brauchen Sie ein Rechtsteam? Ich rekrutiere, trainiere und strukturiere es. Brauchen Sie Protokolle? Ich erstelle Verträge, Compliance-Pläne und Risikomanagement-Tools, die praktisch, nicht theoretisch sind. Expandieren Sie global? Ich handle grenzüberschreitende Vorschriften und Partnerschaften. Sie erhalten eine maßgeschneiderte rechtliche Infrastruktur – denken Sie an Handbücher, Vorlagen und Workflows – plus einen Fahrplan, um sie nach meinem Ausscheiden zu erhalten."
+  },
+  "whatYouGet": {
+    "title": "Was Sie erhalten",
+    "summary": "Ich beginne mit einem tiefen Einblick: Wo stehen Sie jetzt, wo wollen Sie hin, und was steht im Weg? Von da an baue ich, was Sie brauchen.",
+    "details": "Brauchen Sie ein Rechtsteam? Ich rekrutiere, trainiere und strukturiere es. Brauchen Sie Protokolle? Ich erstelle Verträge, Compliance-Pläne und Risikomanagement-Tools, die praktisch, nicht theoretisch sind. Expandieren Sie global? Ich handle grenzüberschreitende Vorschriften und Partnerschaften. Sie erhalten eine maßgeschneiderte rechtliche Infrastruktur – denken Sie an Handbücher, Vorlagen und Workflows – plus einen Fahrplan, um sie nach meinem Ausscheiden zu erhalten."
+  },
+  "howItWorks": {
+    "title": "Wie wir zusammenarbeiten",
+    "features": [
+      "Strategiesitzung zur Abstimmung über Ihre Vision und Kartierung Ihrer rechtlichen Bedürfnisse",
+      "Als Ihr Rechtsdirektor eingebettet für 3–12 Monate je nach Umfang",
+      "Rechtsteam-Rekrutierung, Training und Strukturierung bei Bedarf",
+      "Vertragsvorlagen, Compliance-Pläne und Risikomanagement-Tools",
+      "Grenzüberschreitende Vorschriften-Handling und Partnerschafts-Strukturierung",
+      "Schrittweise Systemeinführung mit schnellen ersten Lieferungen innerhalb von Wochen"
+    ],
+    "approach": "Wir starten mit einer Strategiesitzung, um uns über Ihre Vision abzustimmen. Ich arbeite als Ihr Direktor, eingebettet in Ihre Abläufe, für 3–12 Monate (je nach Umfang). Ich kollaboriere mit Ihrer Führung, trainiere Ihre Mitarbeiter und führe Systeme schrittweise ein.",
+    "timeline": "Sie sehen schnelle Ergebnisse – erste Lieferungen innerhalb von Wochen. Ich halte Sie mit klaren, prägnanten Berichten auf dem Laufenden. Wenn es Zeit für den Übergang ist, übergebe ich an Ihr Team oder eine permanente Anstellung, vollständig eingewiesen und bereit."
+  },
+  "idealFor": {
+    "title": "Für wen dies geeignet ist & Warum es funktioniert",
+    "target": "Das ist für Startups, die ihre erste Rechtsfunktion aufbauen, mittelständische Firmen, die ihr aktuelles Setup entwachsen, oder Unternehmen, die international gehen. Wenn Sie skalieren und rechtliche Lücken Sie verlangsamen, überbrückt dieser Service sie. Er ist für Führungskräfte, die Effizienz wollen, nicht Bürokratie.",
+    "benefits": "Ich habe rechtliche Motoren für Unternehmen in jeder Phase gebaut. Mein Ansatz ist schlank – fokussiert auf das, was Ihr Wachstum antreibt, nicht sinnloser Papierkram. Sie enden mit einer Abteilung oder einem System, das agil, effektiv und Ihres ist. Recht hört auf, ein Kopfschmerz zu sein, und wird zu einer Stärke."
+  },
+  "callToAction": {
+    "heading": "Bereit, eine Rechtsabteilung aufzubauen, die mit Ihrem Unternehmen skaliert?",
+    "message": "Kontaktieren Sie mich, um zu besprechen, wie ich helfen kann, die rechtliche Infrastruktur zu schaffen, die Ihr wachsendes Unternehmen zum Gedeihen braucht.",
+    "buttonText": "Beratungstermin vereinbaren"
   }
 }

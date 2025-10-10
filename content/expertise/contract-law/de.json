@@ -1,41 +1,32 @@
 {
-  "contractLaw": {
-    "title": "Vertragsrecht: Ihre Deals sichern, Fallen vermeiden",
-    "intro": "Verträge sind die Lebensader Ihres Unternehmens – wenn sie straff sind, pumpt Ihr Gewinn stark; wenn sie schlampig sind, bluten Sie schnell aus unter deutschem oder EU-Recht.",
-    
-    "howIHelp": {
-      "heading": "Wie ich helfe",
-      "description": "Ich beginne damit, mich auf Ihren Deal zu konzentrieren – seine Einsätze, seine Akteure, seine Ziele – damit meine Verträge zu Ihren Bedürfnissen passen.",
-      "review": "Einen Vertrag überprüfen? Ich bin ein Falke – fange Fallen wie versteckte Kündigungsstrafen oder Haftungsverschiebungen unter deutschem Recht."
-    },
-
-    "services": {
-      "heading": "Zentrale Vertragsrecht-Dienstleistungen",
-      "list": [
-        "Vertragserstellung maßgeschneidert für Ihre spezifischen Geschäftsbedürfnisse und rechtlichen Rahmen",
-        "Vertragsüberprüfung zur Identifizierung und Eliminierung von Risikofaktoren vor der Unterzeichnung",
-        "Verhandlungsunterstützung, die günstige Bedingungen sichert und gleichzeitig Beziehungen bewahrt",
-        "Vertragsverletzungslösung durch Verhandlung, Mediation oder Rechtsstreit",
-        "Grenzüberschreitende Vereinbarungen konform mit deutschem, EU- und internationalem Recht",
-        "Vertragsdurchsetzung zum Schutz Ihrer Rechte und zur Schadenersatz-Rückforderung"
-      ],
-      "surface": "Ich gehe über die Oberfläche hinaus. Multi-Party EU-Deals? Ich bringe Interessen in Einklang, ohne Ihren Vorteil zu verlieren.",
-
-       "licenses ": "Ich habe Bauverträge behandelt, die deutsche Bauvertragsrecht-Verzögerungen vermeiden, Tech-Lizenzen, die IP unter EU-Recht sichern."
-    },
-
-    "whyMe": {
-      "heading": "Warum ich",
-      "description": "Ich war Jahre in den Vertragsgräben und habe Vereinbarungen geschmiedet und bekämpft, die deutsche und EU-Unternehmen definieren.",
-      "strength": "Meine Stärke ist Präzision – ich fange das Kleingedruckte auf, das andere übersehen.",
-      "clientTrust": "Kunden bleiben bei mir, weil ich nicht herumalbere. Ich habe Geschichten von Anwälten gehört, die Seiten durchkauen oder Anrufe vermeiden.",
-      "trackRecord": "Meine Bilanz ist straff: Ich habe den ersten Deal eines Startups in einen Millionen-Euro-Strom verwandelt."
-    },
-
-    "cta": {
-      "heading": "Brauchen Sie eiserne Verträge, die Ihr Unternehmen schützen?",
-      "text": "Lassen Sie uns besprechen, wie meine Vertragsrecht-Expertise Ihre Deals sichern und Ihr Unternehmen vor kostspieligen Streitigkeiten schützen kann.",
-      "button": "Beratungstermin vereinbaren"
-    }
+  "title": "Vertragsrecht: Ihre Deals sichern, Fallen vermeiden",
+  "intro": "Verträge sind die Lebensader Ihres Unternehmens – wenn sie straff sind, pumpt Ihr Gewinn stark; wenn sie schlampig sind, bluten Sie schnell aus unter deutschem oder EU-Recht.",
+  "howIHelp": {
+    "heading": "Wie ich helfe",
+    "description": "Ich beginne damit, mich auf Ihren Deal zu konzentrieren – seine Einsätze, seine Akteure, seine Ziele – damit meine Verträge zu Ihren Bedürfnissen passen.",
+    "details": "Einen Vertrag überprüfen? Ich bin ein Falke – fange Fallen wie versteckte Kündigungsstrafen oder Haftungsverschiebungen unter deutschem Recht."
+  },
+  "services": {
+    "heading": "Zentrale Vertragsrecht-Dienstleistungen",
+    "list": [
+      "Vertragserstellung maßgeschneidert für Ihre spezifischen Geschäftsbedürfnisse und rechtlichen Rahmen",
+      "Vertragsüberprüfung zur Identifizierung und Eliminierung von Risikofaktoren vor der Unterzeichnung",
+      "Verhandlungsunterstützung, die günstige Bedingungen sichert und gleichzeitig Beziehungen bewahrt",
+      "Vertragsverletzungslösung durch Verhandlung, Mediation oder Rechtsstreit",
+      "Grenzüberschreitende Vereinbarungen konform mit deutschem, EU- und internationalem Recht",
+      "Vertragsdurchsetzung zum Schutz Ihrer Rechte und zur Schadenersatz-Rückforderung"
+    ],
+    "extra": "Wenn Streitigkeiten auftauchen – verpasste Lieferungen, Zahlungskämpfe, Umfangserweiterung – springe ich schnell ein, um sie zu lösen, sei es durch Verhandlung, die die Beziehung rettet, oder durch Rechtsstreit, der Ihr Endergebnis schützt.",
+    "details": "Ich reagiere nicht nur auf Probleme. Für Unternehmen, die Geschwindigkeit und Konsistenz benötigen, erstelle ich Vertragsvorlagen – NDAs, Nutzungsbedingungen, Arbeitsverträge – die Sie immer wieder einsetzen können, in dem Wissen, dass sie kugelsicher sind. Ich habe Verträge über Branchen und Grenzen hinweg bearbeitet, sodass ich weiß, wie man die Eigenheiten des deutschen Rechts, der EU-Vorschriften und der internationalen Handelsregeln navigiert."
+  },
+  "whyMe": {
+    "heading": "Warum ich",
+    "description": "Ich war Jahre in den Vertragsgräben und habe Vereinbarungen geschmiedet und bekämpft, die deutsche und EU-Unternehmen definieren.",
+    "details": "Meine Stärke ist Präzision – ich fange das Kleingedruckte auf, das andere übersehen. Kunden bleiben bei mir, weil ich nicht herumalbere. Ich habe Geschichten von Anwälten gehört, die Seiten durchkauen oder Anrufe vermeiden. Meine Bilanz ist straff: Ich habe den ersten Deal eines Startups in einen Millionen-Euro-Strom verwandelt."
+  },
+  "cta": {
+    "heading": "Brauchen Sie eiserne Verträge, die Ihr Unternehmen schützen?",
+    "text": "Lassen Sie uns besprechen, wie meine Vertragsrecht-Expertise Ihre Deals sichern und Ihr Unternehmen vor kostspieligen Streitigkeiten schützen kann.",
+    "button": "Beratungstermin vereinbaren"
   }
 }

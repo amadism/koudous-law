@@ -1,41 +1,32 @@
 {
-  "distributionLaw": {
-    "title": "Vertriebsrecht: Ihre Lieferkette optimieren",
-    "intro": "Vertriebsrecht in Deutschland und der EU ist der rechtliche Treibstoff für Ihre Lieferkette.",
-
-    "howIHelp": {
-      "heading": "Wie ich helfe",
-      "mapping": "Ich beginne damit, Ihre Kette zu kartieren – was Sie bewegen, mit wem Sie arbeiten, wohin es geht.",
-       "brewing": "Streit an? Ich springe rein – ob es ein deutscher Partner ist, der Zahlungen vermeidet."
-    },
-
-    "services": {
-      "heading": "Zentrale Vertriebsrecht-Dienstleistungen",
-      "list": [
-        "Vertriebsvereinbarungserstellung mit günstigen Preis-, Exklusivitäts- und Kündigungsbedingungen",
-        "EU-Wettbewerbsrecht-Compliance einschließlich Vertikal-Block-Ausnahmeregeln",
-        "Grenzüberschreitende Lieferketten-Strukturierung mit Zoll- und Handelsrechtsintegration",
-        "Distributor-Streitbeilegung unter deutschem HGB und EU-Handelsrecht",
-        "Multi-Tier-Vertriebsnetze vom Großhandel zum Einzelhandel über den Binnenmarkt",
-        "Deutsche Lieferkettenrecht-Compliance für Lieferketten-Due-Diligence"
-      ],
-      "extra": "Ich grabe auch tiefer. Ihr Netzwerk erweitern?",
-      "manufacturer": "Ich habe Herstellerverträge behandelt, die Ausfallrisiken vermeiden, Einzelhändlerdeals unter EU-Wettbewerbsprüfung."
-    },
-
-   
-    "whyMe": {
-      "heading": "Warum ich",
-      "description": "Ich habe Jahre damit verbracht, deutsche und EU-Lieferketten durch Vertriebsrecht zu versorgen.",
-      "strength": "Meine Stärke ist Weitsicht – ich fange die Haken auf, die andere übersehen.",
-      "clientTrust": "Kunden bleiben dabei, weil ich nicht trödele.",
-      "trackRecord": "Meine Bilanz ist stark: Ich habe den ersten Deal eines Startups in einen stetigen Strom verwandelt."
-    },
-
-    "cta": {
-      "heading": "Bereit, Ihr Vertriebsnetz zu optimieren?",
-      "text": "Lassen Sie uns besprechen, wie meine Vertriebsrecht-Expertise Ihre Lieferkette optimieren, Partnerstreitigkeiten lösen und Compliance über deutsche und EU-Märkte sicherstellen kann.",
-      "button": "Ihre Lieferkette ankurbeln"
-    }
+  "title": "Vertriebsrecht: Ihre Lieferkette optimieren",
+  "intro": "Vertriebsrecht in Deutschland und der EU ist der rechtliche Treibstoff für Ihre Lieferkette.",
+  "howIHelp": {
+    "heading": "Wie ich helfe",
+    "description": "Ich beginne damit, Ihre Kette zu kartieren – was Sie bewegen, mit wem Sie arbeiten, wohin es geht.",
+    "details": "Streit an? Ich springe rein – ob es ein deutscher Partner ist, der Zahlungen vermeidet."
+  },
+  "services": {
+    "heading": "Zentrale Vertriebsrecht-Dienstleistungen",
+    "list": [
+      "Vertriebsvereinbarungserstellung mit günstigen Preis-, Exklusivitäts- und Kündigungsbedingungen",
+      "EU-Wettbewerbsrecht-Compliance einschließlich Vertikal-Block-Ausnahmeregeln",
+      "Grenzüberschreitende Lieferketten-Strukturierung mit Zoll- und Handelsrechtsintegration",
+      "Distributor-Streitbeilegung unter deutschem HGB und EU-Handelsrecht",
+      "Multi-Tier-Vertriebsnetze vom Großhandel zum Einzelhandel über den Binnenmarkt",
+      "Deutsche Lieferkettenrecht-Compliance für Lieferketten-Due-Diligence"
+    ],
+    "extra": "Ich grabe auch tiefer. Ihr Netzwerk erweitern?",
+    "details": "Ich habe Herstellerverträge behandelt, die Ausfallrisiken vermeiden, Einzelhändlerdeals unter EU-Wettbewerbsprüfung."
+  },
+  "whyMe": {
+    "heading": "Warum ich",
+    "description": "Ich habe Jahre damit verbracht, deutsche und EU-Lieferketten durch Vertriebsrecht zu versorgen.",
+    "details": "Meine Stärke ist Weitsicht – ich fange die Haken auf, die andere übersehen. Kunden bleiben dabei, weil ich nicht trödele. Meine Bilanz ist stark: Ich habe den ersten Deal eines Startups in einen stetigen Strom verwandelt."
+  },
+  "cta": {
+    "heading": "Bereit, Ihr Vertriebsnetz zu optimieren?",
+    "text": "Lassen Sie uns besprechen, wie meine Vertriebsrecht-Expertise Ihre Lieferkette optimieren, Partnerstreitigkeiten lösen und Compliance über deutsche und EU-Märkte sicherstellen kann.",
+    "button": "Ihre Lieferkette ankurbeln"
   }
 }

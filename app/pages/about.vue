@@ -1,7 +1,9 @@
 <script setup>
 import { watch } from 'vue'
 const { locale } = useI18n()
-  const { data: about, refresh } = await useAsyncData(() => queryCollection('content').path(`/about/${locale.value}`).first())
+  const { data: about, refresh } = await useAsyncData('about', () => 
+    queryCollection('content').path(`/about/${locale.value}`).first()
+  )
 
   watch(locale, () => {
     refresh()

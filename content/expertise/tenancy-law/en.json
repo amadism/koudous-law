@@ -1,41 +1,32 @@
 {
-  "tenancyLaw": {
-    "title": "Tenancy Law: Master Your Real Estate Relationships",
-    "intro": "Lease agreements and rental contracts can bind your business—or set it free.",
-    
-    "howIHelp": {
-      "heading": "How I Help",
-      "description": "I dive into your real estate situation—what you rent, what you offer, where your risks lie.",
-      "disputes": "Tenant problems brewing? I negotiate solutions that preserve relationships when possible."
-    },
-
-    "services": {
-      "heading": "Key Tenancy Law Services",
-      "list": [
-        "Drafting and negotiating lease agreements with comprehensive terms and protective clauses",
-        "Eviction proceedings and enforcement under German tenancy law",
-        "Commercial lease structuring tailored to business operational needs",
-        "Dispute resolution in tenancy matters and payment enforcement strategies",
-        "Property maintenance and damage claims with cost recovery",
-        "Landlord-tenant mediation preserving relationships while protecting rights"
-      ],
-      "basics": "Landlord issues? I defend your rights as a tenant.",
-      "deal": "You get practical solutions that avoid headaches and make your property work for you."
-
-    },
-
-    "whyMe": {
-      "heading": "Why Me",
-      "description": "I've managed tenant disputes and contracts across industries for years.",
-      "strength": "I've seen what breaks real estate relationships: the vague maintenance clause that becomes a money pit.",
-      "clientTrust": "What sets me apart is that I don't just follow the legal playbook—I write new strategies.",
-      "trackRecord": "You're hiring someone who's been in the real estate trenches, facing tough landlords and problematic tenants."
-    },
-
-    "cta": {
-      "heading": "Ready to master your real estate relationships?",
-      "text": "Let's discuss how my tenancy law expertise can protect your interests, resolve disputes, and structure deals that work for your business.",
-      "button": "Secure Your Property Position"
-    }
+  "title": "Tenancy Law: Master Your Real Estate Relationships",
+  "intro": "Lease agreements and rental contracts can bind your business—or set it free. Whether you're a landlord managing commercial properties, a tenant negotiating favorable terms, or a business navigating complex lease disputes, I provide the legal expertise that protects your interests and keeps your real estate relationships productive. My approach is property-focused: understand your situation, identify leverage points, and craft solutions that work for your bottom line. From small businesses securing their first office space to property investors managing multi-unit portfolios, I deliver practical strategies that turn tenancy law into an advantage.",
+  "howIHelp": {
+    "heading": "How I Help",
+    "description": "I dive into your real estate situation—what you rent, what you offer, where your risks lie—so I can provide targeted legal support. Need contracts? I draft and negotiate lease agreements with comprehensive terms: rent structures that protect against volatility, maintenance clauses that allocate responsibility fairly, termination rights that give you flexibility. I've created agreements that locked in favorable rates and prevented costly disputes.",
+    "details": "Tenant problems brewing? I negotiate solutions that preserve relationships when possible, or pursue eviction proceedings and enforcement under German tenancy law when necessary. Landlord issues? I defend your rights as a tenant, challenging unfair rent increases, demanding proper repairs, and protecting against wrongful eviction."
+  },
+  "services": {
+    "heading": "Key Tenancy Law Services",
+    "list": [
+      "Drafting and negotiating lease agreements with comprehensive terms and protective clauses",
+      "Eviction proceedings and enforcement under German tenancy law",
+      "Commercial lease structuring tailored to business operational needs",
+      "Dispute resolution in tenancy matters and payment enforcement strategies",
+      "Property maintenance and damage claims with cost recovery",
+      "Landlord-tenant mediation preserving relationships while protecting rights"
+    ],
+    "extra": "I handle complex scenarios too. Commercial leases for your business operations? I structure terms that accommodate your needs—expansion options, subleasing rights, fit-out allowances—while protecting against landlord overreach. Multi-property portfolios? I streamline your lease management with standardized agreements and proactive dispute prevention.",
+    "details": "I've resolved tenancy disputes that saved client relationships and recovered unpaid rent through efficient enforcement. My support adapts: a small business tenant gets focused negotiation; a property investor gets comprehensive portfolio management. Every clause I draft protects your position, every strategy makes your property work for you. You're not just getting a lawyer—you're getting a real estate strategist who turns tenancy challenges into opportunities."
+  },
+  "whyMe": {
+    "heading": "Why Me",
+    "description": "I've managed tenant disputes and contracts across industries for years—helping businesses secure favorable lease terms, landlords protect their properties, and both sides resolve conflicts without destroying valuable relationships. I've negotiated leases that saved clients thousands annually, resolved disputes that preserved key business locations, and structured agreements that scaled with growing companies. My edge is practical experience—I've seen what breaks real estate relationships: the vague maintenance clause that becomes a money pit, the inflexible lease that traps a struggling business, the ignored notice requirement that invalidates termination.",
+    "details": "What sets me apart is that I don't just follow the legal playbook—I write new strategies tailored to your situation. Clients stick with me because I deliver results, not just documents. I've heard complaints about lawyers who overcomplicate simple leases or miss negotiation opportunities—I don't. I'll tell you: 'Here's your leverage, here's the ask, let's close this.' I've saved clients by catching problematic terms early or structuring exits that avoided lengthy disputes. You're hiring someone who's been in the real estate trenches, facing tough landlords and problematic tenants, and delivered wins that stick—no complications, just solutions that work."
+  },
+  "cta": {
+    "heading": "Ready to master your real estate relationships?",
+    "text": "Let's discuss how my tenancy law expertise can protect your interests, resolve disputes, and structure deals that work for your business.",
+    "button": "Secure Your Property Position"
   }
 }

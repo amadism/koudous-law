@@ -1,54 +1,37 @@
 {
-  "legalInterim": {
-    "title": "Intensive Leadership for Critical Moments",
-    "intro": "Sometimes, you need a heavy hitter for a short burst—someone to step into the C-suite and get things done. My Legal Interim service puts me in your CEO, CLO, or GC chair for limited, high-stakes projects. Whether it's a merger, a crisis, or a regulatory overhaul, I bring strategic firepower and hands-on execution to deliver results fast. This is about impact, not permanence.",
-    "whatYouGet": {
-      "heading": "What You Get",
-      "description": "I hit the ground running. Day one, I dive into your situation—reviewing docs, meeting your team, and sizing up the challenge.",
-      "features": [
-        {
-          "title": "As CEO:",
-          "details": "I'll steer the ship through transition or turmoil, aligning legal and business goals."
-        },
-        {
-          "title": "As CLO or GC:",
-          "details": "I'll tackle your legal priorities—negotiating a deal, managing litigation, or revamping compliance."
-        }
-      ],
-      "descriptionAfter": "You'll get a clear roadmap within the first week, with milestones and deliverables tailored to your timeline. I don't just advise; I execute, leaving you stronger when I step out."
-    },
-    "howWeWorkTogether": {
-      "heading": "How We Work Together",
-      "description": "This is full immersion. I'm on-site or deeply engaged remotely, depending on your needs. We'll set expectations upfront—scope, duration, goals—so there's no guesswork. I'll work closely with your team, leading or supporting as required, with daily check-ins to keep things moving.",
-      "features": [
-        {
-          "title": "Communication:",
-          "details": "Crisp—you'll know where we stand and what's next."
-        },
-        {
-          "title": "Duration:",
-          "details": "Projects typically run 1–6 months, but I'm flexible—once the job's done, I hand over the reins with a clean exit plan."
-        }
-      ]
-    },
-    "whoThisIsFor": {
-      "heading": "Who This Is For",
-      "description": "This fits companies in flux:",
-      "list": [
-        "Facing a leadership gap.",
-        "Handling a make-or-break deal.",
-        "Navigating a sudden crisis."
-      ],
-      "note": "Maybe your GC left mid-expansion, or you're prepping for a sale and need a pro to polish the legal side. If you want seasoned expertise without a long-term hire, this is your answer."
-    },
-    "whyItWorks": {
-      "heading": "Why It Works",
-      "description": "I've led through chaos and complexity before. My dual lens—legal and executive—means I see the whole picture, not just the fine print. You get a leader who can make tough calls, rally your team, and deliver under pressure. No ramp-up time, no learning curve—just results. When the dust settles, you're in a better spot than before."
-    },
-    "callToAction": {
-      "heading": "Need intensive leadership for a critical period?",
-      "description": "Contact me to discuss how I can step in as your interim leader to navigate complex challenges and deliver rapid results.",
-      "buttonText": "Schedule a Consultation"
-    }
+  "serviceName": "Intensive Leadership for Critical Moments",
+  "tagline": "Sometimes, you need a heavy hitter for a short burst—someone to step into the C-suite and get things done. My Legal Interim service puts me in your CEO, CLO, or GC chair for limited, high-stakes projects. Whether it's a merger, a crisis, or a regulatory overhaul, I bring strategic firepower and hands-on execution to deliver results fast. This is about impact, not permanence.",
+  "overview": {
+    "title": "What You Get",
+    "summary": "I hit the ground running. Day one, I dive into your situation—reviewing docs, meeting your team, and sizing up the challenge.",
+    "description": "As CEO, I'll steer the ship through transition or turmoil, aligning legal and business goals. As CLO or GC, I'll tackle your legal priorities—negotiating a deal, managing litigation, or revamping compliance. You'll get a clear roadmap within the first week, with milestones and deliverables tailored to your timeline. I don't just advise; I execute, leaving you stronger when I step out."
+  },
+  "whatYouGet": {
+    "title": "What You Get",
+    "summary": "I hit the ground running. Day one, I dive into your situation—reviewing docs, meeting your team, and sizing up the challenge.",
+    "details": "As CEO, I'll steer the ship through transition or turmoil, aligning legal and business goals. As CLO or GC, I'll tackle your legal priorities—negotiating a deal, managing litigation, or revamping compliance. You'll get a clear roadmap within the first week, with milestones and deliverables tailored to your timeline. I don't just advise; I execute, leaving you stronger when I step out."
+  },
+  "howItWorks": {
+    "title": "How We Work Together",
+    "features": [
+      "Full immersion—on-site or deeply engaged remotely, based on your needs",
+      "Clear expectations set upfront—scope, duration, and goals with no guesswork",
+      "Daily check-ins to maintain momentum and track progress",
+      "Projects typically run 1–6 months with flexible timelines",
+      "Clean exit plan and handover when the job is complete",
+      "Leadership in transition, deal negotiation, litigation management, or compliance overhaul"
+    ],
+    "approach": "This is full immersion. I'm on-site or deeply engaged remotely, depending on your needs. We'll set expectations upfront—scope, duration, goals—so there's no guesswork. I'll work closely with your team, leading or supporting as required, with daily check-ins to keep things moving.",
+    "timeline": "Communication is crisp—you'll know where we stand and what's next. Projects typically run 1–6 months, but I'm flexible—once the job's done, I hand over the reins with a clean exit plan."
+  },
+  "idealFor": {
+    "title": "Who This Is For & Why It Works",
+    "target": "This fits companies in flux—facing a leadership gap, handling a make-or-break deal, or navigating a sudden crisis. Maybe your GC left mid-expansion, or you're prepping for a sale and need a pro to polish the legal side. If you want seasoned expertise without a long-term hire, this is your answer.",
+    "benefits": "I've led through chaos and complexity before. My dual lens—legal and executive—means I see the whole picture, not just the fine print. You get a leader who can make tough calls, rally your team, and deliver under pressure. No ramp-up time, no learning curve—just results. When the dust settles, you're in a better spot than before."
+  },
+  "callToAction": {
+    "heading": "Need intensive leadership for a critical period?",
+    "message": "Contact me to discuss how I can step in as your interim leader to navigate complex challenges and deliver rapid results.",
+    "buttonText": "Schedule a Consultation"
   }
 }

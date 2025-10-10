@@ -1,41 +1,32 @@
 {
-  "mediaLaw": {
-    "title": "Media Law: Let Your Brand Make Bold Moves",
-    "intro": "Media law is the legal amplifier for your content—whether broadcasting, publishing, or digital platforms.",
-    
-    "howIHelp": {
-      "heading": "How I Help",
-      "description": "I start by tuning into your setup—what you produce, who consumes it, where it goes.",
-      "disputes": "Disputes making noise? I step in—whether it's a German publisher dodging royalties."
-    },
-
-    "services": {
-      "heading": "Key Media Law Services",
-      "list": [
-        "Licensing agreements and talent deals with protected royalties and usage rights",
-        "Brand partnerships and sponsorship contracts for mega-campaigns",
-        "Cross-border TV and streaming licenses for EU-wide distribution",
-        "IP protection and copyright enforcement against content pirates",
-        "GDPR compliance for digital platforms and user data protection",
-        "Production contracts and event deals for seamless content creation"
-      ],
-      "basics": "I turn it up even further. IP under attack?",
-      "deal": "Stung by a deal? I've turned breaches into wins."
-
-    },
-
-    "whyMe": {
-      "heading": "Why Me",
-      "description": "My track record with global brands like Ralph Lauren, RedBull, and Logitech proves I can handle high-stakes media law at the top level.",
-      "strength": "I combine legal precision with business sense to make your brand shine.",
-      "clientTrust": "What sets me apart is that I don't just react to problems—I develop solutions that amplify your success.",
-      "trackRecord": "You're hiring someone who's been in the boardrooms with big brands."
-    },
-
-    "cta": {
-      "heading": "Ready to amplify your media presence?",
-      "text": "Let's discuss how my media law expertise can protect your content, maximize your reach, and turn your brand into a powerhouse.",
-      "button": "Strengthen Your Brand's Legal Power"
-    }
+  "title": "Media Law: Let Your Brand Make Bold Moves",
+  "intro": "Media law is the legal amplifier for your content—whether broadcasting, publishing, or digital platforms. I step in to protect your creative output, negotiate deals that maximize revenue, and navigate regulations that keep your media operations compliant and competitive. My approach is tuned to your goals: understand what you produce, identify the risks, and build legal frameworks that let your brand shine without legal static drowning you out. From content creators landing their first brand partnerships to major publishers managing cross-border licensing, I deliver solutions that turn your media presence into a powerhouse.",
+  "howIHelp": {
+    "heading": "How I Help",
+    "description": "I start by tuning into your setup—what you produce, who consumes it, where it goes—so I can craft solutions tailored to your media model. Need contracts? I draft licensing agreements, talent deals, and sponsorship pacts that lock in favorable terms: royalty structures that protect your revenue, usage rights that prevent exploitation, exclusivity clauses that reward your brand. I've created agreements that secured six-figure sponsorships and protected content from unauthorized use.",
+    "details": "Disputes making noise? I step in—whether it's a German publisher dodging royalties, a talent breach threatening your production schedule, or a copyright infringer stealing your content. I'll negotiate resolutions that preserve relationships or litigate with strategies rooted in German and EU media law to protect your bottom line."
+  },
+  "services": {
+    "heading": "Key Media Law Services",
+    "list": [
+      "Licensing agreements and talent deals with protected royalties and usage rights",
+      "Brand partnerships and sponsorship contracts for mega-campaigns",
+      "Cross-border TV and streaming licenses for EU-wide distribution",
+      "IP protection and copyright enforcement against content pirates",
+      "GDPR compliance for digital platforms and user data protection",
+      "Production contracts and event deals for seamless content creation"
+    ],
+    "extra": "I turn it up even further. IP under attack? I protect your content, logos, and brand assets under German copyright law and EU directives, hunting down infringers and securing takedowns or damages. Running campaigns or events? I structure multi-party agreements—brand partnerships, influencer collaborations, production contracts—that scale across borders without legal friction.",
+    "details": "Stung by a bad deal? I've turned breaches into wins, recovering unpaid royalties and renegotiating terms that put clients back in control. My work with global brands like Ralph Lauren, RedBull, and Logitech proves I can handle high-stakes media law at the top level. My support adapts—a solo creator gets streamlined contracts; a major publisher gets a comprehensive legal strategy. Every clause protects your content, every structure amplifies your reach. You're not just getting a lawyer—you're getting a media strategist who turns legal challenges into opportunities for growth."
+  },
+  "whyMe": {
+    "heading": "Why Me",
+    "description": "My track record with global brands like Ralph Lauren, RedBull, and Logitech proves I can handle high-stakes media law at the top level. I combine legal precision with business sense to make your brand shine. I've closed deals that opened new markets, resolved disputes that saved key partnerships, and protected IP that's worth millions. My edge is strategic thinking—I spot the risks others miss: the rights clause that invites exploitation, the licensing term that caps your growth, the compliance gap that triggers regulatory action.",
+    "details": "What sets me apart is that I don't just react to problems—I develop solutions that amplify your success. Clients stick with me because I deliver results, not just paperwork. I've heard complaints about lawyers who slow deals or miss the creative context—I cut through: 'Here's the opportunity, here's the protection, let's go.' I've saved brands by catching deal-breakers early or structuring partnerships that became revenue engines. You're hiring someone who's been in the boardrooms with big brands, faced complex media challenges, and delivered wins that amplify your presence—no fluff, just results that resonate."
+  },
+  "cta": {
+    "heading": "Ready to amplify your media presence?",
+    "text": "Let's discuss how my media law expertise can protect your content, maximize your reach, and turn your brand into a powerhouse.",
+    "button": "Strengthen Your Brand's Legal Power"
   }
 }

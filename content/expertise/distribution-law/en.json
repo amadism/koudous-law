@@ -1,41 +1,32 @@
 {
-  "distributionLaw": {
-    "title": "Distribution Law: Optimize Your Supply Chain",
-    "intro": "Distribution law in Germany and the EU is the legal fuel for your supply chain.",
-
-    "howIHelp": {
-      "heading": "How I Help",
-      "mapping": "I start by mapping your chain—what you move, who you work with, where it goes.",
-       "brewing": "Dispute brewing? I jump in—whether it's a German partner dodging payments."
-    },
-
-    "services": {
-      "heading": "Key Distribution Law Services",
-      "list": [
-        "Drafting distribution agreements with favorable pricing, exclusivity, and termination terms",
-        "EU competition law compliance, including vertical block exemption rules",
-        "Cross-border supply chain structuring with customs and trade law integration",
-        "Distributor dispute resolution under German HGB and EU commercial law",
-        "Multi-tier distribution networks from wholesale to retail across the single market",
-        "German supply chain law compliance for due diligence and sustainability"
-      ],
-      "extra": "I dig even deeper. Expanding your network?",
-      "manufacturer": "I've handled manufacturer contracts that avoid default risks, retailer deals under EU competition review."
-    },
-
-   
-    "whyMe": {
-      "heading": "Why Me",
-      "description": "I've spent years fueling German and EU supply chains through distribution law.",
-      "strength": "My strength is foresight—I catch the hooks others miss.",
-      "clientTrust": "Clients stick with me because I don't dawdle.",
-      "trackRecord": "My track record is strong: I turned a startup's first deal into a steady stream."
-    },
-
-    "cta": {
-      "heading": "Ready to optimize your distribution network?",
-      "text": "Let's discuss how my distribution law expertise can optimize your supply chain, resolve partner disputes, and ensure compliance across German and EU markets.",
-      "button": "Boost Your Supply Chain"
-    }
+  "title": "Distribution Law: Optimize Your Supply Chain",
+  "intro": "Distribution law in Germany and the EU is the legal fuel for your supply chain—whether you're moving products across borders, negotiating with distributors, or structuring your sales network, I make sure your agreements protect your interests and keep goods flowing. From drafting distribution contracts that lock in your margins to resolving disputes with partners who aren't holding up their end, I deliver sharp, practical solutions that keep your business competitive. My approach is direct: understand your distribution model, identify the risks, and build legal frameworks that maximize efficiency while minimizing exposure. Whether you're a startup launching your first distributor network or a multinational managing complex multi-tier channels across the EU, I provide the legal backbone that turns supply chain challenges into strategic advantages.",
+  "howIHelp": {
+    "heading": "How I Help",
+    "description": "I start by mapping your chain—what you move, who you work with, where it goes—so I can craft solutions that fit your specific distribution model. Need contracts? I draft and negotiate distribution agreements with terms that work for you: pricing structures that protect margins, exclusivity clauses that reward performance, termination rights that let you pivot when things go south. I've created agreements that prevented distributors from jumping ship and secured favorable terms that boosted client revenue streams.",
+    "details": "Dispute brewing? I jump in—whether it's a German partner dodging payments, an EU distributor breaching exclusivity, or a cross-border shipment stuck in customs red tape. I'll negotiate fast resolutions or take it to court with strategies rooted in German HGB and EU commercial law, protecting your supply chain from disruption."
+  },
+  "services": {
+    "heading": "Key Distribution Law Services",
+    "list": [
+      "Drafting distribution agreements with favorable pricing, exclusivity, and termination terms",
+      "EU competition law compliance, including vertical block exemption rules",
+      "Cross-border supply chain structuring with customs and trade law integration",
+      "Distributor dispute resolution under German HGB and EU commercial law",
+      "Multi-tier distribution networks from wholesale to retail across the single market",
+      "German supply chain law compliance for due diligence and sustainability"
+    ],
+    "extra": "I dig even deeper. Expanding your network? I structure multi-tier distribution setups—manufacturer to wholesaler to retailer—that comply with EU competition law while maximizing your reach. Worried about EU antitrust rules? I navigate vertical agreements and block exemption regulations so your distribution terms stay legal and enforceable.",
+    "details": "I've handled manufacturer contracts that avoid default risks, retailer deals under EU competition review, and cross-border logistics agreements that clear customs without a hitch. My support scales: a small business gets streamlined contracts; a large enterprise gets a comprehensive distribution framework. Every clause protects your revenue, every structure keeps goods moving. You're not just getting a lawyer—you're getting a supply chain strategist who turns distribution law into a competitive edge."
+  },
+  "whyMe": {
+    "heading": "Why Me",
+    "description": "I've spent years fueling German and EU supply chains through distribution law—helping manufacturers scale their networks, retailers secure reliable suppliers, and logistics companies navigate complex partner agreements. I've closed deals that opened new markets, resolved disputes that saved key partnerships, and restructured distribution models that turned losses into profits. My strength is foresight—I catch the hooks others miss: the payment term that bleeds cash, the termination clause that traps you with underperformers, the competition law violation that triggers EU fines.",
+    "details": "I've worked across sectors—consumer goods with their retail complexities, tech hardware with cross-border logistics, food and beverage with regulatory hurdles—so I know the game, from German supply chain due diligence to EU customs regulations. Clients stick with me because I don't dawdle. I've heard complaints about lawyers who delay deals or miss business realities—I cut through: 'Here's the risk, here's the fix, let's move.' I've saved companies by spotting deal-breakers early or negotiating terms that secured profitable partnerships. My track record is strong: I turned a startup's first deal into a steady stream, kept an enterprise compliant across the EU, and resolved a distributor dispute that could've cost millions. You're hiring someone who's been in the supply chain trenches and delivers wins that scale."
+  },
+  "cta": {
+    "heading": "Ready to optimize your distribution network?",
+    "text": "Let's discuss how my distribution law expertise can optimize your supply chain, resolve partner disputes, and ensure compliance across German and EU markets.",
+    "button": "Boost Your Supply Chain"
   }
 }

@@ -1,42 +1,32 @@
 {
-  "tenancyLaw": {
-    "title": "Mietrecht: Ihre Immobilienbeziehungen meistern",
-    "intro": "Mietverträge und Mietvereinbarungen können Ihr Unternehmen fesseln – oder befreien.",
-    
-    "howIHelp": {
-      "heading": "Wie ich helfe",
-      "description": "Ich tauche in Ihre Immobiliensituation ein – was Sie mieten, was Sie anbieten, wo Ihre Risiken liegen.",
-      "disputes": "Mieterprobleme brauen sich zusammen? Ich verhandle Lösungen, die Beziehungen bewahren, wenn möglich."
-    },
-
-    "services": {
-      "heading": "Zentrale Mietrecht-Dienstleistungen",
-      "list": [
-        "Mietvertragserstellung und -verhandlung mit umfassenden Bedingungen und Schutzklauseln",
-        "Räumungsverfahren und Durchsetzung unter deutschem Mietrecht",
-        "Gewerbemiet-Strukturierung abgestimmt auf geschäftliche Betriebsbedürfnisse",
-        "Mietstreitbeilegung und Zahlungsdurchsetzungsstrategien",
-        "Immobilienwartung und Schadenersatzansprüche mit Kostenrückforderung",
-        "Vermieter-Mieter-Mediation Beziehungen bewahren und gleichzeitig Rechte schützen"
-      ],
-      "basics": "Vermieterprobleme? Ich verteidige Ihre Rechte als Mieter..",
-      "deal": "Sie bekommen praktische Lösungen, die Kopfschmerzen vermeiden und Ihre Immobilie für Sie arbeiten lassen."
-
-    },
-
-    "whyMe": {
-      "heading": "Warum ich",
-      "description": "Ich habe Mieterkonflikte und -verträge über Branchen hinweg Jahre verwaltet.",
-      "strength": "Ich habe gesehen, was Immobilienbeziehungen kaputt macht: die vage Wartungsklausel, die zu einem Geldloch wird.",
-      "clientTrust": "Was mich auszeichnet, ist, dass ich nicht nur dem rechtlichen Handbuch folge – ich schreibe neue Strategien.",
-      "trackRecord": "Sie holen sich jemanden, der in den Immobiliengräben war, schwierige Vermieter und problematische Mieter konfrontiert hat."
-    },
-
-    "cta": {
-      "heading": "Bereit, Ihre Immobilienbeziehungen zu meistern?",
-      "text": "Lassen Sie uns besprechen, wie meine Mietrecht-Expertise Ihre Interessen schützen, Streitigkeiten lösen und Deals strukturieren kann, die für Ihr Unternehmen funktionieren.",
-      "button": "Ihre Immobilienposition sichern"
-    }
+  "title": "Mietrecht: Ihre Immobilienbeziehungen meistern",
+  "intro": "Mietverträge und Mietvereinbarungen können Ihr Unternehmen fesseln – oder befreien.",
+  "howIHelp": {
+    "heading": "Wie ich helfe",
+    "description": "Ich tauche in Ihre Immobiliensituation ein – was Sie mieten, was Sie anbieten, wo Ihre Risiken liegen.",
+    "details": "Mieterprobleme brauen sich zusammen? Ich verhandle Lösungen, die Beziehungen bewahren, wenn möglich."
+  },
+  "services": {
+    "heading": "Zentrale Mietrecht-Dienstleistungen",
+    "list": [
+      "Mietvertragserstellung und -verhandlung mit umfassenden Bedingungen und Schutzklauseln",
+      "Räumungsverfahren und Durchsetzung unter deutschem Mietrecht",
+      "Gewerbemiet-Strukturierung abgestimmt auf geschäftliche Betriebsbedürfnisse",
+      "Mietstreitbeilegung und Zahlungsdurchsetzungsstrategien",
+      "Immobilienwartung und Schadenersatzansprüche mit Kostenrückforderung",
+      "Vermieter-Mieter-Mediation Beziehungen bewahren und gleichzeitig Rechte schützen"
+    ],
+    "extra": "Vermieterprobleme? Ich verteidige Ihre Rechte als Mieter..",
+    "details": "Sie bekommen praktische Lösungen, die Kopfschmerzen vermeiden und Ihre Immobilie für Sie arbeiten lassen."
+  },
+  "whyMe": {
+    "heading": "Warum ich",
+    "description": "Ich habe Mieterkonflikte und -verträge über Branchen hinweg Jahre verwaltet.",
+    "details": "Ich habe gesehen, was Immobilienbeziehungen kaputt macht: die vage Wartungsklausel, die zu einem Geldloch wird. Was mich auszeichnet, ist, dass ich nicht nur dem rechtlichen Handbuch folge – ich schreibe neue Strategien. Sie holen sich jemanden, der in den Immobiliengräben war, schwierige Vermieter und problematische Mieter konfrontiert hat."
+  },
+  "cta": {
+    "heading": "Bereit, Ihre Immobilienbeziehungen zu meistern?",
+    "text": "Lassen Sie uns besprechen, wie meine Mietrecht-Expertise Ihre Interessen schützen, Streitigkeiten lösen und Deals strukturieren kann, die für Ihr Unternehmen funktionieren.",
+    "button": "Ihre Immobilienposition sichern"
   }
 }
- 

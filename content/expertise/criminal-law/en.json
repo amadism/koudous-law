@@ -1,40 +1,32 @@
 {
-  "criminalLaw": {
-    "title": "Criminal Law: Defending Your Business Under Pressure",
-    "intro": "When criminal law crashes into your business—think fraud allegations, regulatory violations, or employee misconduct under German or EU scrutiny—you're thrust into a high-stakes pressure zone that can escalate rapidly. I step in with a steady hand and a razor-sharp focus to protect your interests, whether it's a white-collar issue like embezzlement or a compliance breach that's caught the eye of the public prosecutor or Europol. My strategy is no-frills: assess the danger, limit the fallout, and secure the best possible outcome, all while safeguarding your reputation and revenue. From navigating German police investigations to negotiating with prosecutors or standing firm in a district court trial, I'm built to handle the heat. Whether you're a Dresden startup blindsided by a rogue employee or a Munich corporation facing an EU-wide fraud probe, I deliver tough, actionable solutions that pull you through the storm intact.",
-    
-    "howIHelp": {
-      "heading": "How I Help",
-      "description": "I dive in fast—evaluating the situation with precision: reviewing evidence, identifying key players, and gauging risks under German criminal law or EU criminal frameworks, so I know exactly where you stand. If an investigation's underway—say, police raiding your office or Europol sniffing around—I'm your frontline shield: managing interactions with authorities, handling document requests under German Criminal Procedure Code (StPO), and prepping your team to avoid slip-ups that could worsen the case.",
-      "charges": "Charges hit? I switch gears—dissecting the accusation, building a defense rooted in German law, and negotiating with the public prosecutor to reduce penalties, secure a deal, or sidestep imprisonment. If it's headed to trial, I craft a battle plan—meticulous witness preparation, courtroom tactics honed by years in German courts—designed to hold up under scrutiny."
-    },
-
-    "services": {
-      "heading": "Key Criminal Law Services",
-      "list": [
-        "White-collar crime defense including fraud and embezzlement cases",
-        "Regulatory violation defense under German and EU frameworks",
-        "Investigation management with police and prosecutorial authorities",
-        "Tax evasion defense under German Abgabenordnung",
-        "Insider trading cases leveraging EU market abuse regulations",
-        "Compliance program development to prevent future criminal exposure"
-      ],
-      "strength": "Prevention's my other strength: I tighten your internal safeguards—think fraud detection protocols, ethics training aligned with German Unternehmensstrafrecht debates—to choke off risks before they ignite. I've tackled a range: tax evasion probes where I cut fines under the Abgabenordnung, insider trading cases where I leveraged EU market abuse regs to clear firms, employee theft where I tracked down assets and won restitution orders.",
-      "defense": "My support scales—a small business gets a rapid defense; a large firm gets a full war room. Every move—every chat with a prosecutor, every policy tweak—focuses on saving your business, not just surviving the hit. You're getting a defender who understands the stakes—German Haftstrafen, EU sanctions—and fights relentlessly to win, keeping your operation steady through the chaos."
-    },
-
-    "whyMe": {
-      "heading": "Why Me",
-      "description": "I've spent years in the crucible of criminal law, pulling German and EU businesses out of legal fires—startups reeling from internal fraud, SMEs dodging collapse, multinationals facing cross-border allegations. I've dismantled million-euro fraud charges, turned shaky accusations into dismissals, and kept executives out of detention when the odds were steep.",
-      "strength": "My edge is unflinching clarity—I don't falter under pressure, and I spot openings others overlook: a flaw in the prosecutor's case, a missed evidence detail, a compliance fix that kills future threats. I've handled finance firms under German Securities Trading Act, tech companies with data breach risks, retailers hit by theft—all while mastering criminal law, StPO, and EU criminal regs.",
-      "clientTrust": "Clients rely on me because I don't mess around. I've had CEOs lament lawyers who dither or fold—I cut through: 'Here's the threat, here's the play, let's go.' I've saved companies by moving swiftly—like quashing a German tax evasion probe before it ballooned—or outmaneuvering authorities with airtight prep.",
-      "trackRecord": "My track record stands firm: I've cleared clients from bogus fraud claims, kept a manufacturer operational during a German regulatory bust, and negotiated deals that stick. You're hiring someone who's faced the abyss, won the battles, and keeps your business upright—no excuses, just results that endure."
-    },
-
-    "cta": {
-      "heading": "Facing criminal law pressure on your business?",
-      "text": "Let's discuss how my criminal defense expertise can protect your interests and secure the best possible outcome under German and EU law.",
-      "button": "Schedule an Emergency Consultation"
-    }
+  "title": "Criminal Law: Defending Your Business Under Pressure",
+  "intro": "When criminal law crashes into your business—think fraud allegations, regulatory violations, or employee misconduct under German or EU scrutiny—you're thrust into a high-stakes pressure zone that can escalate rapidly. I step in with a steady hand and a razor-sharp focus to protect your interests, whether it's a white-collar issue like embezzlement or a compliance breach that's caught the eye of the public prosecutor or Europol. My strategy is no-frills: assess the danger, limit the fallout, and secure the best possible outcome, all while safeguarding your reputation and revenue. From navigating German police investigations to negotiating with prosecutors or standing firm in a district court trial, I'm built to handle the heat. Whether you're a Dresden startup blindsided by a rogue employee or a Munich corporation facing an EU-wide fraud probe, I deliver tough, actionable solutions that pull you through the storm intact.",
+  "howIHelp": {
+    "heading": "How I Help",
+    "description": "I dive in fast—evaluating the situation with precision: reviewing evidence, identifying key players, and gauging risks under German criminal law or EU criminal frameworks, so I know exactly where you stand. If an investigation's underway—say, police raiding your office or Europol sniffing around—I'm your frontline shield: managing interactions with authorities, handling document requests under German Criminal Procedure Code (StPO), and prepping your team to avoid slip-ups that could worsen the case.",
+    "details": "Charges hit? I switch gears—dissecting the accusation, building a defense rooted in German law, and negotiating with the public prosecutor to reduce penalties, secure a deal, or sidestep imprisonment. If it's headed to trial, I craft a battle plan—meticulous witness preparation, courtroom tactics honed by years in German courts—designed to hold up under scrutiny."
+  },
+  "services": {
+    "heading": "Key Criminal Law Services",
+    "list": [
+      "White-collar crime defense including fraud and embezzlement cases",
+      "Regulatory violation defense under German and EU frameworks",
+      "Investigation management with police and prosecutorial authorities",
+      "Tax evasion defense under German Abgabenordnung",
+      "Insider trading cases leveraging EU market abuse regulations",
+      "Compliance program development to prevent future criminal exposure"
+    ],
+    "extra": "Prevention's my other strength: I tighten your internal safeguards—think fraud detection protocols, ethics training aligned with German Unternehmensstrafrecht debates—to choke off risks before they ignite. I've tackled a range: tax evasion probes where I cut fines under the Abgabenordnung, insider trading cases where I leveraged EU market abuse regs to clear firms, employee theft where I tracked down assets and won restitution orders.",
+    "details": "My support scales—a small business gets a rapid defense; a large firm gets a full war room. Every move—every chat with a prosecutor, every policy tweak—focuses on saving your business, not just surviving the hit. You're getting a defender who understands the stakes—German Haftstrafen, EU sanctions—and fights relentlessly to win, keeping your operation steady through the chaos."
+  },
+  "whyMe": {
+    "heading": "Why Me",
+    "description": "I've spent years in the crucible of criminal law, pulling German and EU businesses out of legal fires—startups reeling from internal fraud, SMEs dodging collapse, multinationals facing cross-border allegations. I've dismantled million-euro fraud charges, turned shaky accusations into dismissals, and kept executives out of detention when the odds were steep. My edge is unflinching clarity—I don't falter under pressure, and I spot openings others overlook: a flaw in the prosecutor's case, a missed evidence detail, a compliance fix that kills future threats. I've handled finance firms under German Securities Trading Act, tech companies with data breach risks, retailers hit by theft—all while mastering criminal law, StPO, and EU criminal regs.",
+    "details": "Clients rely on me because I don't mess around. I've had CEOs lament lawyers who dither or fold—I cut through: 'Here's the threat, here's the play, let's go.' I've saved companies by moving swiftly—like quashing a German tax evasion probe before it ballooned—or outmaneuvering authorities with airtight prep. My track record stands firm: I've cleared clients from bogus fraud claims, kept a manufacturer operational during a German regulatory bust, and negotiated deals that stick. You're hiring someone who's faced the abyss, won the battles, and keeps your business upright—no excuses, just results that endure."
+  },
+  "cta": {
+    "heading": "Facing criminal law pressure on your business?",
+    "text": "Let's discuss how my criminal defense expertise can protect your interests and secure the best possible outcome under German and EU law.",
+    "button": "Schedule an Emergency Consultation"
   }
 }

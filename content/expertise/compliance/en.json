@@ -1,40 +1,32 @@
 {
-  "compliance": {
-    "title": "Compliance: Staying Ahead of the Rules",
-    "intro": "Compliance isn't optional—it's the hard line that can either shield your business from disaster or sink it if you ignore the signs. I help you conquer the maze of regulations—local, national, global—so you're not just scraping by but running strong, staying off the regulators' hit list. From data privacy laws that keep your customer info safe to anti-corruption rules that stop shady deals, I design systems and strategies that keep you legally tight without gumming up your operations. My approach is straight-up and forward-looking: I pinpoint your risks, seal the cracks, and keep your business charging ahead. Whether you're a startup dodging rookie fines, a mid-sized firm bracing for an audit, or a multinational juggling rules across continents, I deliver lean, effective solutions that turn compliance into a weapon, not a weight.",
-
-    "howIHelp": {
-      "heading": "How I Help",
-      "description": "I dive in deep—your industry, your workflows, your weak spots—to map out where you're solid and where you're exposed. I audit your setup, from how you handle employee records to how you store data, catching holes like flimsy cybersecurity or missing anti-bribery checks. Need a fix? I roll out compliance programs tailored to your scale—policies that spell out the rules, training that gets your team on board, monitoring tools that keep you in check.",
-      "details": "Facing a beast like GDPR? I break it down plain—what it demands, how it hits you, what you do next—handing you a roadmap that's clear and doable, no guesswork. Expanding overseas? I sync your ops with local laws—EU data mandates, US export controls, Asian anti-money laundering regs—so you grow without getting snagged by red tape."
-    },
-
-    "services": {
-      "heading": "Key Compliance Services",
-      "list": [
-        "Compliance audits that identify and address your regulatory weak spots",
-        "Custom compliance programs with policies, training, and monitoring tools",
-        "GDPR and data privacy implementation and guidance",
-        "Cross-border compliance for international business operations",
-        "Regulatory response when authorities come calling",
-        "Proactive monitoring with regular sweeps and updates"
-      ],
-      "regulators": "When regulators come calling, I'm your buffer: I handle their questions, prepare your answers, and negotiate to keep the damage low. I've managed it all—health code sweeps, trade sanction audits, privacy crackdowns, ransom attacks—keeping clients operational and penalty-free. For the proactive, I run regular sweeps—annual audits, quarterly spot-checks—to catch law shifts or slip-ups before they sting.",
-      "compliance": " I've built compliance setups for tech firms juggling user data, manufacturers dodging import bans, retailers meeting safety codes. My work fits your size: a small crew gets a simple checklist; a big outfit gets a full dashboard with real-time tracking. Every policy I write, every system I set, keeps you ahead of the game—protecting your rep, your revenue, and your sleep. You're not just staying legal—you're staying sharp and unstoppable."
-    },
-
-    "whyMe": {
-      "heading": "Why Me",
-      "description": "I've turned compliance from a nightmare into a superpower for businesses of all kinds—startups learning the ropes, mid-tier players dodging big hits, globals spanning dozens of markets. I've steered newbies clear of early penalties, saved firms from six-figure fines, and kept multinationals clean across borders. My strength is hands-on experience—I know what regulators hunt: sloppy logs that scream 'audit me,' vague rules that beg for fines, ignored laws that blow up into headlines.",
-      "strength": "I don't just scramble after trouble; I build walls that stop it cold, outpacing the rulebook. I've worked every sector—fintech with its crypto traps, logistics with its customs headaches, retail with its consumer law tangles—so I get the fine print, from health data rules to export bans that bite.",
-      "clientTrust": "Clients lean on me because I don't mess around. I've heard the gripes about lawyers who rack up bills with 'reviews' that go nowhere—I cut through: 'Here's the hole, here's the plug, done.' I've saved companies by spotting risks early—like a GDPR slip that could've cost millions—or talking regulators down from crushing penalties.",
-      "trackRecord": "The proof's in the results: I've kept a retailer rolling through a safety probe, whipped up a data compliance system for a SaaS firm in weeks, and streamlined a manufacturer's trade rules across five continents. You're hiring someone who's faced the fire, knows the moves, and keeps you in command—no panic, just control and wins that last."
-    },
-
-    "cta": {
-      "heading": "Ready to turn compliance into a competitive advantage?",
-      "text": "Let's discuss how my compliance expertise can protect your business while enabling it to operate smoothly and grow confidently.",
-      "button": "Schedule a Consultation"
-    }
+  "title": "Compliance: Staying Ahead of the Rules",
+  "intro": "Compliance isn't optional—it's the hard line that can either shield your business from disaster or sink it if you ignore the signs. I help you conquer the maze of regulations—local, national, global—so you're not just scraping by but running strong, staying off the regulators' hit list. From data privacy laws that keep your customer info safe to anti-corruption rules that stop shady deals, I design systems and strategies that keep you legally tight without gumming up your operations. My approach is straight-up and forward-looking: I pinpoint your risks, seal the cracks, and keep your business charging ahead. Whether you're a startup dodging rookie fines, a mid-sized firm bracing for an audit, or a multinational juggling rules across continents, I deliver lean, effective solutions that turn compliance into a weapon, not a weight.",
+  "howIHelp": {
+    "heading": "How I Help",
+    "description": "I dive in deep—your industry, your workflows, your weak spots—to map out where you're solid and where you're exposed. I audit your setup, from how you handle employee records to how you store data, catching holes like flimsy cybersecurity or missing anti-bribery checks. Need a fix? I roll out compliance programs tailored to your scale—policies that spell out the rules, training that gets your team on board, monitoring tools that keep you in check.",
+    "details": "Facing a beast like GDPR? I break it down plain—what it demands, how it hits you, what you do next—handing you a roadmap that's clear and doable, no guesswork. Expanding overseas? I sync your ops with local laws—EU data mandates, US export controls, Asian anti-money laundering regs—so you grow without getting snagged by red tape."
+  },
+  "services": {
+    "heading": "Key Compliance Services",
+    "list": [
+      "Compliance audits that identify and address your regulatory weak spots",
+      "Custom compliance programs with policies, training, and monitoring tools",
+      "GDPR and data privacy implementation and guidance",
+      "Cross-border compliance for international business operations",
+      "Regulatory response when authorities come calling",
+      "Proactive monitoring with regular sweeps and updates"
+    ],
+    "extra": "When regulators come calling, I'm your buffer: I handle their questions, prepare your answers, and negotiate to keep the damage low. I've managed it all—health code sweeps, trade sanction audits, privacy crackdowns, ransom attacks—keeping clients operational and penalty-free. For the proactive, I run regular sweeps—annual audits, quarterly spot-checks—to catch law shifts or slip-ups before they sting.",
+    "details": "I've built compliance setups for tech firms juggling user data, manufacturers dodging import bans, retailers meeting safety codes. My work fits your size: a small crew gets a simple checklist; a big outfit gets a full dashboard with real-time tracking. Every policy I write, every system I set, keeps you ahead of the game—protecting your rep, your revenue, and your sleep. You're not just staying legal—you're staying sharp and unstoppable."
+  },
+  "whyMe": {
+    "heading": "Why Me",
+    "description": "I've turned compliance from a nightmare into a superpower for businesses of all kinds—startups learning the ropes, mid-tier players dodging big hits, globals spanning dozens of markets. I've steered newbies clear of early penalties, saved firms from six-figure fines, and kept multinationals clean across borders. My strength is hands-on experience—I know what regulators hunt: sloppy logs that scream 'audit me,' vague rules that beg for fines, ignored laws that blow up into headlines. I don't just scramble after trouble; I build walls that stop it cold, outpacing the rulebook. I've worked every sector—fintech with its crypto traps, logistics with its customs headaches, retail with its consumer law tangles—so I get the fine print, from health data rules to export bans that bite.",
+    "details": "Clients lean on me because I don't mess around. I've heard the gripes about lawyers who rack up bills with 'reviews' that go nowhere—I cut through: 'Here's the hole, here's the plug, done.' I've saved companies by spotting risks early—like a GDPR slip that could've cost millions—or talking regulators down from crushing penalties. The proof's in the results: I've kept a retailer rolling through a safety probe, whipped up a data compliance system for a SaaS firm in weeks, and streamlined a manufacturer's trade rules across five continents. You're hiring someone who's faced the fire, knows the moves, and keeps you in command—no panic, just control and wins that last."
+  },
+  "cta": {
+    "heading": "Ready to turn compliance into a competitive advantage?",
+    "text": "Let's discuss how my compliance expertise can protect your business while enabling it to operate smoothly and grow confidently.",
+    "button": "Schedule a Consultation"
   }
 }

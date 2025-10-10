@@ -43,6 +43,7 @@ import { watch } from 'vue'
 const { locale } = useI18n()
 const { data: content, refresh } = await useAsyncData(() => queryCollection('content').path(`/footer/${locale.value}`).first())
 
+
 watch(locale, () => {
   refresh()
 })

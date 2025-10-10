@@ -1,23 +1,34 @@
 <template>
  <UApp>
-  <NuxtLayout>
+  <NuxtLayout v-if="!checking">
     <Header />
     <NuxtPage />
     <Footer />
   </NuxtLayout>
+
+  <div v-else>
+  <UContainer class="flex justify-center items-center h-[100dvh]">
+    <Icon name="eos-icons:loading" class="h-10 w-10 animate-spin text-primary" />
+  </UContainer>
+ </div>
  </UApp>
+ 
 </template>
 
 <script setup>
-import { watch, onMounted } from 'vue'
+import { watch, onMounted, ref } from 'vue'
 import Header from '~/components/Header.vue'
 import Footer from '~/components/global/Footer.vue'
 const { locale, setLocale } = useI18n()
+const checking = ref(true)
 
-onMounted(() => {
+onMounted(async () => {
   const language = process.client ? localStorage.getItem('language') : null
   if (language) {
-    setLocale(language)
+    await setLocale(language)
+    checking.value = false
+  } else {
+    checking.value = false
   }
 })
 
