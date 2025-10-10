@@ -8,34 +8,36 @@ import Reviews from '~/components/home/Reviews.vue'
 import ContactForm from '~/components/global/ContactForm.vue'
 
 const { locale } = useI18n()
-const { data: home, refresh } = await useAsyncData(() => queryCollection('content').path(`/home/${locale.value}`).first())
+const { data: home, refresh } = await useAsyncData(() => 
+  queryCollection('home').where('stem', '=', `home/${locale.value}`).first()
+)
 
 watch(locale, () => {
   refresh()
 })
 
 const heroSectionData = computed(() => {
-  return home.value?.body.HeroSection
+  return home.value?.meta.heroSection
 })
 
 const sponsersData = computed(() => {
-  return home.value?.body.sponsers
+  return home.value?.meta.sponsers
 })
 
 const servicesData = computed(() => {
-  return home.value?.body.services
+  return home.value?.meta.services
 })
 
 const founderData = computed(() => {
-  return home.value?.body.owner
+  return home.value?.meta.owner
 })
 
 const buisnessData = computed(() => {
-  return home.value?.body.buisness
+  return home.value?.meta.buisness
 })
 
 const reviewsData = computed(() => {
-  return home.value?.body.reviews
+  return home.value?.meta.reviews
 })
 </script>
 []

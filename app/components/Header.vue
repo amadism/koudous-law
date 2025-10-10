@@ -6,7 +6,7 @@
       </template>
 
       <div class="flex-1 flex justify-center">
-          <div v-if="navigationItems.length">
+          <div v-if="navigationItems?.length">
               <UNavigationMenu :items="navigationItems" />
           </div>
           <div v-else class="flex items-center gap-4">
@@ -37,7 +37,9 @@ const colorMode = useColorMode()
 import { useRouter } from 'vue-router'
 const router = useRouter()
 
-const { data: navlinks, refresh } = await useAsyncData(() => queryCollection('content').path(`/navlinks/${locale.value}`).first())
+const { data: navlinks, refresh } = await useAsyncData(() => 
+  queryCollection('navlinks').where('stem', '=', `navlinks/${locale.value}`).first()
+)
 
 watch(locale, () => {
 refresh()
@@ -45,7 +47,7 @@ refresh()
 
 
 const navigationItems = computed(() => {
-const items = navlinks.value.body.map(item => ({
+const items = navlinks.value?.body?.map(item => ({
   label: item.label,
   to: item.path,
   children: item.children?.map(child => ({

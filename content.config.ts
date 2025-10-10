@@ -66,23 +66,51 @@ const blogSchema = z.object({
   tags: z.array(z.string()).optional(),
 })
 
+const navlinksSchema = z.object({
+  body: z.array(z.object({
+    label: z.string(),
+    path: z.string().optional(),
+    children: z.array(z.object({
+      label: z.string(),
+      path: z.string(),
+    })).optional(),
+  })),
+})
+
+const footerSchema = z.object({
+  contact: z.object({
+    title: z.string(),
+    email: z.string(),
+    bookCall: z.string(),
+  }),
+  location: z.object({
+    title: z.string(),
+    address: z.object({
+      line1: z.string(),
+      line2: z.string(),
+    }),
+  }),
+  copyright: z.string(),
+  links: z.object({
+    legalNotice: z.string(),
+    privacyPolicy: z.string(),
+  }),
+})
+
+const homeSchema = z.any()
+const aboutSchema = z.any()
+const contactSchema = z.any()
+
 export default defineContentConfig({
   collections: {
-    expertise: defineCollection({
-      type: 'data',
-      source: 'expertise/**',
-      schema: expertiseSchema,
-    }),
-    services: defineCollection({
-      type: 'data',
-      source: 'services/**',
-      schema: servicesSchema,
-    }),
-    blog: defineCollection({
-      type: 'page',
-      source: 'blog/**',
-      schema: blogSchema,
-    }),
+    navlinks: defineCollection({ type: 'data', source: 'navlinks/**.json', schema: navlinksSchema }),
+    home: defineCollection({ type: 'data', source: 'home/**.json', schema: homeSchema }),
+    footer: defineCollection({ type: 'data', source: 'footer/**.json', schema: footerSchema }),
+    about: defineCollection({ type: 'data', source: 'about/**.json', schema: aboutSchema }),
+    contact: defineCollection({ type: 'data', source: 'contact/**.json', schema: contactSchema }),
+    expertise: defineCollection({ type: 'data', source: 'expertise/**/*.json', schema: expertiseSchema }),
+    services: defineCollection({ type: 'data', source: 'services/**/*.json', schema: servicesSchema }),
+    blog: defineCollection({ type: 'page', source: 'blog/**.md', schema: blogSchema }),
   },
 })
 
