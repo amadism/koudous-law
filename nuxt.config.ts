@@ -28,5 +28,10 @@ export default defineNuxtConfig({
       name: 'page', 
       mode: 'out-in' 
     }
+  },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
   }
 })
