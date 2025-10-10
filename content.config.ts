@@ -58,18 +58,32 @@ const servicesSchema = z.object({
   }),
 })
 
+const blogSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  publishedAt: z.string(),
+  author: z.string(),
+  image: z.string().optional(),
+  tags: z.array(z.string()).optional(),
+})
+
 export default defineContentConfig({
   collections: {
     expertise: defineCollection({
       type: 'data',
-      source: 'expertise/**/*.json',
+      source: 'expertise/**',
       schema: expertiseSchema,
     }),
     services: defineCollection({
       type: 'data',
-      source: 'services/**/*.json',
+      source: 'services/**',
       schema: servicesSchema,
-    })   
+    }),
+    blog: defineCollection({
+      type: 'page',
+      source: 'blog/**',
+      schema: blogSchema,
+    }),
   },
 })
 
