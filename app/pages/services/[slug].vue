@@ -17,7 +17,7 @@ watch(() => route.params.slug, () => {
 </script>
 
 <template>
-  <div v-if="content?.meta">
+  <div v-if="content?.meta.body">
     <UContainer>
       <div class="py-12">
         <h1 class="text-3xl lg:text-4xl font-bold text-primary mb-6">{{ content.meta.body.serviceName }}</h1>
