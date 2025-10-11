@@ -11,7 +11,7 @@
       </p>
     </div>
 
-    <UForm v-if="contact" class="mt-10 space-y-6" @submit="onSubmit">
+    <UForm v-if="contact" :schema="schema" :state="form" class="mt-10 space-y-6" @submit="onSubmit">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <UFormField :label="contact.meta.form.fields.firstName.label" name="firstName" class="w-full">
           <UInput v-model="form.firstName" :placeholder="contact.meta.form.fields.firstName.placeholder" size="xl" class="w-full" />
@@ -47,7 +47,7 @@
       </UFormField>
 
       <div>
-        <UButton type="submit" size="xl" color="primary" variant="solid" class="w-full flex items-center justify-center md:w-auto px-10">
+        <UButton type="submit" size="xl" color="primary" variant="solid" :loading="isSubmitting" :disabled="isSubmitting" class="w-full flex items-center justify-center md:w-auto px-10">
           {{ contact.meta.form.submitButton }}
         </UButton>
       </div>
@@ -73,9 +73,14 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { watch } from 'vue'
+import { z } from 'zod'
+import type { FormSubmitEvent } from '#ui/types'
+
 const { locale } = useI18n()
+const toast = useToast()
+
 const { data: contact, refresh } = await useAsyncData(() => 
   queryCollection('contact').where('stem', '=', `contact/${locale.value}`).first()
 )
@@ -84,17 +89,89 @@ watch(locale, () => {
   refresh()
 })
 
+const germanMobileRegex = /^(\+49|0)(15\d|16\d|17\d)\d{7,8}$/
+
+const schema = z.object({
+  firstName: z.string().min(1, 'First name is required').refine((val) => val.trim().length >= 3, {
+    message: 'First name must be at least 3 characters'
+  }),
+  lastName: z.string().optional(),
+  email: z.string().email('Invalid email address'),
+  phone: z.string().regex(germanMobileRegex, 'Please enter a valid German mobile number (e.g., +4915123456789 or 015123456789)'),
+  expertise: z.string().min(1, 'Please select an expertise area'),
+  message: z.string().min(1, 'Message is required').refine((val) => val.trim().length >= 21, {
+    message: 'Message must be at least 21 characters'
+  })
+})
+
+type Schema = z.output<typeof schema>
+
 const form = reactive({
   firstName: '',
   lastName: '',
   email: '',
   phone: '',
-  expertise: contact.value?.meta.form.expertiseOptions[0] || '',
+  expertise: '',
   message: ''
 })
 
-const onSubmit = () => {
-  console.log('Form submitted:', form)
-  // you can integrate emailjs, formsubmit, or server API here
+const isSubmitting = ref(false)
+
+const onSubmit = async (event: FormSubmitEvent<Schema>) => {
+  isSubmitting.value = true
+  
+  try {
+    const response = await fetch('/api/email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        to: 'theoldamad@gmail.com',
+        subject: 'New Contact Form Message',
+        formData: {
+          firstName: event.data.firstName.trim(),
+          lastName: event.data.lastName || '',
+          email: event.data.email,
+          phone: event.data.phone,
+          expertise: event.data.expertise,
+          message: event.data.message.trim()
+        }
+      })
+    })
+    
+    if (!response.ok) {
+      throw new Error('Failed to send message')
+    }
+    
+    const data = await response.json()
+    
+    if (data.success) {
+      toast.add({
+        title: 'Success!',
+        description: 'Your message has been sent successfully. We will get back to you soon.',
+        color: 'green',
+        timeout: 5000
+      })
+      
+      // Reset form
+      form.firstName = ''
+      form.lastName = ''
+      form.email = ''
+      form.phone = ''
+      form.expertise = ''
+      form.message = ''
+    }
+  } catch (error) {
+    console.error('Error sending message:', error)
+    toast.add({
+      title: 'Error',
+      description: 'Failed to send your message. Please try again later.',
+      color: 'red',
+      timeout: 5000
+    })
+  } finally {
+    isSubmitting.value = false
+  }
 }
 </script>

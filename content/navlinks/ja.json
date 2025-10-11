@@ -26,6 +26,7 @@
         { "label": "流通法", "path": "/expertise/distribution-law" }
       ]
     },
+    { "label": "ブログ", "path": "/blog" },
     { "label": "私について", "path": "/about" },
     { "label": "お問い合わせ", "path": "/contact" }
   ]

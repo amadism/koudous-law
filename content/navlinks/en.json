@@ -26,6 +26,7 @@
         { "label": "Distribution Law", "path": "/expertise/distribution-law" }
       ]
     },
+    { "label": "Blog", "path": "/blog" },
     { "label": "About Me", "path": "/about" },
     { "label": "Contact Me", "path": "/contact" }
   ]

@@ -26,6 +26,7 @@
         { "label": "Vertriebsrecht", "path": "/expertise/distribution-law" }
       ]
     },
+    { "label": "Blog", "path": "/blog" },
     { "label": "Über Mich", "path": "/about" },
     { "label": "Kontakt", "path": "/contact" }
   ]

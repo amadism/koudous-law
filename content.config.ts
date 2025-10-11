@@ -60,10 +60,11 @@ const servicesSchema = z.object({
 const blogSchema = z.object({
   title: z.string(),
   description: z.string(),
-  publishedAt: z.string(),
+  date: z.string(),
   author: z.string(),
-  image: z.string().optional(),
-  tags: z.array(z.string()).optional(),
+  readTime: z.string(),
+  category: z.string(),
+  image: z.string().optional()
 })
 
 const navlinksSchema = z.object({
@@ -110,7 +111,7 @@ export default defineContentConfig({
     contact: defineCollection({ type: 'data', source: 'contact/**.json', schema: contactSchema }),
     expertise: defineCollection({ type: 'data', source: 'expertise/**/*.json', schema: expertiseSchema }),
     services: defineCollection({ type: 'data', source: 'services/**/*.json', schema: servicesSchema }),
-    blog: defineCollection({ type: 'page', source: 'blog/**.md', schema: blogSchema }),
+    blog: defineCollection({ type: 'page', source: 'blog/**/*.md', schema: blogSchema }),
   },
 })
 

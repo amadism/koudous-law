@@ -1,4 +1,5 @@
 <script setup>
+import { useSeoMeta } from '#imports'
 import HeroSection from '~/components/home/HeroSection.vue'
 import Sponsers from '~/components/home/Sponsers.vue'
 import Services from '~/components/home/Services.vue'
@@ -14,6 +15,10 @@ const { data: home, refresh } = await useAsyncData(() =>
 
 watch(locale, () => {
   refresh()
+})
+
+useSeoMeta({
+  title: 'Koudous Law',
 })
 
 const heroSectionData = computed(() => {

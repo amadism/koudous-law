@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from "nuxt/config";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
@@ -27,6 +28,17 @@ export default defineNuxtConfig({
     pageTransition: { 
       name: 'page', 
       mode: 'out-in' 
+    },
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/koudous_logo.svg' }
+      ]
+    }
+  },
+
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
     }
   }
 })

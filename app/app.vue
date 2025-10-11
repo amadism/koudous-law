@@ -1,40 +1,59 @@
 <template>
- <UApp>
-  <NuxtLayout v-if="!checking">
-    <Header />
-    <NuxtPage />
-    <Footer />
-  </NuxtLayout>
+  <UApp>
+    <NuxtLayout>
+      <div v-if="!checking">
+        <Header />
+        <NuxtPage />
+        <Footer />
+      </div>
 
-  <div v-else>
-  <UContainer class="flex justify-center items-center h-[100dvh]">
-    <Icon name="eos-icons:loading" class="h-10 w-10 animate-spin text-primary" />
-  </UContainer>
- </div>
- </UApp>
- 
+      <div v-else>
+        <UContainer
+          class="flex flex-col justify-center items-center h-[100dvh]"
+        >
+          <img
+            v-show="colorMode.value === 'light'"
+            src="/koudous_logo_bright.svg"
+            alt="Logo"
+            class="h-10"
+          />
+          <img
+            v-show="colorMode.value === 'dark'"
+            src="/koudous_logo.svg"
+            alt="Logo"
+            class="h-10"
+          />
+          <Icon
+            name="eos-icons:three-dots-loading"
+            class="h-20 w-20 text-primary"
+          />
+        </UContainer>
+      </div>
+    </NuxtLayout>
+  </UApp>
 </template>
 
 <script setup>
-import { watch, onMounted, ref } from 'vue'
-import Header from '~/components/Header.vue'
-import Footer from '~/components/global/Footer.vue'
-const { locale, setLocale } = useI18n()
-const checking = ref(true)
+import { watch, onMounted, ref } from "vue";
+import Header from "~/components/Header.vue";
+import Footer from "~/components/global/Footer.vue";
+const { locale, setLocale } = useI18n();
+const checking = ref(true);
+const colorMode = useColorMode();
 
 onMounted(async () => {
-  const language = process.client ? localStorage.getItem('language') : null
+  const language = process.client ? localStorage.getItem("language") : null;
   if (language) {
-    await setLocale(language)
-    checking.value = false
+    await setLocale(language);
+    checking.value = false;
   } else {
-    checking.value = false
+    checking.value = false;
   }
-})
+});
 
 watch(locale, () => {
-  localStorage.setItem('language', locale.value)
-})
+  localStorage.setItem("language", locale.value);
+});
 </script>
 
 <style>
