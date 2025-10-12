@@ -1,17 +1,17 @@
 <template>
   <div class="bg-gray-100 dark:bg-[#111]">
     <UContainer class="py-16 max-w-4xl">
-    <div v-if="contact" class="space-y-6 text-center md:text-left">
-      <h2 class="text-3xl font-semibold">{{ contact.meta.title }}</h2>
-      <p class="">
+    <div v-if="contact" ref="headerRef" class="space-y-6 text-center md:text-left">
+      <h2 class="contact-title text-3xl font-semibold">{{ contact.meta.title }}</h2>
+      <p class="contact-subtitle">
         {{ contact.meta.subtitle }}
       </p>
-      <p class="text-dimmed">
+      <p class="contact-desc text-dimmed">
         {{ contact.meta.description }}
       </p>
     </div>
 
-    <UForm v-if="contact" :schema="schema" :state="form" class="mt-10 space-y-6" @submit="onSubmit">
+    <UForm v-if="contact" ref="formRef" :schema="schema" :state="form" class="mt-10 space-y-6" @submit="onSubmit">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <UFormField :label="contact.meta.form.fields.firstName.label" name="firstName" class="w-full">
           <UInput v-model="form.firstName" :placeholder="contact.meta.form.fields.firstName.placeholder" size="xl" class="w-full" />
@@ -53,18 +53,18 @@
       </div>
     </UForm>
 
-    <div v-if="contact" class="mt-12 flex flex-col md:flex-row justify-between items-center gap-6  text-center md:text-left">
-      <div>
+    <div v-if="contact" ref="contactInfoRef" class="mt-12 flex flex-col md:flex-row justify-between items-center gap-6  text-center md:text-left">
+      <div class="contact-info-item">
         <UIcon name="i-heroicons-map-pin" class="inline-block mr-2 text-primary" />
         <p>{{ contact.meta.contactInfo.address.line1 }}<br />{{ contact.meta.contactInfo.address.line2 }}</p>
       </div>
 
-      <div>
+      <div class="contact-info-item">
         <UIcon name="i-heroicons-envelope" class="inline-block mr-2 text-primary" />
         <p>{{ contact.meta.contactInfo.email.text }}<br /><a :href="`mailto:${contact.meta.contactInfo.email.address}`" class="text-primary hover:underline">{{ contact.meta.contactInfo.email.address }}</a></p>
       </div>
 
-      <a :href="contact.meta.contactInfo.phone.link" class="cursor-pointer">
+      <a :href="contact.meta.contactInfo.phone.link" class="contact-info-item cursor-pointer">
         <UIcon name="i-heroicons-phone" class="inline-block mr-2 text-primary" />
         <p>{{ contact.meta.contactInfo.phone.text }}<br /><a href="#" class="text-primary hover:underline">{{ contact.meta.contactInfo.phone.linkText }}</a></p>
       </a>
@@ -117,6 +117,32 @@ const form = reactive({
 
 const isSubmitting = ref(false)
 
+const headerRef = ref(null)
+const formRef = ref(null)
+const contactInfoRef = ref(null)
+const { fadeInUp, staggerFadeInUp, initScrollTrigger } = useGsapAnimation()
+
+onMounted(() => {
+  initScrollTrigger()
+  
+  if (headerRef.value) {
+    fadeInUp(headerRef.value.querySelector('.contact-title'))
+    fadeInUp(headerRef.value.querySelector('.contact-subtitle'), { delay: 0.1 })
+    fadeInUp(headerRef.value.querySelector('.contact-desc'), { delay: 0.2 })
+  }
+  
+  if (formRef.value) {
+    fadeInUp(formRef.value, { delay: 0.3 })
+  }
+  
+  nextTick(() => {
+    const items = document.querySelectorAll('.contact-info-item')
+    if (items.length > 0) {
+      staggerFadeInUp(Array.from(items))
+    }
+  })
+})
+
 const onSubmit = async (event: FormSubmitEvent<Schema>) => {
   isSubmitting.value = true
   
@@ -127,7 +153,7 @@ const onSubmit = async (event: FormSubmitEvent<Schema>) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        to: 'theoldamad@gmail.com',
+        to: 'saad@modernice.design',
         subject: 'New Contact Form Message',
         formData: {
           firstName: event.data.firstName.trim(),

@@ -31,16 +31,39 @@ useSeoMeta({
                locale.value === 'ja' ? 'ビジネス法、テクノロジーなどに関する法的洞察と専門家の意見。' :
                'Legal insights and expert opinions on business law, technology, and more.'
 })
+
+const titleRef = ref(null)
+const subtitleRef = ref(null)
+const { fadeInUp, staggerFadeInUp, initScrollTrigger } = useGsapAnimation()
+
+onMounted(() => {
+  initScrollTrigger()
+  
+  if (titleRef.value) {
+    fadeInUp(titleRef.value, { delay: 0.1 })
+  }
+  
+  if (subtitleRef.value) {
+    fadeInUp(subtitleRef.value, { delay: 0.2 })
+  }
+  
+  nextTick(() => {
+    const cards = document.querySelectorAll('.blog-card')
+    if (cards.length > 0) {
+      staggerFadeInUp(Array.from(cards), { delay: 0.2, stagger: 0.1 })
+    }
+  })
+})
 </script>
 
 <template>
   <div>
     <div class="bg-gray-100 dark:bg-[#111] py-12">
       <UContainer>
-        <h1 class="text-3xl lg:text-5xl font-bold text-primary mb-4">
+        <h1 ref="titleRef" class="text-3xl lg:text-5xl font-bold text-primary mb-4">
           {{ locale === 'de' ? 'Blog' : locale === 'ja' ? 'ブログ' : 'Blog' }}
         </h1>
-        <p class="text-toned lg:text-xl">
+        <p ref="subtitleRef" class="text-toned lg:text-xl">
           {{ locale === 'de' ? 'Rechtliche Einblicke und Expertenmeinungen' : 
              locale === 'ja' ? '法的洞察と専門家の意見' : 
              'Legal insights and expert opinions' }}
@@ -55,7 +78,7 @@ useSeoMeta({
             v-for="blog in blogs" 
             :key="blog.stem"
             :to="`/blog/${blog.stem?.split('/')[1]}`"
-            class="group cursor-pointer"
+            class="blog-card group cursor-pointer"
           >
             <UCard variant="soft" color="neutral" class="overflow-hidden h-full flex flex-col">
               <div v-if="blog.image" class="aspect-video overflow-hidden">

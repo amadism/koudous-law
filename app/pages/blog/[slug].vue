@@ -24,20 +24,60 @@ useSeoMeta({
   ogImage: content.value?.meta?.image,
   twitterCard: 'summary_large_image'
 })
+
+const backLinkRef = ref(null)
+const metaRef = ref(null)
+const titleRef = ref(null)
+const descriptionRef = ref(null)
+const authorRef = ref(null)
+const imageRef = ref(null)
+const contentRef = ref(null)
+const { fadeInUp, fadeIn, initScrollTrigger } = useGsapAnimation()
+
+onMounted(() => {
+  initScrollTrigger()
+  
+  if (backLinkRef.value) {
+    fadeInUp(backLinkRef.value, { delay: 0.1 })
+  }
+  
+  if (metaRef.value) {
+    fadeInUp(metaRef.value, { delay: 0.2 })
+  }
+  
+  if (titleRef.value) {
+    fadeInUp(titleRef.value, { delay: 0.3 })
+  }
+  
+  if (descriptionRef.value) {
+    fadeInUp(descriptionRef.value, { delay: 0.4 })
+  }
+  
+  if (authorRef.value) {
+    fadeInUp(authorRef.value, { delay: 0.5 })
+  }
+  
+  if (imageRef.value) {
+    fadeIn(imageRef.value, { delay: 0.2, duration: 1.2 })
+  }
+  
+  if (contentRef.value) {
+    fadeInUp(contentRef.value, { delay: 0.2 })
+  }
+})
 </script>
 
 <template>
   <div v-if="content?.meta">
-    <!-- Hero Section -->
     <div class="bg-gray-100 dark:bg-[#111] py-6">
       <UContainer>
-          <div class="mb-4 flex items-center gap-4 text-sm text-toned">
+          <div ref="backLinkRef" class="mb-4 flex items-center gap-4 text-sm text-toned">
             <NuxtLink to="/blog" class="hover:text-primary transition-colors">
               ← {{ locale === 'de' ? 'Zurück zum Blog' : locale === 'ja' ? 'ブログに戻る' : 'Back to Blog' }}
             </NuxtLink>
           </div>
           
-          <div class="flex items-center gap-3 text-sm text-toned mb-4">
+          <div ref="metaRef" class="flex items-center gap-3 text-sm text-toned mb-4">
             <span v-if="content.category" class="text-primary font-medium">
               {{ content.category }}
             </span>
@@ -53,15 +93,15 @@ useSeoMeta({
             </UButton>
           </div>
 
-          <h1 class="text-3xl lg:text-5xl font-bold text-primary mb-4">
+          <h1 ref="titleRef" class="text-3xl lg:text-5xl font-bold text-primary mb-4">
             {{ content.title }}
           </h1>
           
-          <p class="text-toned lg:text-xl mb-6">
+          <p ref="descriptionRef" class="text-toned lg:text-xl mb-6">
             {{ content.description }}
           </p>
 
-          <div v-if="content.author" class="text-sm text-toned">
+          <div ref="authorRef" v-if="content.author" class="text-sm text-toned">
             {{ locale === 'de' ? 'Von' : locale === 'ja' ? '著者' : 'By' }} {{ content.author }}
           </div>
       </UContainer>
@@ -70,7 +110,7 @@ useSeoMeta({
     <!-- Featured Image -->
     <div v-if="content.image" class="mt-6">
       <UContainer>
-        <div class="">
+        <div ref="imageRef" class="">
           <img 
             :src="content.image" 
             :alt="content.title"
@@ -83,7 +123,7 @@ useSeoMeta({
     <!-- Blog Content -->
     <UContainer>
       <div class="py-12">
-        <div class="">
+        <div ref="contentRef" class="">
           <div class="prose prose-lg dark:prose-invert max-w-none
                       prose-headings:text-primary prose-headings:font-bold
                       prose-h1:text-4xl prose-h1:mb-6

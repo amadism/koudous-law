@@ -1,9 +1,10 @@
 <template>
     <div class="py-12 lg:py-24 overflow-x-hidden">
         <UContainer class="mb-10 flex flex-col items-center">
-        <h1 class="text-2xl font-bold mb-2">{{ data.title }}</h1>
-        <h2 class="text-2xl font-bold text-primary mb-2 text-center">{{ data.subtitle }}</h2>
+        <h1 ref="titleRef" class="text-2xl font-bold mb-2">{{ data.title }}</h1>
+        <h2 ref="subtitleRef" class="text-2xl font-bold text-primary mb-2 text-center">{{ data.subtitle }}</h2>
     </UContainer>
+    <div ref="carouselRef">
      <UCarousel
     v-slot="{ item }"
     loop
@@ -29,6 +30,7 @@
        </div>
     </UCard>
   </UCarousel>
+  </div>
     </div>
 </template>
 
@@ -41,5 +43,26 @@ const props = defineProps({
 
 const cards = computed(() => {
     return props.data?.cards
+})
+
+const titleRef = ref(null)
+const subtitleRef = ref(null)
+const carouselRef = ref(null)
+const { fadeInUp, scaleIn, initScrollTrigger } = useGsapAnimation()
+
+onMounted(() => {
+  initScrollTrigger()
+  
+  if (titleRef.value) {
+    fadeInUp(titleRef.value)
+  }
+  
+  if (subtitleRef.value) {
+    fadeInUp(subtitleRef.value, { delay: 0.1 })
+  }
+  
+  if (carouselRef.value) {
+    scaleIn(carouselRef.value, { delay: 0.3 })
+  }
 })
 </script>

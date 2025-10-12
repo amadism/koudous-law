@@ -11,18 +11,6 @@
         <UContainer
           class="flex flex-col justify-center items-center h-[100dvh]"
         >
-          <img
-            v-show="colorMode.value === 'light'"
-            src="/koudous_logo_bright.svg"
-            alt="Logo"
-            class="h-10"
-          />
-          <img
-            v-show="colorMode.value === 'dark'"
-            src="/koudous_logo.svg"
-            alt="Logo"
-            class="h-10"
-          />
           <Icon
             name="eos-icons:three-dots-loading"
             class="h-20 w-20 text-primary"
