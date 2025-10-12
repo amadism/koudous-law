@@ -52,7 +52,7 @@ onMounted(() => {
 <div class="bg-gray-100 dark:bg-[#111] py-4">
     <UContainer class="flex flex-col lg:flex-row lg:items-center gap-4">
             <img ref="aboutImageRef" :src="about.meta.about.image.src" :alt="about.meta.about.image.alt"
-            class="rounded" :class="locale === 'de' ? 'h-[340px]' : 'h-[280px]'" />
+            class="rounded" :class="locale === 'de' ? 'md:max-w-[300px] lg:h-[340px]' : 'md:max-w-[300px] lg:h-[280px]'" />
             <div ref="aboutContentRef">
             <h2 class="about-title text-xl lg:text-3xl font-bold text-primary">{{ about.meta.about.title }}</h2>
             <p class="about-content text-toned lg:text-xl mt-4">{{ about.meta.about.content }}</p>
