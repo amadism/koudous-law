@@ -1,72 +1,72 @@
 <template>
   <div class="bg-gray-100 dark:bg-[#111]">
     <UContainer class="py-16 max-w-4xl">
-    <div v-if="contact" ref="headerRef" class="space-y-6 text-center md:text-left">
-      <h2 class="contact-title text-3xl font-semibold">{{ contact.meta.title }}</h2>
+    <div v-if="contact as any" ref="headerRef" class="space-y-6 text-center md:text-left">
+      <h2 class="contact-title text-3xl font-semibold">{{ (contact as any).meta.title }}</h2>
       <p class="contact-subtitle">
-        {{ contact.meta.subtitle }}
+        {{ (contact as any).meta.subtitle }}
       </p>
       <p class="contact-desc text-dimmed">
-        {{ contact.meta.description }}
+        {{ (contact as any).meta.description }}
       </p>
     </div>
 
-    <UForm v-if="contact" ref="formRef" :schema="schema" :state="form" class="mt-10 space-y-6" @submit="onSubmit">
+    <UForm v-if="contact as any" ref="formRef" :schema="schema" :state="form" class="mt-10 space-y-6" @submit="onSubmit">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <UFormField :label="contact.meta.form.fields.firstName.label" name="firstName" class="w-full">
-          <UInput v-model="form.firstName" :placeholder="contact.meta.form.fields.firstName.placeholder" size="xl" class="w-full" />
+        <UFormField :label="(contact as any).meta.form.fields.firstName.label" name="firstName" class="w-full">
+          <UInput v-model="form.firstName" :placeholder="(contact as any).meta.form.fields.firstName.placeholder" size="xl" class="w-full" />
         </UFormField>
 
-        <UFormField :label="contact.meta.form.fields.lastName.label" name="lastName" class="w-full">
-          <UInput v-model="form.lastName" :placeholder="contact.meta.form.fields.lastName.placeholder" size="xl" class="w-full" />
+        <UFormField :label="(contact as any).meta.form.fields.lastName.label" name="lastName" class="w-full">
+          <UInput v-model="form.lastName" :placeholder="(contact as any).meta.form.fields.lastName.placeholder" size="xl" class="w-full" />
         </UFormField>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <UFormField :label="contact.meta.form.fields.email.label" name="email" class="w-full">
-          <UInput v-model="form.email" type="email" :placeholder="contact.meta.form.fields.email.placeholder" size="xl" class="w-full" />
+        <UFormField :label="(contact as any).meta.form.fields.email.label" name="email" class="w-full">
+          <UInput v-model="form.email" type="email" :placeholder="(contact as any).meta.form.fields.email.placeholder" size="xl" class="w-full" />
         </UFormField>
 
-        <UFormField :label="contact.meta.form.fields.phone.label" name="phone" class="w-full">
-          <UInput v-model="form.phone" type="tel" :placeholder="contact.meta.form.fields.phone.placeholder" size="xl" class="w-full" />
+        <UFormField :label="(contact as any).meta.form.fields.phone.label" name="phone" class="w-full">
+          <UInput v-model="form.phone" type="tel" :placeholder="(contact as any).meta.form.fields.phone.placeholder" size="xl" class="w-full" />
         </UFormField>
       </div>
 
-      <UFormField :label="contact.meta.form.fields.expertise.label" name="expertise" class="w-full">
+      <UFormField :label="(contact as any).meta.form.fields.expertise.label" name="expertise" class="w-full">
         <USelect
           v-model="form.expertise"
-          :items="contact.meta.form.expertiseOptions"
-          :placeholder="contact.meta.form.fields.expertise.placeholder"
+          :items="(contact as any).meta.form.expertiseOptions"
+          :placeholder="(contact as any).meta.form.fields.expertise.placeholder"
           size="xl"
           class="w-full"
         />
       </UFormField>
 
-      <UFormField :label="contact.meta.form.fields.message.label" name="message" class="w-full">
-        <UTextarea v-model="form.message" :placeholder="contact.meta.form.fields.message.placeholder"  maxlength="1000" size="xl" class="w-full" />
+      <UFormField :label="(contact as any).meta.form.fields.message.label" name="message" class="w-full">
+        <UTextarea v-model="form.message" :placeholder="(contact as any).meta.form.fields.message.placeholder"  maxlength="1000" size="xl" class="w-full" />
       </UFormField>
 
       <div>
         <UButton type="submit" size="xl" color="primary" variant="solid" :loading="isSubmitting" :disabled="isSubmitting" class="w-full flex items-center justify-center md:w-auto px-10">
-          {{ contact.meta.form.submitButton }}
+          {{ (contact as any).meta.form.submitButton }}
         </UButton>
       </div>
     </UForm>
 
-    <div v-if="contact" ref="contactInfoRef" class="mt-12 flex flex-col md:flex-row justify-between items-center gap-6  text-center md:text-left">
+    <div v-if="contact as any" ref="contactInfoRef" class="mt-12 flex flex-col md:flex-row justify-between items-center gap-6  text-center md:text-left">
       <div class="contact-info-item">
         <UIcon name="i-heroicons-map-pin" class="inline-block mr-2 text-primary" />
-        <p>{{ contact.meta.contactInfo.address.line1 }}<br />{{ contact.meta.contactInfo.address.line2 }}</p>
+        <p>{{ (contact as any).meta.contactInfo.address.line1 }}<br />{{ (contact as any).meta.contactInfo.address.line2 }}</p>
       </div>
 
       <div class="contact-info-item">
         <UIcon name="i-heroicons-envelope" class="inline-block mr-2 text-primary" />
-        <p>{{ contact.meta.contactInfo.email.text }}<br /><a :href="`mailto:${contact.meta.contactInfo.email.address}`" class="text-primary hover:underline">{{ contact.meta.contactInfo.email.address }}</a></p>
+        <p>{{ (contact as any).meta.contactInfo.email.text }}<br /><a :href="`mailto:${(contact as any).meta.contactInfo.email.address}`" class="text-primary hover:underline">{{ (contact as any).meta.contactInfo.email.address }}</a></p>
       </div>
 
-      <a :href="contact.meta.contactInfo.phone.link" class="contact-info-item cursor-pointer">
+      <a :href="(contact as any).meta.contactInfo.phone.link" class="contact-info-item cursor-pointer">
         <UIcon name="i-heroicons-phone" class="inline-block mr-2 text-primary" />
-        <p>{{ contact.meta.contactInfo.phone.text }}<br /><span class="text-primary hover:underline">{{ contact.meta.contactInfo.phone.linkText }}</span></p>
+        <p>{{ (contact as any).meta.contactInfo.phone.text }}<br /><span class="text-primary hover:underline">{{ (contact as any).meta.contactInfo.phone.linkText }}</span></p>
       </a>
     </div>
   </UContainer>
@@ -81,7 +81,32 @@ import type { FormSubmitEvent } from '#ui/types'
 const { locale } = useI18n()
 const toast = useToast()
 
-const { data: contact, refresh } = await useAsyncData(() => 
+type ContactContent = {
+  meta: {
+    title: string
+    subtitle: string
+    description: string
+    form: {
+      fields: {
+        firstName: { label: string; placeholder: string }
+        lastName: { label: string; placeholder: string }
+        email: { label: string; placeholder: string }
+        phone: { label: string; placeholder: string }
+        expertise: { label: string; placeholder: string }
+        message: { label: string; placeholder: string }
+      }
+      submitButton: string
+      expertiseOptions: string[]
+    }
+    contactInfo: {
+      address: { line1: string; line2: string }
+      email: { text: string; address: string }
+      phone: { text: string; link: string; linkText: string }
+    }
+  }
+}
+
+const { data: contact, refresh } = await useAsyncData<any>(() => 
   queryCollection('contact').where('stem', '=', `contact/${locale.value}`).first()
 )
 
@@ -117,9 +142,9 @@ const form = reactive({
 
 const isSubmitting = ref(false)
 
-const headerRef = ref(null)
-const formRef = ref(null)
-const contactInfoRef = ref(null)
+const headerRef = ref<HTMLElement | null>(null)
+const formRef = ref<HTMLElement | null>(null)
+const contactInfoRef = ref<HTMLElement | null>(null)
 const { fadeInUp, staggerFadeInUp, initScrollTrigger } = useGsapAnimation()
 
 onMounted(() => {
@@ -153,8 +178,6 @@ const onSubmit = async (event: FormSubmitEvent<Schema>) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        to: 'saad@modernice.design',
-        subject: 'New Contact Form Message',
         formData: {
           firstName: event.data.firstName.trim(),
           lastName: event.data.lastName || '',
@@ -176,8 +199,8 @@ const onSubmit = async (event: FormSubmitEvent<Schema>) => {
       toast.add({
         title: 'Success!',
         description: 'Your message has been sent successfully. We will get back to you soon.',
-        color: 'green',
-        timeout: 5000
+        color: 'success',
+        
       })
       
       // Reset form
@@ -193,8 +216,8 @@ const onSubmit = async (event: FormSubmitEvent<Schema>) => {
     toast.add({
       title: 'Error',
       description: 'Failed to send your message. Please try again later.',
-      color: 'red',
-      timeout: 5000
+      color: 'error',
+      
     })
   } finally {
     isSubmitting.value = false
