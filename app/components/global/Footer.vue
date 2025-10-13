@@ -9,10 +9,10 @@
               <UIcon name="i-heroicons-envelope" class="h-5 w-5 transition-colors group-hover:text-white" />
               <span>{{ content?.contact.email }}</span>
             </a>
-            <NuxtLink to="/contact" class="group flex items-center gap-3">
+            <a href="https://cal.com/koudous-law" target="_blank" class="group flex items-center gap-3">
               <UIcon name="i-heroicons-phone" class="h-5 w-5 " />
               <span>{{ content?.contact.bookCall }}</span>
-            </NuxtLink>
+            </a>
           </div>
         </div>
 
@@ -31,7 +31,7 @@
         <p>{{ content?.copyright }}</p>
         <nav class="flex items-center gap-8">
           <NuxtLink to="/legal-notice" class="">{{ content?.links.legalNotice }}</NuxtLink>
-          <NuxtLink to="/privacy-policy" class="">{{ content?.links.privacyPolicy }}</NuxtLink>
+          <NuxtLink to="/privacy" class="">{{ content?.links.privacyPolicy }}</NuxtLink>
         </nav>
       </UContainer>
     </div>

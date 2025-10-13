@@ -66,7 +66,7 @@
 
       <a :href="contact.meta.contactInfo.phone.link" class="contact-info-item cursor-pointer">
         <UIcon name="i-heroicons-phone" class="inline-block mr-2 text-primary" />
-        <p>{{ contact.meta.contactInfo.phone.text }}<br /><a href="#" class="text-primary hover:underline">{{ contact.meta.contactInfo.phone.linkText }}</a></p>
+        <p>{{ contact.meta.contactInfo.phone.text }}<br /><span class="text-primary hover:underline">{{ contact.meta.contactInfo.phone.linkText }}</span></p>
       </a>
     </div>
   </UContainer>

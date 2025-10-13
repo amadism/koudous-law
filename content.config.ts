@@ -101,6 +101,8 @@ const footerSchema = z.object({
 const homeSchema = z.any()
 const aboutSchema = z.any()
 const contactSchema = z.any()
+const privacySchema = z.any()
+const legalNoticeSchema = z.any()
 
 export default defineContentConfig({
   collections: {
@@ -112,6 +114,8 @@ export default defineContentConfig({
     expertise: defineCollection({ type: 'data', source: 'expertise/**/*.json', schema: expertiseSchema }),
     services: defineCollection({ type: 'data', source: 'services/**/*.json', schema: servicesSchema }),
     blog: defineCollection({ type: 'page', source: 'blog/**/*.md', schema: blogSchema }),
+    privacy: defineCollection({ type: 'page', source: 'privacy/**.md', schema: privacySchema }),
+    legalNotice: defineCollection({ type: 'page', source: 'legalNotice/**.md', schema: legalNoticeSchema }),
   },
 })
 

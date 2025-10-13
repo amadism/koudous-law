@@ -88,7 +88,7 @@ onMounted(() => {
                 day: 'numeric' 
               }) }}
             </UButton>
-            <UButton variant="soft" color="neutral" v-if="content.readTime">
+            <UButton v-if="content.readTime" variant="soft" color="neutral">
               {{ content.readTime }}
             </UButton>
           </div>
