@@ -100,42 +100,37 @@
         "cards": [
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
-                "name": "Marcus Weber",
-                "location": "ベルリン、ドイツ",
+                "name": "Naohiro Kawamura",
+                "position": "Caster CFO",
+                "text": "強いビジネス理解力！Romanは、あなたの第一優先事項がビジネス目標の達成であり、単なる法的リスクや解釈ではないという視点から、正確な法的アドバイスを提供できます。彼を弁護士として信頼でき、彼はあなたのビジネスを共に創造し、チームに広範なサポートを提供するチームの核メンバーとなるでしょう。",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/men/45.jpg",
+                "name": "Hidetaka Kawashima",
                 "position": "Quandoo CEO",
-                "text": "Romanの労働法とコーポレートガバナンスの専門知識は、急速な成長段階で非常に重要でした。彼の実践的なソリューションにより、コンプライアンスを維持しながら、野心的な拡大計画をサポートできました",
+                "text": "私は、ドイツ・ベルリンに本社を置き、世界11カ国で事業展開するレストラン予約サービスQuandoo GmbHのCEOとして事業を運営しています。ベルリンのネットワークを通じてRomanと個人的に知り合い、QuandooのCRMO（最高リスク管理責任者）として彼と協力する機会に恵まれました。彼のパフォーマンスは私たちの期待を上回りました。彼は、ドイツとヨーロッパでのリスク管理において豊富な経験を持ち、様々な契約から労働関係まで幅広く対応しています。Romanは日本語でもシームレスに対応・説明できるため、私たちのビジネスを彼に託すことができます。",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
-                "name": "Sarah Chen",
-                "location": "サンフランシスコ、米国",
-                "position": "Caster 創設者",
-                "text": "Romanの戦略的法的カウンセリングは、複雑な日本市場をナビゲートする上で重要でした。彼のバイリンガルの専門知識と文化的理解が、私たちの市場参入の成功に大きな違いをもたらしました。",
+                "avatar_url": "https://randomuser.me/api/portraits/women/54.jpg",
+                "name": "Yuki Ishii",
+                "position": "Rollcake CEO",
+                "text": "Romanは、登録などの会社設立業務から、ドイツビジネスでの問題への対応策まで、幅広いサポートを提供してくれました。特に、「ドイツの実際の状況はどうなのか」といった机上の調査では答えられない質問に対して、正確な答えを与えてくれただけでなく、必要に応じてドイツ内外のネットワークを紹介してくれました。実践的な面では、Romanは法的サポートの境界を超えて、経営陣と連携して働いてくれました。私たちのサービスの性質を理解した後、彼は日本からは見えないヨーロッパ特有の問題を積極的に提起してくれました。おかげで、私たちは行動を起こすことができました。",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg",
-                "name": "David Kim",
-                "location": "マドリード、スペイン",
-                "position": "Wiresoft CTO",
-                "text": "Romanのテクノロジー法と契約交渉の専門知識は、拡大フェーズで非常に貴重でした。彼の戦略的アプローチにより、大幅な時間とリソースを節約し、競争優位性を維持することができました",
-                "rating": 5
-            },
-            {
-                "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
-                "name": "Yuki Nakamura",
-                "location": "シドニー、オーストラリア",
-                "position": "Recruit COO",
-                "text": "Romanの労働法とコーポレートガバナンスの専門知識は、急速な成長段階で非常に重要でした。彼の実践的なソリューションにより、コンプライアンスを維持しながら、野心的な拡大計画をサポートできました",
+                "avatar_url": "https://randomuser.me/api/portraits/men/67.jpg",
+                "name": "Soheil Hosseini",
+                "position": "Wiresoft CEO",
+                "text": "Romanとは長年のビジネス関係を築いてきました。当初は弁護士として始まり、信頼できるパートナーに発展しました。彼の法的専門知識とビジネス専門知識の独特な組み合わせにより、彼は私の頼れるアドバイザーです。信頼でき、思いやりがあり、非常に効率的です。会社の最良の決定のために彼に連絡することを強くお勧めします。",
                 "rating": 5
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
-                "name": "Michael Thompson",
-                "location": "ケープタウン、南アフリカ",
-                "position": "Hagiwara 創設者",
-                "text": "Romanは、複雑な国際ビジネスの課題を自信と明確さを持ってナビゲートできるよう、貴重な法的ガイダンスと戦略的洞察を提供してくれました。",
+                "name": "Dogan Akdag",
+                "position": "Blitzhandel CEO",
+                "text": "Romanは私たちのビジネスの例外的なパートナーでした — 鋭い法的洞察と強い商業的思考を組み合わせています。彼はコンプライアンスと成長のバランスを取る方法を理解しており、すべての戦略的決定において貴重なアドバイザーとなっています。",
                 "rating": 5
             }
         ]

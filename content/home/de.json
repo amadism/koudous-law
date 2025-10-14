@@ -100,42 +100,37 @@
         "cards": [
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
-                "name": "Marcus Weber",
-                "location": "Berlin, Deutschland",
+                "name": "Naohiro Kawamura",
+                "position": "CFO bei Caster",
+                "text": "Starkes Geschäftsverständnis! Roman kann Ihnen genaue rechtliche Beratung aus der Perspektive geben, dass Ihr erstes Ziel die Erreichung Ihrer Geschäftsziele ist, nicht nur rechtliche Risiken und Interpretationen. Sie können ihm als Ihrem Anwalt vertrauen, und er wird ein Kernmitglied Ihres Teams sein, um Ihr Geschäft gemeinsam zu schaffen und umfassende Unterstützung für Ihr Team zu bieten.",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/men/45.jpg",
+                "name": "Hidetaka Kawashima",
                 "position": "CEO bei Quandoo",
-                "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer rasanten Wachstumsphase. Seine praxisnahen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne",
+                "text": "Ich führe das Geschäft als CEO von Quandoo GmbH, einem Restaurant-Reservierungsservice mit Hauptsitz in Berlin, Deutschland, der in 11 Ländern weltweit tätig ist. Ich habe Roman persönlich über mein Netzwerk in Berlin kennengelernt, und wir hatten das Vergnügen, mit ihm als CRMO (Chief Risk Management Officer) von Quandoo zusammenzuarbeiten. Seine Leistung hat unsere Erwartungen übertroffen. Er verfügt über umfangreiche Erfahrung im Risikomanagement in Deutschland und Europa, von verschiedenen Verträgen bis hin zu Arbeitsbeziehungen. Roman kann auch nahtlos auf Japanisch antworten und erklären, sodass wir ihm unser Geschäft anvertrauen können.",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
-                "name": "Sarah Chen",
-                "location": "San Francisco, USA",
-                "position": "Gründerin von Caster",
-                "text": "Romans strategische Rechtsberatung war entscheidend für die Navigation im komplexen japanischen Markt. Seine zweisprachige Expertise und sein kulturelles Verständnis machten den entscheidenden Unterschied bei unserem erfolgreichen Markteintritt.",
+                "avatar_url": "https://randomuser.me/api/portraits/women/54.jpg",
+                "name": "Yuki Ishii",
+                "position": "CEO bei Rollcake",
+                "text": "Roman hat uns umfassend unterstützt, von der Unternehmensgründung wie der Registrierung bis hin zu Maßnahmen zur Bewältigung von Problemen im deutschen Geschäft. Insbesondere bei Fragen, die nicht durch Desktop-Recherche beantwortet werden konnten, wie z.B. \"wie ist die tatsächliche Situation in Deutschland\", gab er uns nicht nur genaue Antworten, sondern führte uns bei Bedarf auch in sein Netzwerk in und außerhalb Deutschlands ein. Auf der praktischen Seite ist Roman über die Grenzen der rechtlichen Unterstützung hinausgegangen und hat im Tandem mit dem Management gearbeitet. Nach dem Verständnis der Art unserer Dienstleistungen hob er proaktiv Probleme hervor, die für Europa einzigartig waren und die wir aus Japan nicht sehen konnten. Dank dessen konnten wir Maßnahmen ergreifen.",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg",
-                "name": "David Kim",
-                "location": "Madrid, Spanien",
-                "position": "CTO bei Wiresoft",
-                "text": "Romans Expertise im Technologierecht und bei Vertragsverhandlungen war von unschätzbarem Wert während unserer Expansionsphase. Sein strategischer Ansatz sparte uns erheblich Zeit und Ressourcen und stellte sicher, dass wir unseren Wettbewerbsvorteil behielten",
-                "rating": 5
-            },
-            {
-                "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
-                "name": "Yuki Nakamura",
-                "location": "Sydney, Australien",
-                "position": "COO bei Recruit",
-                "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer rasanten Wachstumsphase. Seine praxisnahen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne",
+                "avatar_url": "https://randomuser.me/api/portraits/men/67.jpg",
+                "name": "Soheil Hosseini",
+                "position": "CEO bei Wiresoft",
+                "text": "Ich hatte eine langjährige Geschäftsbeziehung mit Roman, die als mein Anwalt begann und sich zu einem vertrauensvollen Partner entwickelte. Seine einzigartige Kombination aus rechtlicher und geschäftlicher Expertise macht ihn zu meinem bevorzugten Berater. Zuverlässig, fürsorglich und außergewöhnlich effizient - ich empfehle dringend, sich an ihn zu wenden für die beste Entscheidung Ihres Unternehmens.",
                 "rating": 5
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
-                "name": "Michael Thompson",
-                "location": "Kapstadt, Südafrika",
-                "position": "Gründer von Hagiwara",
-                "text": "Roman lieferte uns unschätzbare rechtliche Beratung und strategische Einblicke, die uns halfen, komplexe internationale Geschäftsherausforderungen mit Zuversicht und Klarheit zu meistern.",
+                "name": "Dogan Akdag",
+                "position": "CEO bei Blitzhandel",
+                "text": "Roman war ein außergewöhnlicher Partner für unser Geschäft - er verbindet scharfe rechtliche Einsichten mit einem starken kommerziellen Denken. Er versteht, wie man Compliance und Wachstum ausbalanciert, was ihn zu einem unschätzbaren Berater für jede strategische Entscheidung macht.",
                 "rating": 5
             }
         ]

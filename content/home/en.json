@@ -100,42 +100,37 @@
         "cards": [
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
-                "name": "Marcus Weber",
-                "location": "Berlin, Germany",
+                "name": "Naohiro Kawamura",
+                "position": "CFO at Caster",
+                "text": "Strong business understanding! Roman can give you accurate legal advice from the perspective that your first priority is to achieve your business objectives, not just legal risks and interpretations.You can trust him as your lawyer, and he will be a core member of your team to create your business together and provide extensive support to your team.",
+                "rating": 5
+            },
+            {
+                "avatar_url": "https://randomuser.me/api/portraits/men/45.jpg",
+                "name": "Hidetaka Kawashima",
                 "position": "CEO at Quandoo",
-                "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans",
+                "text": "I run the business as CEO of Quandoo GmbH, a restaurant reservation service headquartered in Berlin, Germany and operating in 11 countries around the world. I personally met Roman through my network in Berlin, and we have had the pleasure of working with him as Quandoo's CRMO (Chief Risk Management Officer). His performance has exceeded our expectations.He has extensive experience in risk management in Germany and Europe, from various contracts to labor relations. Roman is also able to seamlessly respond and explain in Japanese, so we can trust him with our business.",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
-                "name": "Sarah Chen",
-                "location": "San Francisco, USA",
-                "position": "Founder of Caster",
-                "text": "Roman's strategic legal counsel was instrumental in navigating the complex Japanese market. His bilingual expertise and cultural understanding made all the difference in our successful market entry.",
+                "avatar_url": "https://randomuser.me/api/portraits/women/54.jpg",
+                "name": "Yuki Ishii",
+                "position": "CEO at Rollcake",
+                "text": "Roman has provided us with a wide range of support, from company start-up work, such as registration, to measures to deal with issues in German business. In particular, when we had questions that could not be answered by desktop research, such as \"what is the actual situation in Germany,\" not only did he give us accurate answers, but he also introduced us to his network in and outside of Germany as needed. On the practical side, Roman has gone beyond the boundaries of legal support and has worked in tandem with management. After understanding the nature of our services, he proactively raised issues that were unique to Europe that we could not see from Japan. Thanks to this, we were able to take action",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg",
-                "name": "David Kim",
-                "location": "Madrid, Spain",
-                "position": "CTO at Wiresoft",
-                "text": "Roman's expertise in technology law and contract negotiations was invaluable during our expansion phase. His strategic approach saved us significant time and resources while ensuring we maintained our competitive edge",
-                "rating": 5
-            },
-            {
-                "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
-                "name": "Yuki Nakamura",
-                "location": "Sydney, Australia",
-                "position": "COO at Recruit",
-                "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans",
+                "avatar_url": "https://randomuser.me/api/portraits/men/67.jpg",
+                "name": "Soheil Hosseini",
+                "position": "CEO at Wiresoft",
+                "text": "I've had a longstanding business relationship with Roman, starting as my lawyer and evolving into a trusted partner. His unique blend of legal and business expertise makes him my go-to advisor. Reliable, caring and exceptionally efficient, I highly recommend reaching out to him for your company's best decision.",
                 "rating": 5
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
-                "name": "Michael Thompson",
-                "location": "Cape Town, South Africa",
-                "position": "Founder of Hagiwara",
-                "text": "Roman provided us with invaluable legal guidance and strategic insight, helping us navigate complex international business challenges with confidence and clarity.",
+                "name": "Dogan Akdag",
+                "position": "CEO at Blitzhandel",
+                "text": "Roman has been an exceptional partner to our business — combining sharp legal insight with a strong commercial mindset. He understands how to balance compliance and growth, making him an invaluable advisor for every strategic decision.",
                 "rating": 5
             }
         ]

@@ -21,11 +21,10 @@
        <div class="flex items-center justify-between w-full">
         <div class="flex items-center gap-2">
         <img :src="item.avatar_url" width="30" height="30" class="rounded-full">
-        <h3 class="text-lg font-bold">{{ item.name }}</h3>
+        <h3 class="font-bold">{{ item.name }}</h3>
         </div>
        <div class="space-y-0.5">
-        <p class="text-xs">{{ item.location }}</p>
-        <p class="text-xs">{{ item.position }}</p>
+        <p class="text-sm">{{ item.position }}</p>
        </div>
        </div>
     </UCard>
