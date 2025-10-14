@@ -100,7 +100,7 @@
         "cards": [
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
-                "name": "John Doe",
+                "name": "Marcus Weber",
                 "location": "Berlin, Germany",
                 "position": "CEO at Quandoo",
                 "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans",
@@ -108,7 +108,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
-                "name": "Jane Smith",
+                "name": "Sarah Chen",
                 "location": "San Francisco, USA",
                 "position": "Founder of Caster",
                 "text": "Roman's strategic legal counsel was instrumental in navigating the complex Japanese market. His bilingual expertise and cultural understanding made all the difference in our successful market entry.",
@@ -116,7 +116,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg",
-                "name": "Carlos Alvarez",
+                "name": "David Kim",
                 "location": "Madrid, Spain",
                 "position": "CTO at Wiresoft",
                 "text": "Roman's expertise in technology law and contract negotiations was invaluable during our expansion phase. His strategic approach saved us significant time and resources while ensuring we maintained our competitive edge",
@@ -124,7 +124,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
-                "name": "Akiko Tanaka",
+                "name": "Yuki Nakamura",
                 "location": "Sydney, Australia",
                 "position": "COO at Recruit",
                 "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans",
@@ -132,7 +132,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
-                "name": "Liam O'Connor",
+                "name": "Michael Thompson",
                 "location": "Cape Town, South Africa",
                 "position": "Founder of Hagiwara",
                 "text": "Roman provided us with invaluable legal guidance and strategic insight, helping us navigate complex international business challenges with confidence and clarity.",

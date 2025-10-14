@@ -1,6 +1,6 @@
 {
     "heroSection": {
-        "title": "Wenn Gut Nicht",
+        "title": "Wenn gut nicht",
         "highlight": "Genug Ist",
         "subtitle": "Koudous International Law Office",
         "discription": "Experte für Deutsch-Asiatische Geschäftsbeziehungen - Arbeitsrecht - Handels- und Gesellschaftsrecht - Wirtschaftsrecht - Vertragsrecht - Compliance & Datenschutz - IT-Recht - Medienrecht - Esports-Recht - Verhandlungen — Jahrzehnte Praxis, Kampferprobte Erfahrung.",
@@ -100,7 +100,7 @@
         "cards": [
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
-                "name": "John Doe",
+                "name": "Marcus Weber",
                 "location": "Berlin, Deutschland",
                 "position": "CEO bei Quandoo",
                 "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer rasanten Wachstumsphase. Seine praxisnahen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne",
@@ -108,7 +108,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/women/45.jpg",
-                "name": "Jane Smith",
+                "name": "Sarah Chen",
                 "location": "San Francisco, USA",
                 "position": "Gründerin von Caster",
                 "text": "Romans strategische Rechtsberatung war entscheidend für die Navigation im komplexen japanischen Markt. Seine zweisprachige Expertise und sein kulturelles Verständnis machten den entscheidenden Unterschied bei unserem erfolgreichen Markteintritt.",
@@ -116,7 +116,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/54.jpg",
-                "name": "Carlos Alvarez",
+                "name": "David Kim",
                 "location": "Madrid, Spanien",
                 "position": "CTO bei Wiresoft",
                 "text": "Romans Expertise im Technologierecht und bei Vertragsverhandlungen war von unschätzbarem Wert während unserer Expansionsphase. Sein strategischer Ansatz sparte uns erheblich Zeit und Ressourcen und stellte sicher, dass wir unseren Wettbewerbsvorteil behielten",
@@ -124,7 +124,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/women/67.jpg",
-                "name": "Akiko Tanaka",
+                "name": "Yuki Nakamura",
                 "location": "Sydney, Australien",
                 "position": "COO bei Recruit",
                 "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer rasanten Wachstumsphase. Seine praxisnahen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne",
@@ -132,7 +132,7 @@
             },
             {
                 "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
-                "name": "Liam O'Connor",
+                "name": "Michael Thompson",
                 "location": "Kapstadt, Südafrika",
                 "position": "Gründer von Hagiwara",
                 "text": "Roman lieferte uns unschätzbare rechtliche Beratung und strategische Einblicke, die uns halfen, komplexe internationale Geschäftsherausforderungen mit Zuversicht und Klarheit zu meistern.",
