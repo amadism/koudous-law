@@ -3,7 +3,7 @@
     {
       "label": "Services",
       "children": [
-        { "labeFees"Fees", "path": "/services/fees" },
+        { "label": "Fees", "path": "/services/fees" },
         { "label": "General Counsel", "path": "/services/general-counsel" },
         { "label": "Legal Department", "path": "/services/legal-department" },
         { "label": "Legal Interim", "path": "/services/legal-interim" },
@@ -13,7 +13,7 @@
     {
       "label": "Expertise",
       "children": [
-     Businessbel": "Business Law", "path": "/expertise/business-law" },
+        { "label": "Business Law", "path": "/expertise/business-law" },
         { "label": "Compliance", "path": "/expertise/compliance" },
         { "label": "Contract Law", "path": "/expertise/contract-law" },
         { "label": "Corporate Law", "path": "/expertise/corporate-law" },
@@ -24,10 +24,14 @@
         { "label": "Technology Law", "path": "/expertise/technology-law" },
         { "label": "Tenancy Law", "path": "/expertise/tenancy-law" },
         { "label": "Distribution Law", "path": "/expertise/distribution-law" }
-     Blog    },
+      ]
+    },
     { "label": "Blog", "path": "/blog" },
     { "label": "About Me", "path": "/about" },
     { "label": "Contact Me", "path": "/contact" }
+  ]
+}
+"path": "/contact" }
   ]
 }
 
