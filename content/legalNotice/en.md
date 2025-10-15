@@ -9,7 +9,7 @@ subtitle: Information pursuant to § 5 TMG (German Telemedia Act)
 
 **Address:** Kurfürstendamm 67, 10707 Berlin
 
-**Email:** info@koudous-law.de
+**Email:** <info@koudous-law.de>
 
 **VAT ID:** DE327818393
 
@@ -49,7 +49,7 @@ Commercial Register Number: HRB 233618
 
 Phone: +49 89 205094-000
 
-Email: service@markel.de
+Email: <service@markel.de>
 
 **Amount of liability:**
 
@@ -61,7 +61,7 @@ In the event of disputes between lawyers and their clients, the possibility of o
 
 **Website:** [www.brak.de](https://www.brak.de)
 
-**Email:** schlichtungsstelle@brak.de
+**Email:** <schlichtungsstelle@brak.de>
 
 ## Disclaimer
 
@@ -72,4 +72,3 @@ For content of external websites accessible from this website via hyperlinks, we
 ## Copyright
 
 All content on this website, including text, graphics, logos, and images, is protected by copyright law. Any reproduction, distribution, or use without prior written consent is prohibited.
-
