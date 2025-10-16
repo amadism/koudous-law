@@ -47,7 +47,7 @@ refresh()
 
 
 const navigationItems = computed(() => {
-const items = navlinks.value?.body?.map(item => ({
+const items = navlinks.value?.items?.map(item => ({
   label: item.label,
   to: item.path,
   children: item.children?.map(child => ({
