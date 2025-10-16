@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "type": "group",
       "label": "Services",
       "children": [
         { "label": "Fees", "path": "/services/fees" },
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "type": "group",
       "label": "Expertise",
       "children": [
         { "label": "Business Law", "path": "/expertise/business-law" },
@@ -26,9 +28,9 @@
         { "label": "Distribution Law", "path": "/expertise/distribution-law" }
       ]
     },
-    { "label": "Blog", "path": "/blog" },
-    { "label": "About Me", "path": "/about" },
-    { "label": "Contact Me", "path": "/contact" }
+    { "type": "link", "label": "Blog", "path": "/blog" },
+    { "type": "link", "label": "About Me", "path": "/about" },
+    { "type": "link", "label": "Contact Me", "path": "/contact" }
   ]
 }
 

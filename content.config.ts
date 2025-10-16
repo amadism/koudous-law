@@ -69,19 +69,26 @@ const blogSchema = z.object({
 
 const navlinksSchema = z.object({
   items: z.array(
-    z.object({
-      label: z.string().describe('Menu label (e.g. Services, About)'),
-      path: z.string().optional().describe('Path or URL'),
-      children: z
-        .array(
-          z.object({
-            label: z.string().describe('Child label'),
-            path: z.string().describe('Child path'),
-          })
-        )
-        .optional()
-        .describe('Sub-links under this menu item'),
-    })
+    z.discriminatedUnion('type', [
+      z.object({
+        type: z.literal('group').describe('Item with children'),
+        label: z.string().describe('Menu label (e.g. Services, About)'),
+        children: z
+          .array(
+            z.object({
+              label: z.string().describe('Child label'),
+              path: z.string().describe('Child path'),
+            })
+          )
+          .min(1)
+          .describe('Sub-links under this menu item'),
+      }),
+      z.object({
+        type: z.literal('link').describe('Direct link item'),
+        label: z.string().describe('Menu label'),
+        path: z.string().describe('Path or URL'),
+      }),
+    ])
   ),
 })
 

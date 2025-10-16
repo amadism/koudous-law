@@ -1,6 +1,7 @@
 {
   "items": [
     {
+      "type": "group",
       "label": "サービス",
       "children": [
         { "label": "料金", "path": "/services/fees" },
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "type": "group",
       "label": "専門分野",
       "children": [
         { "label": "商法", "path": "/expertise/business-law" },
@@ -26,8 +28,8 @@
         { "label": "流通法", "path": "/expertise/distribution-law" }
       ]
     },
-    { "label": "ブログ", "path": "/blog" },
-    { "label": "私について", "path": "/about" },
-    { "label": "お問い合わせ", "path": "/contact" }
+    { "type": "link", "label": "ブログ", "path": "/blog" },
+    { "type": "link", "label": "私について", "path": "/about" },
+    { "type": "link", "label": "お問い合わせ", "path": "/contact" }
   ]
 }

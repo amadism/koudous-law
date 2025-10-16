@@ -47,16 +47,24 @@ refresh()
 
 
 const navigationItems = computed(() => {
-const items = navlinks.value?.items?.map(item => ({
-  label: item.label,
-  to: item.path,
-  children: item.children?.map(child => ({
-    label: child.label,
-    to: child.path
-  }))
-}))
+  const items = (navlinks.value?.items || []).map((item) => {
+    if (item.type === 'group') {
+      return {
+        label: item.label,
+        children: item.children?.map((child) => ({
+          label: child.label,
+          to: child.path,
+        })),
+      }
+    }
 
-return items
+    return {
+      label: item.label,
+      to: item.path,
+    }
+  })
+
+  return items
 })
 
 </script>
