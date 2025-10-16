@@ -67,29 +67,42 @@ const blogSchema = z.object({
   image: z.string().optional()
 })
 
+const navItemSchema = z
+  .object({
+    type: z.enum(['group', 'link']).describe('Item type'),
+    label: z.string().describe('Menu label'),
+    path: z.string().describe('Path or URL').optional(),
+    children: z
+      .array(
+        z.object({
+          label: z.string().describe('Child label'),
+          path: z.string().describe('Child path'),
+        })
+      )
+      .describe('Sub-links under this menu item')
+      .optional(),
+  })
+  .superRefine((val, ctx) => {
+    if (val.type === 'group') {
+      if (!val.children || val.children.length === 0) {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, message: 'Group requires at least one child' })
+      }
+      if (typeof val.path === 'string') {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, message: 'Group must not have a path' })
+      }
+    }
+    if (val.type === 'link') {
+      if (typeof val.path !== 'string' || val.path.length === 0) {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, message: 'Link requires a path' })
+      }
+      if (Array.isArray(val.children)) {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, message: 'Link must not have children' })
+      }
+    }
+  })
+
 const navlinksSchema = z.object({
-  items: z.array(
-    z.discriminatedUnion('type', [
-      z.object({
-        type: z.literal('group').describe('Item with children'),
-        label: z.string().describe('Menu label (e.g. Services, About)'),
-        children: z
-          .array(
-            z.object({
-              label: z.string().describe('Child label'),
-              path: z.string().describe('Child path'),
-            })
-          )
-          .min(1)
-          .describe('Sub-links under this menu item'),
-      }),
-      z.object({
-        type: z.literal('link').describe('Direct link item'),
-        label: z.string().describe('Menu label'),
-        path: z.string().describe('Path or URL'),
-      }),
-    ])
-  ),
+  items: z.array(navItemSchema),
 })
 
 
