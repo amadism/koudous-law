@@ -68,15 +68,23 @@ const blogSchema = z.object({
 })
 
 const navlinksSchema = z.object({
-  body: z.array(z.object({
-    label: z.string(),
-    path: z.string().optional(),
-    children: z.array(z.object({
-      label: z.string(),
-      path: z.string(),
-    })).optional(),
-  })),
+  body: z.array(
+    z.object({
+      label: z.string({ description: 'Menu label (e.g. Services, About)' }),
+      path: z.string().optional().describe('Path or URL for this menu item'),
+      children: z
+        .array(
+          z.object({
+            label: z.string({ description: 'Child item label' }),
+            path: z.string().describe('Child item path'),
+          })
+        )
+        .optional()
+        .describe('Submenu links (optional)'),
+    })
+  ),
 })
+
 
 const footerSchema = z.object({
   contact: z.object({
