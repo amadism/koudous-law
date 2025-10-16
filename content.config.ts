@@ -67,23 +67,6 @@ const blogSchema = z.object({
   image: z.string().optional()
 })
 
-const navlinksSchema = z.object({
-  body: z.array(
-    z.object({
-      label: z.string({ description: 'Menu label (e.g. Services, About)' }),
-      path: z.string().optional().describe('Path or URL for this menu item'),
-      children: z
-        .array(
-          z.object({
-            label: z.string({ description: 'Child item label' }),
-            path: z.string().describe('Child item path'),
-          })
-        )
-        .optional()
-        .describe('Submenu links (optional)'),
-    })
-  ),
-})
 
 
 const footerSchema = z.object({
@@ -114,7 +97,26 @@ const legalNoticeSchema = z.any()
 
 export default defineContentConfig({
   collections: {
-    navlinks: defineCollection({ type: 'data', source: 'navlinks/**.json', schema: navlinksSchema }),
+    navlinks: defineCollection({
+      type: 'data',
+      source: 'navlinks/**.json',
+      schema: z.object({
+        body: z.array(
+          z.object({
+            label: z.string(),
+            path: z.string().optional(),
+            children: z
+              .array(
+                z.object({
+                  label: z.string(),
+                  path: z.string(),
+                })
+              )
+              .optional(),
+          })
+        ),
+      }),
+    }),
     home: defineCollection({ type: 'data', source: 'home/**.json', schema: homeSchema }),
     footer: defineCollection({ type: 'data', source: 'footer/**.json', schema: footerSchema }),
     about: defineCollection({ type: 'data', source: 'about/**.json', schema: aboutSchema }),
