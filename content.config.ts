@@ -144,6 +144,12 @@ export default defineContentConfig({
     blog: defineCollection({ type: 'page', source: 'blog/**/*.md', schema: blogSchema }),
     privacy: defineCollection({ type: 'page', source: 'privacy/**.md', schema: privacySchema }),
     legalNotice: defineCollection({ type: 'page', source: 'legalNotice/**.md', schema: legalNoticeSchema }),
+    cookieConsent: defineCollection({ type: 'data', source: 'cookieConsent/**.json', schema: z.object({
+      title: z.string(),
+      description: z.string(),
+      decline: z.string(),
+      accept: z.string(),
+    }) }),
   },
 })
 

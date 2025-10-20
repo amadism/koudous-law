@@ -20,14 +20,12 @@
         </div>
        <div class="flex items-center justify-between w-full">
        <div class="flex items-center gap-2">
-        <img v-if="item.company_logo_url" :src="item.company_logo_url" width="30" height="30" class="rounded-sm">
         <h3 class="font-bold flex items-center gap-2">
           <span>{{ item.name }}</span>
-          <span v-if="item.company" class="text-sm font-normal text-gray-500">• {{ item.company }}</span>
         </h3>
         </div>
-       <div class="space-y-0.5">
-        <p class="text-sm" v-if="item.position">{{ item.position }}</p>
+       <div class="space-y-0.5 flex itemscenter gap-1">
+        <img v-if="item.company_logo_url" :src="item.company_logo_url" class="rounded-sm h-619 max-w-16">
        </div>
        </div>
     </UCard>

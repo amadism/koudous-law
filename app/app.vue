@@ -1,7 +1,7 @@
 <template>
   <UApp>
     <NuxtLayout>
-      <div v-show="!checking">
+      <div v-if="!checking">
         <Header />
         <NuxtPage />
         <Footer />
@@ -9,7 +9,7 @@
         <CookieConsent />
       </div>
 
-      <div v-show="checking">
+      <div v-else>
         <UContainer
           class="flex flex-col justify-center items-center h-[100dvh]"
         >
