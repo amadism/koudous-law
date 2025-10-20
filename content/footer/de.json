@@ -2,6 +2,8 @@
   "contact": {
     "title": "Kontakt aufnehmen",
     "email": "info@koudous-law.de",
+    "phone": "+49 (0)30 5200 1249",
+    "phoneLink": "tel:+493052001249",
     "bookCall": "Termin vereinbaren"
   },
   "location": {

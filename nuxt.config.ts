@@ -40,5 +40,10 @@ export default defineNuxtConfig({
     preview: {
       api: 'https://api.nuxt.studio'
     }
+  },
+  runtimeConfig: {
+    public: {
+      gtagId: process.env.GTAG_ID || ''
+    }
   }
 })

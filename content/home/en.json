@@ -99,37 +99,41 @@
         "subtitle": "Trusted by leading companies across industries for strategic legal counsel and business solutions",
         "cards": [
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
                 "name": "Naohiro Kawamura",
                 "position": "CFO at Caster",
+                "company": "Caster",
+                "company_logo_url": "/sponsers/caster.svg",
                 "text": "Strong business understanding! Roman can give you accurate legal advice from the perspective that your first priority is to achieve your business objectives, not just legal risks and interpretations.You can trust him as your lawyer, and he will be a core member of your team to create your business together and provide extensive support to your team.",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/45.jpg",
                 "name": "Hidetaka Kawashima",
                 "position": "CEO at Quandoo",
+                "company": "Quandoo",
+                "company_logo_url": "/sponsers/quandoo.avif",
                 "text": "I run the business as CEO of Quandoo GmbH, a restaurant reservation service headquartered in Berlin, Germany and operating in 11 countries around the world. I personally met Roman through my network in Berlin, and we have had the pleasure of working with him as Quandoo's CRMO (Chief Risk Management Officer). His performance has exceeded our expectations.He has extensive experience in risk management in Germany and Europe, from various contracts to labor relations. Roman is also able to seamlessly respond and explain in Japanese, so we can trust him with our business.",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/women/54.jpg",
                 "name": "Yuki Ishii",
                 "position": "CEO at Rollcake",
+                "company": "Rollcake",
                 "text": "Roman has provided us with a wide range of support, from company start-up work, such as registration, to measures to deal with issues in German business. In particular, when we had questions that could not be answered by desktop research, such as \"what is the actual situation in Germany,\" not only did he give us accurate answers, but he also introduced us to his network in and outside of Germany as needed. On the practical side, Roman has gone beyond the boundaries of legal support and has worked in tandem with management. After understanding the nature of our services, he proactively raised issues that were unique to Europe that we could not see from Japan. Thanks to this, we were able to take action",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/67.jpg",
                 "name": "Soheil Hosseini",
                 "position": "CEO at Wiresoft",
+                "company": "Wiresoft",
+                "company_logo_url": "/sponsers/wiresoft.avif",
                 "text": "I've had a longstanding business relationship with Roman, starting as my lawyer and evolving into a trusted partner. His unique blend of legal and business expertise makes him my go-to advisor. Reliable, caring and exceptionally efficient, I highly recommend reaching out to him for your company's best decision.",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
                 "name": "Dogan Akdag",
                 "position": "CEO at Blitzhandel",
+                "company": "Blitzhandel24",
+                "company_logo_url": "/sponsers/blitzhandel24.avif",
                 "text": "Roman has been an exceptional partner to our business — combining sharp legal insight with a strong commercial mindset. He understands how to balance compliance and growth, making him an invaluable advisor for every strategic decision.",
                 "rating": 5
             }

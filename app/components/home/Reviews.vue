@@ -19,12 +19,15 @@
             <Icon name="heroicons:star-solid" class="text-yellow-500" v-for="i in item.rating" :key="i" />
         </div>
        <div class="flex items-center justify-between w-full">
-        <div class="flex items-center gap-2">
-        <img :src="item.avatar_url" width="30" height="30" class="rounded-full">
-        <h3 class="font-bold">{{ item.name }}</h3>
+       <div class="flex items-center gap-2">
+        <img v-if="item.company_logo_url" :src="item.company_logo_url" width="30" height="30" class="rounded-sm">
+        <h3 class="font-bold flex items-center gap-2">
+          <span>{{ item.name }}</span>
+          <span v-if="item.company" class="text-sm font-normal text-gray-500">• {{ item.company }}</span>
+        </h3>
         </div>
        <div class="space-y-0.5">
-        <p class="text-sm">{{ item.position }}</p>
+        <p class="text-sm" v-if="item.position">{{ item.position }}</p>
        </div>
        </div>
     </UCard>

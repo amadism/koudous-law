@@ -9,6 +9,10 @@
               <UIcon name="i-heroicons-envelope" class="h-5 w-5 transition-colors group-hover:text-white" />
               <span>{{ content?.contact.email }}</span>
             </a>
+            <a :href="content?.contact.phoneLink" class="group flex items-center gap-3">
+              <UIcon name="i-heroicons-phone" class="h-5 w-5 " />
+              <span>{{ content?.contact.phone }}</span>
+            </a>
             <a href="https://cal.com/koudous-law" target="_blank" class="group flex items-center gap-3">
               <UIcon name="i-heroicons-phone" class="h-5 w-5 " />
               <span>{{ content?.contact.bookCall }}</span>

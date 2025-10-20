@@ -99,37 +99,41 @@
         "subtitle": "戦略的な法的カウンセリングとビジネスソリューションで、業界を超えて主要企業から信頼されています",
         "cards": [
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/32.jpg",
                 "name": "Naohiro Kawamura",
                 "position": "Caster CFO",
+                "company": "Caster",
+                "company_logo_url": "/sponsers/caster.svg",
                 "text": "強いビジネス理解力！Romanは、あなたの第一優先事項がビジネス目標の達成であり、単なる法的リスクや解釈ではないという視点から、正確な法的アドバイスを提供できます。彼を弁護士として信頼でき、彼はあなたのビジネスを共に創造し、チームに広範なサポートを提供するチームの核メンバーとなるでしょう。",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/45.jpg",
                 "name": "Hidetaka Kawashima",
                 "position": "Quandoo CEO",
+                "company": "Quandoo",
+                "company_logo_url": "/sponsers/quandoo.avif",
                 "text": "私は、ドイツ・ベルリンに本社を置き、世界11カ国で事業展開するレストラン予約サービスQuandoo GmbHのCEOとして事業を運営しています。ベルリンのネットワークを通じてRomanと個人的に知り合い、QuandooのCRMO（最高リスク管理責任者）として彼と協力する機会に恵まれました。彼のパフォーマンスは私たちの期待を上回りました。彼は、ドイツとヨーロッパでのリスク管理において豊富な経験を持ち、様々な契約から労働関係まで幅広く対応しています。Romanは日本語でもシームレスに対応・説明できるため、私たちのビジネスを彼に託すことができます。",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/women/54.jpg",
                 "name": "Yuki Ishii",
                 "position": "Rollcake CEO",
+                "company": "Rollcake",
                 "text": "Romanは、登録などの会社設立業務から、ドイツビジネスでの問題への対応策まで、幅広いサポートを提供してくれました。特に、「ドイツの実際の状況はどうなのか」といった机上の調査では答えられない質問に対して、正確な答えを与えてくれただけでなく、必要に応じてドイツ内外のネットワークを紹介してくれました。実践的な面では、Romanは法的サポートの境界を超えて、経営陣と連携して働いてくれました。私たちのサービスの性質を理解した後、彼は日本からは見えないヨーロッパ特有の問題を積極的に提起してくれました。おかげで、私たちは行動を起こすことができました。",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/67.jpg",
                 "name": "Soheil Hosseini",
                 "position": "Wiresoft CEO",
+                "company": "Wiresoft",
+                "company_logo_url": "/sponsers/wiresoft.avif",
                 "text": "Romanとは長年のビジネス関係を築いてきました。当初は弁護士として始まり、信頼できるパートナーに発展しました。彼の法的専門知識とビジネス専門知識の独特な組み合わせにより、彼は私の頼れるアドバイザーです。信頼でき、思いやりがあり、非常に効率的です。会社の最良の決定のために彼に連絡することを強くお勧めします。",
                 "rating": 5
             },
             {
-                "avatar_url": "https://randomuser.me/api/portraits/men/23.jpg",
                 "name": "Dogan Akdag",
                 "position": "Blitzhandel CEO",
+                "company": "Blitzhandel24",
+                "company_logo_url": "/sponsers/blitzhandel24.avif",
                 "text": "Romanは私たちのビジネスの例外的なパートナーでした — 鋭い法的洞察と強い商業的思考を組み合わせています。彼はコンプライアンスと成長のバランスを取る方法を理解しており、すべての戦略的決定において貴重なアドバイザーとなっています。",
                 "rating": 5
             }

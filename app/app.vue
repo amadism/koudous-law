@@ -1,13 +1,15 @@
 <template>
   <UApp>
     <NuxtLayout>
-      <div v-if="!checking">
+      <div v-show="!checking">
         <Header />
         <NuxtPage />
         <Footer />
+        <WhatsAppWidget />
+        <CookieConsent />
       </div>
 
-      <div v-else>
+      <div v-show="checking">
         <UContainer
           class="flex flex-col justify-center items-center h-[100dvh]"
         >
@@ -25,6 +27,8 @@
 import { watch, onMounted, ref } from "vue";
 import Header from "~/components/Header.vue";
 import Footer from "~/components/global/Footer.vue";
+import CookieConsent from "~/components/global/CookieConsent.vue";
+import WhatsAppWidget from "~/components/global/WhatsAppWidget.vue";
 const { locale, setLocale } = useI18n();
 const checking = ref(true);
 const colorMode = useColorMode();
@@ -42,6 +46,8 @@ onMounted(async () => {
 watch(locale, () => {
   localStorage.setItem("language", locale.value);
 });
+
+
 </script>
 
 <style>
