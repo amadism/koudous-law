@@ -1,8 +1,8 @@
 <template>
   <div class="fixed bottom-6 right-6 z-50 flex flex-col justify-end items-end">
     <Transition name="chatbox">
-      <div v-if="open" ref="chatboxRef" class="w-72 sm:w-80">
-        <UCard>
+      <div v-if="open" ref="chatboxRef" class="w-72 sm:w-80 lg:w-92">
+        <UCard class="p-0">
           <div class="flex items-center justify-between mb-2">
             <div class="flex items-center gap-2">
               <UIcon name="i-simple-icons-whatsapp" class="text-green-500" />

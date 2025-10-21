@@ -3,7 +3,7 @@
         "title": "When Good Isn't",
         "highlight": "Enough",
         "subtitle": "Koudous International Law Office",
-        "discription": "Expert in German-Asian Business Relations - Employment Law - Commercial and Corporate Law - Business Law - Contract Law - Compliance & Data Protection - IT Law - Media Law - Esports Law - Negotiations — Decades of Practice, Battle-Tested Experience.",
+        "discription": "Expertise in German-Asian business relations (Japan & China) - International business law - Compliance & risk management - Business negotiations – Decades of practical expertise, interculturally proven and negotiation-savvy.",
         "buttonText": "Get in touch",
         "buttonPath": "/contact"
     },
@@ -78,9 +78,9 @@
     "owner": {
         "name": "ROMAN KOUDOUS",
         "title": "International General Counsel",
-        "intro1": "Roman Koudous is an experienced lawyer and General Counsel who masters complex legal challenges with precise, business-oriented advice.",
-        "intro2": "With extensive C-level experience, he delivers efficient, tailored solutions for international companies — fast, targeted, and always to your advantage.",
-        "intro3": "His approach combines legal expertise with strategic counsel to enable sustainable business success and build genuine cross-cultural connections.",
+        "intro1": "Roman Koudous is an experienced attorney and general counsel who combines complex legal challenges with precise, business-oriented advice.",
+        "intro2": "With extensive experience in various industries, he delivers efficient, tailor-made solutions for companies of all sizes — quickly, purposefully, and always to your advantage.",
+        "intro3": "His approach combines legal expertise with strategic advice to enable sustainable business success and build genuine intercultural connections.",
         "buttonText": "Contact Me",
         "buttonPath": "/contact",
         "image_url": "/owner.avif"
@@ -97,46 +97,52 @@
     "reviews": {
         "title": "What Our Clients Say",
         "subtitle": "Trusted by leading companies across industries for strategic legal counsel and business solutions",
+        "webText": "Visit Website",
         "cards": [
             {
-                "name": "Naohiro Kawamura",
-                "position": "CFO at Caster",
-                "company": "Caster",
-                "company_logo_url": "/sponsers/caster.svg",
-                "text": "Strong business understanding! Roman can give you accurate legal advice from the perspective that your first priority is to achieve your business objectives, not just legal risks and interpretations.You can trust him as your lawyer, and he will be a core member of your team to create your business together and provide extensive support to your team.",
-                "rating": 5
-            },
-            {
-                "name": "Hidetaka Kawashima",
-                "position": "CEO at Quandoo",
+                "name": "Quandoo",
+                "position": "Japan",
                 "company": "Quandoo",
                 "company_logo_url": "/sponsers/quandoo.avif",
-                "text": "I run the business as CEO of Quandoo GmbH, a restaurant reservation service headquartered in Berlin, Germany and operating in 11 countries around the world. I personally met Roman through my network in Berlin, and we have had the pleasure of working with him as Quandoo's CRMO (Chief Risk Management Officer). His performance has exceeded our expectations.He has extensive experience in risk management in Germany and Europe, from various contracts to labor relations. Roman is also able to seamlessly respond and explain in Japanese, so we can trust him with our business.",
-                "rating": 5
+                "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans.",
+                "rating": 5,
+                "website_url": "https://www.quandoo.com/"
             },
             {
-                "name": "Yuki Ishii",
-                "position": "CEO at Rollcake",
-                "company": "Rollcake",
-                "company_logo_url": "/sponsers/rollcake.webp",
-                "text": "Roman has provided us with a wide range of support, from company start-up work, such as registration, to measures to deal with issues in German business. In particular, when we had questions that could not be answered by desktop research, such as \"what is the actual situation in Germany,\" not only did he give us accurate answers, but he also introduced us to his network in and outside of Germany as needed. On the practical side, Roman has gone beyond the boundaries of legal support and has worked in tandem with management. After understanding the nature of our services, he proactively raised issues that were unique to Europe that we could not see from Japan. Thanks to this, we were able to take action",
-                "rating": 5
+                "name": "Caster Co., Ltd., Tokyo",
+                "position": "Japan",
+                "company": "Caster",
+                "company_logo_url": "/sponsers/caster.svg",
+                "text": "Roman's strategic legal counsel was crucial for navigating the complex Japanese market. His bilingual expertise and cultural understanding made the decisive difference in our successful market entry.",
+                "rating": 5,
+                "website_url": "https://caster.co.jp/"
             },
             {
-                "name": "Soheil Hosseini",
-                "position": "CEO at Wiresoft",
+                "name": "Wiresoft AG",
+                "position": "Switzerland",
                 "company": "Wiresoft",
                 "company_logo_url": "/sponsers/wiresoft.avif",
-                "text": "I've had a longstanding business relationship with Roman, starting as my lawyer and evolving into a trusted partner. His unique blend of legal and business expertise makes him my go-to advisor. Reliable, caring and exceptionally efficient, I highly recommend reaching out to him for your company's best decision.",
-                "rating": 5
+                "text": "Roman's expertise in technology law and contract negotiations was invaluable during our expansion phase. His strategic approach saved us significant time and resources while securing our competitive advantage.",
+                "rating": 5,
+                "website_url": "https://www.wiresoft.com/"
             },
             {
-                "name": "Dogan Akdag",
-                "position": "CEO at Blitzhandel",
+                "name": "Rollcake Inc., Tokyo",
+                "position": "Japan",
+                "company": "Rollcake",
+                "company_logo_url": "/sponsers/rollcake.webp",
+                "text": "Roman's expertise in startup law and venture capital was exactly what we needed. His practical advice and strategic thinking helped us secure funding and scale our operations effectively.",
+                "rating": 5,
+                "website_url": "https://rollcake.co.jp/"
+            },
+            {
+                "name": "Blitzhandel24",
+                "position": "Germany",
                 "company": "Blitzhandel24",
                 "company_logo_url": "/sponsers/blitzhandel24.avif",
-                "text": "Roman has been an exceptional partner to our business — combining sharp legal insight with a strong commercial mindset. He understands how to balance compliance and growth, making him an invaluable advisor for every strategic decision.",
-                "rating": 5
+                "text": "Roman's practical approach to legal challenges has transformed how we handle compliance and contracts. His business-oriented solutions helped us scale efficiently while minimizing risks.",
+                "rating": 5,
+                "website_url": "https://blitzhandel24.com/"
             }
         ]
     }

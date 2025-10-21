@@ -6,9 +6,9 @@
       "children": [
         { "label": "Honorare", "path": "/services/fees" },
         { "label": "General Counsel", "path": "/services/general-counsel" },
-        { "label": "Rechtsabteilung", "path": "/services/legal-department" },
-        { "label": "Rechtlicher Interims", "path": "/services/legal-interim" },
-        { "label": "Recht auf Abruf", "path": "/services/legal-on-demand" }
+        { "label": "Aufbau & Unterstutzung Rechtsabteilung", "path": "/services/legal-department" },
+        { "label": "Legal Interim", "path": "/services/legal-interim" },
+        { "label": "Legal on Demand", "path": "/services/legal-on-demand" }
       ]
     },
     {
@@ -23,7 +23,7 @@
         { "label": "Arbeitsrecht", "path": "/expertise/employment-law" },
         { "label": "Esports-Recht", "path": "/expertise/esports-law" },
         { "label": "Medienrecht", "path": "/expertise/media-law" },
-        { "label": "Technologierecht", "path": "/expertise/technology-law" },
+        { "label": "IT-Recht", "path": "/expertise/technology-law" },
         { "label": "Mietrecht", "path": "/expertise/tenancy-law" },
         { "label": "Vertriebsrecht", "path": "/expertise/distribution-law" }
       ]

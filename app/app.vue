@@ -1,53 +1,31 @@
 <template>
   <UApp>
     <NuxtLayout>
-      <div v-if="!checking">
-        <Header />
-        <NuxtPage />
-        <Footer />
-        <WhatsAppWidget />
-        <CookieConsent />
-      </div>
-
-      <div v-else>
-        <UContainer
-          class="flex flex-col justify-center items-center h-[100dvh]"
-        >
-          <Icon
-            name="eos-icons:three-dots-loading"
-            class="h-20 w-20 text-primary"
-          />
-        </UContainer>
-      </div>
+      <Header />
+      <NuxtPage />
+      <Footer />
+      <LazyWhatsAppWidget />
+      <LazyCookieConsent />
     </NuxtLayout>
   </UApp>
 </template>
 
 <script setup>
-import { watch, onMounted, ref } from "vue";
-import Header from "~/components/Header.vue";
-import Footer from "~/components/global/Footer.vue";
-import CookieConsent from "~/components/global/CookieConsent.vue";
-import WhatsAppWidget from "~/components/global/WhatsAppWidget.vue";
 const { locale, setLocale } = useI18n();
-const checking = ref(true);
 const colorMode = useColorMode();
 
 onMounted(async () => {
   const language = process.client ? localStorage.getItem("language") : null;
-  if (language) {
+  if (language && language !== locale.value) {
     await setLocale(language);
-    checking.value = false;
-  } else {
-    checking.value = false;
   }
 });
 
 watch(locale, () => {
-  localStorage.setItem("language", locale.value);
+  if (process.client) {
+    localStorage.setItem("language", locale.value);
+  }
 });
-
-
 </script>
 
 <style>

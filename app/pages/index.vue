@@ -45,9 +45,9 @@ const reviewsData = computed(() => {
   return home.value?.meta.reviews
 })
 </script>
-[]
+
 <template>
-  <div v-if="home">
+  <div v-if="home" class="overflow-x-hidden">
     <HeroSection :data="heroSectionData" />
     <Sponsers :data="sponsersData" />
     <Services :data="servicesData" />

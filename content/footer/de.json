@@ -1,16 +1,16 @@
 {
   "contact": {
-    "title": "Kontakt aufnehmen",
+    "title": "Get in Touch",
     "email": "info@koudous-law.de",
     "phone": "+49 (0)30 5200 1249",
     "phoneLink": "tel:+493052001249",
     "bookCall": "Termin vereinbaren"
   },
   "location": {
-    "title": "Standort Berlin",
+    "title": "Berlin Location",
     "address": {
       "line1": "Kurfürstendamm 67",
-      "line2": "10707 Berlin, Deutschland"
+      "line2": "10707 Berlin, Germany"
     }
   },
   "copyright": "© 2025 Koudous International Law Office",
