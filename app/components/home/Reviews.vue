@@ -26,7 +26,7 @@
           <span>{{ item.name }}</span>
         </h3>
         </div>
-       <div class="space-y-0.5 flex items-center gap-1">
+       <div class="space-y-0.5 flex itemscenter gap-1">
         <img v-if="item.company_logo_url" :src="item.company_logo_url" class="rounded-sm h-6 max-w-16">
        </div>
        </div>
