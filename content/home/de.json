@@ -105,41 +105,46 @@
         "cards": [
             {
                 "company": "Caster Co., Ltd., Tokyo",
+                "title": "Naohiro Kawamura, CFO",
                 "country": "Japan",
                 "company_logo_url": "/sponsers/caster.svg",
-                "text": "Romans strategische Rechtsberatung war entscheidend für die Navigation im komplexen japanischen Markt. Seine zweisprachige Expertise und sein kulturelles Verständnis machten den entscheidenden Unterschied bei unserem erfolgreichen Markteintritt.",
+                "text": "Starkes Geschäftsverständnis! Roman kann Ihnen präzise rechtliche Beratung aus der Perspektive geben, dass Ihr oberstes Ziel die Erreichung Ihrer Geschäftsziele ist, nicht nur rechtliche Risiken und Interpretationen. Sie können ihm als Ihrem Anwalt vertrauen, und er wird ein Kernmitglied Ihres Teams sein, um Ihr Geschäft gemeinsam zu schaffen und umfassende Unterstützung für Ihr Team zu bieten.",
                 "rating": 5,
                 "website_url": "https://caster.co.jp/"
             },
             {
-                "company": "Wiresoft AG",
-                "country": "Schweiz",
-                "company_logo_url": "/sponsers/wiresoft.avif",
-                "text": "Romans Expertise im Technologierecht und bei Vertragsverhandlungen war während unserer Expansionsphase unbezahlbar. Sein strategischer Ansatz sparte uns erhebliche Zeit und Ressourcen und sicherte gleichzeitig unseren Wettbewerbsvorteil.",
-                "rating": 5,
-                "website_url": "https://www.wiresoft.com/"
-            },
-            {
-                "company": "Rollcake Inc., Tokyo",
-                "country": "Japan",
-                "company_logo_url": "/sponsers/rollcake.webp",
-                "text": "Romans Expertise im Startup-Recht und Venture Capital war genau das, was wir brauchten. Sein praktischer Rat und strategisches Denken halfen uns, Finanzierung zu sichern und unsere Operationen effektiv zu skalieren.",
-                "rating": 5,
-                "website_url": "https://rollcake.co.jp/"
-            },
-            {
                 "company": "Quandoo",
+                "title": "Hidetaka Kawashima, CEO",
                 "country": "Japan",
                 "company_logo_url": "/sponsers/quandoo.avif",
-                "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer raschen Wachstumsphase. Seine praktischen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne.",
+                "text": "Ich führe das Geschäft als CEO von Quandoo GmbH, einem Restaurant-Reservierungsservice mit Hauptsitz in Berlin, Deutschland, der in 11 Ländern weltweit tätig ist. Ich habe Roman persönlich über mein Netzwerk in Berlin kennengelernt, und wir hatten das Vergnügen, mit ihm als Quandoos CRMO (Chief Risk Management Officer) zusammenzuarbeiten. Seine Leistung hat unsere Erwartungen übertroffen. Er hat umfangreiche Erfahrung im Risikomanagement in Deutschland und Europa, von verschiedenen Verträgen bis hin zu Arbeitsbeziehungen. Roman kann auch nahtlos auf Japanisch antworten und erklären, sodass wir ihm unser Geschäft anvertrauen können.",
                 "rating": 5,
                 "website_url": "https://www.quandoo.com/"
             },
             {
+                "company": "Rollcake Inc., Tokyo",
+                "title": "Yuki Ishii, CEO Deutschland",
+                "country": "Japan",
+                "company_logo_url": "/sponsers/rollcake.webp",
+                "text": "Roman hat uns eine breite Palette von Unterstützung geboten, von Unternehmensgründungsarbeiten wie der Registrierung bis hin zu Maßnahmen zur Bewältigung von Problemen im deutschen Geschäft. Insbesondere wenn wir Fragen hatten, die nicht durch Desktop-Recherche beantwortet werden konnten, wie \"wie ist die tatsächliche Situation in Deutschland\", gab er uns nicht nur präzise Antworten, sondern stellte uns auch sein Netzwerk in und außerhalb Deutschlands nach Bedarf vor. Auf der praktischen Seite ist Roman über die Grenzen der rechtlichen Unterstützung hinausgegangen und hat im Tandem mit dem Management gearbeitet. Nachdem er die Natur unserer Dienstleistungen verstanden hatte, warf er proaktiv Fragen auf, die für Europa einzigartig waren und die wir aus Japan nicht sehen konnten. Dank dessen konnten wir handeln.",
+                "rating": 5,
+                "website_url": "https://rollcake.co.jp/"
+            },
+            {
+                "company": "Wiresoft AG",
+                "title": "Soheil Hosseini, CEO",
+                "country": "Schweiz",
+                "company_logo_url": "/sponsers/wiresoft.avif",
+                "text": "Ich hatte eine langjährige Geschäftsbeziehung mit Roman, die als mein Anwalt begann und sich zu einem vertrauensvollen Partner entwickelte. Seine einzigartige Kombination aus rechtlicher und geschäftlicher Expertise macht ihn zu meinem bevorzugten Berater. Zuverlässig, fürsorglich und außergewöhnlich effizient - ich empfehle dringend, sich an ihn für die beste Entscheidung Ihres Unternehmens zu wenden.",
+                "rating": 5,
+                "website_url": "https://www.wiresoft.com/"
+            },
+            {
                 "company": "Blitzhandel24",
+                "title": "Dogan Akdag, CEO",
                 "country": "Deutschland",
                 "company_logo_url": "/sponsers/blitzhandel24.avif",
-                "text": "Romans praktischer Ansatz bei rechtlichen Herausforderungen hat transformiert, wie wir Compliance und Verträge handhaben. Seine geschäftsorientierten Lösungen halfen uns, effizient zu skalieren und gleichzeitig Risiken zu minimieren.",
+                "text": "Roman war ein außergewöhnlicher Partner für unser Geschäft - er kombiniert scharfe rechtliche Einsichten mit einer starken kommerziellen Denkweise. Er versteht, wie man Compliance und Wachstum ausbalanciert, was ihn zu einem unschätzbaren Berater für jede strategische Entscheidung macht.",
                 "rating": 5,
                 "website_url": "https://blitzhandel24.com/"
             }

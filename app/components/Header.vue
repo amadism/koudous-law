@@ -19,7 +19,7 @@
       
 
       <template #right>
-          <ULocaleSelect variant="soft" v-model="locale" :locales="Object.values(locales)" />
+          <ULocaleSelect variant="soft" v-model="selectedLocale" :locales="Object.values(locales)" />
           <UColorModeButton size="lg" />
       </template>
 
@@ -31,12 +31,21 @@
 </template>
 
 <script setup>
-import { watch } from 'vue'
-const { t, locales, locale } = useI18n()
+import { watch, computed } from 'vue'
+const { t, locales, locale, setLocale } = useI18n()
 const colorMode = useColorMode()
 import { useRouter, useRoute } from 'vue-router'
 const router = useRouter()
 const route = useRoute()
+
+const selectedLocale = computed({
+  get: () => locale.value,
+  set: (val) => {
+    if (val && val !== locale.value) {
+      setLocale(val)
+    }
+  }
+})
 
 const { data: navlinks, refresh } = useAsyncData(() => 
   queryCollection('navlinks').where('stem', '=', `navlinks/${locale.value}`).first()
