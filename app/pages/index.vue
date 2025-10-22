@@ -1,15 +1,10 @@
 <script setup>
 import { useSeoMeta } from '#imports'
-import HeroSection from '~/components/home/HeroSection.vue'
-import Sponsers from '~/components/home/Sponsers.vue'
-import Services from '~/components/home/Services.vue'
-import Founder from '~/components/home/Founder.vue'
-import Buisness from '~/components/home/Buisness.vue'
-import Reviews from '~/components/home/Reviews.vue'
-import ContactForm from '~/components/global/ContactForm.vue'
+const { locale } = useI18n();
 
-const { locale } = useI18n()
-const { data: home, refresh } = await useAsyncData(() => 
+import { watch, computed } from 'vue'
+
+const { data: home, refresh } = useAsyncData(() =>
   queryCollection('home').where('stem', '=', `home/${locale.value}`).first()
 )
 
@@ -48,13 +43,13 @@ const reviewsData = computed(() => {
 
 <template>
   <div v-if="home" class="overflow-x-hidden">
-    <HeroSection :data="heroSectionData" />
-    <Sponsers :data="sponsersData" />
-    <Services :data="servicesData" />
-    <Founder :data="founderData" />
-    <Buisness :data="buisnessData" />
-    <Reviews :data="reviewsData" />
-    <ContactForm />
+    <LazyHomeHeroSection :data="heroSectionData" />
+    <LazyHomeSponsers :data="sponsersData" />
+    <LazyHomeServices :data="servicesData" />
+    <LazyHomeFounder :data="founderData" />
+    <LazyHomeBuisness :data="buisnessData" />
+    <LazyHomeReviews :data="reviewsData" />
+    <LazyContactForm />
   </div>
   <div v-else>Home not found</div>
 </template>

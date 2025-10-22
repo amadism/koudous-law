@@ -1,5 +1,5 @@
 <template>
-    <div ref="heroRef" class="h-[95dvh] relative w-full overflow-hidden">
+    <div ref="heroRef" class="h-[95dvh] relative w-full overflow-hidden" id="home">
         <div class="absolute top-0 left-0 w-full h-full">
             <div class="absolute top-0 left-0 w-full h-full bg-black/70 z-10"></div>
             <video src="https://res.cloudinary.com/dheohpnf4/video/upload/v1759998348/WhatsApp_Video_2025-10-09_at_1.20.52_PM_k0g4gy.mp4" autoplay muted loop class="w-full h-full object-cover"></video>

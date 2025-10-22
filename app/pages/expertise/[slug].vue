@@ -2,8 +2,7 @@
 const route = useRoute()
 const { locale } = useI18n()
 
-
-const { data: content, refresh } = await useAsyncData(
+const { data: content, refresh } = useAsyncData(
   () => route.params.slug,
   () => queryCollection('expertise').where('stem', '=', `expertise/${route.params.slug}/${locale.value}`).first()
 )

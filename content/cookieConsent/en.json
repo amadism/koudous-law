@@ -1,6 +1,26 @@
 {
-    "title": "We use cookies",
-    "description": "We use essential cookies and, with your consent, analytics to improve your experience.",
-    "decline": "Decline",
-    "accept": "Accept"
+  "title": "Privacy Settings",
+  "description": "We use cookies to improve your user experience and to optimize our content and services for you.",
+  "categories": {
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for basic functionality"
+    },
+    "statistics": {
+      "title": "Statistics",
+      "description": "Help us understand visitor interactions"
+    },
+    "personalized": {
+      "title": "Personalized Content",
+      "description": "Customize content and ads"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Track visitors for advertising"
+    }
+  },
+  "buttons": {
+    "acceptAll": "Accept All",
+    "acceptSelection": "Accept Selection"
   }
+}

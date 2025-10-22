@@ -1,6 +1,26 @@
 {
-    "title": "クッキーを使用しています",
-    "description": "基本的なクッキーと、お客様の同意に基づいて分析を使用し、お客様の体験を向上させています。",
-    "decline": "拒否",
-    "accept": "同意"
+  "title": "プライバシー設定",
+  "description": "ユーザーエクスペリエンスを向上させ、コンテンツとサービスを最適化するためにクッキーを使用しています。",
+  "categories": {
+    "essential": {
+      "title": "必須クッキー",
+      "description": "基本的な機能に必要"
+    },
+    "statistics": {
+      "title": "統計",
+      "description": "訪問者の相互作用を理解するのに役立ちます"
+    },
+    "personalized": {
+      "title": "パーソナライズされたコンテンツ",
+      "description": "コンテンツと広告をカスタマイズ"
+    },
+    "marketing": {
+      "title": "マーケティング",
+      "description": "広告のために訪問者を追跡"
+    }
+  },
+  "buttons": {
+    "acceptAll": "すべて受け入れる",
+    "acceptSelection": "選択を受け入れる"
+  }
 }

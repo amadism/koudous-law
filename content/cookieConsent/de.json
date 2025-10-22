@@ -1,6 +1,26 @@
 {
-    "title": "Wir verwenden Cookies",
-    "description": "Wir verwenden essentielle Cookies und mit Ihrer Zustimmung Analysen, um Ihre Erfahrung zu verbessern.",
-    "decline": "Ablehnen",
-    "accept": "Akzeptieren"
+  "title": "Datenschutzeinstellungen",
+  "description": "Wir verwenden Cookies, um Ihre Benutzererfahrung zu verbessern und unsere Inhalte und Dienstleistungen für Sie zu optimieren.",
+  "categories": {
+    "essential": {
+      "title": "Notwendige Cookies",
+      "description": "Erforderlich für grundlegende Funktionalität"
+    },
+    "statistics": {
+      "title": "Statistiken",
+      "description": "Helfen Sie uns, Besucherinteraktionen zu verstehen"
+    },
+    "personalized": {
+      "title": "Personalisierte Inhalte",
+      "description": "Inhalte und Werbung anpassen"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Besucher für Werbung verfolgen"
+    }
+  },
+  "buttons": {
+    "acceptAll": "Alle akzeptieren",
+    "acceptSelection": "Auswahl akzeptieren"
+  }
 }

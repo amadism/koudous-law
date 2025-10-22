@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/i18n'],
   css: ['~/assets/main.css'],
   vite: {
@@ -12,12 +12,23 @@ export default defineNuxtConfig({
   },
   colorMode: {
     preference: 'dark',
-    fallback: 'dark'
+    fallback: 'dark',
+    storageKey: 'nuxt-color-mode',
+    classSuffix: '',
+    hid: 'nuxt-color-mode-script'
   },
   i18n: {
     strategy: 'no_prefix',
     defaultLocale: 'de',
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_locale',
+      cookieSecure: process.env.NODE_ENV === 'production',
+      cookieCrossOrigin: false,
+      alwaysRedirect: false,
+      redirectOn: 'root',
+      fallbackLocale: 'de'
+    },
     locales: [
       { code: 'de', iso: 'de-DE', name: 'Deutsch' },
       { code: 'en', iso: 'en-US', name: 'English' },

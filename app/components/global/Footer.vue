@@ -1,7 +1,7 @@
 <template>
   <footer class="border-t border-gray-300 dark:border-[#333] bg-[#eeebeb] dark:bg-[#141414]">
     <UContainer class="py-12">
-      <div class="grid grid-cols-1 gap-10 md:grid-cols-2">
+      <div class="grid grid-cols-1 gap-10 md:grid-cols-3">
         <div>
           <h3 class="text-lg font-semibold">{{ content?.contact.title }}</h3>
           <div class="mt-6 space-y-4">
@@ -20,11 +20,39 @@
           </div>
         </div>
 
-        <div>
-          <h3 class="text-lg font-semibold">{{ content?.location.title }}</h3>
+        <div v-if="locale === 'ja'">
+          <h3 class="text-lg font-semibold">{{ content?.locations?.tokyo?.title }}</h3>
           <address class="mt-6 not-italic leading-7">
-            {{ content?.location.address.line1 }}<br />
-            {{ content?.location.address.line2 }}
+            {{ content?.locations?.tokyo?.address?.line1 }}<br />
+            {{ content?.locations?.tokyo?.address?.line2 }}<br />
+            {{ content?.locations?.tokyo?.address?.line3 }}<br />
+            {{ content?.locations?.tokyo?.address?.line4 }}
+          </address>
+        </div>
+
+        <div v-if="locale !== 'ja'">
+          <h3 class="text-lg font-semibold">{{ content?.locations?.berlin?.title }}</h3>
+          <address class="mt-6 not-italic leading-7">
+            {{ content?.locations?.berlin?.address?.line1 }}<br />
+            {{ content?.locations?.berlin?.address?.line2 }}
+          </address>
+        </div>
+
+        <div v-if="locale !== 'ja'">
+          <h3 class="text-lg font-semibold">{{ content?.locations?.tokyo?.title }}</h3>
+          <address class="mt-6 not-italic leading-7">
+            {{ content?.locations?.tokyo?.address?.line1 }}<br />
+            {{ content?.locations?.tokyo?.address?.line2 }}<br />
+            {{ content?.locations?.tokyo?.address?.line3 }}<br />
+            {{ content?.locations?.tokyo?.address?.line4 }}
+          </address>
+        </div>
+
+        <div v-if="locale === 'ja'">
+          <h3 class="text-lg font-semibold">{{ content?.locations?.berlin?.title }}</h3>
+          <address class="mt-6 not-italic leading-7">
+            {{ content?.locations?.berlin?.address?.line1 }}<br />
+            {{ content?.locations?.berlin?.address?.line2 }}
           </address>
         </div>
       </div>
@@ -45,10 +73,9 @@
 <script setup>
 import { watch } from 'vue'
 const { locale } = useI18n()
-const { data: content, refresh } = await useAsyncData(() => 
+const { data: content, refresh } = useAsyncData(() => 
   queryCollection('footer').where('stem', '=', `footer/${locale.value}`).first()
 )
-
 
 watch(locale, () => {
   refresh()

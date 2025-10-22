@@ -95,50 +95,45 @@
         "image_url": "/tokyo-business.avif"
     },
     "reviews": {
-        "title": "What Our Clients Say",
-        "subtitle": "Trusted by leading companies across industries for strategic legal counsel and business solutions",
+        "title": "business solutions",
+        "subtitle": "",
         "webText": "Visit Website",
         "cards": [
             {
-                "name": "Quandoo",
-                "position": "Japan",
-                "company": "Quandoo",
-                "company_logo_url": "/sponsers/quandoo.avif",
-                "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans.",
-                "rating": 5,
-                "website_url": "https://www.quandoo.com/"
-            },
-            {
-                "name": "Caster Co., Ltd., Tokyo",
-                "position": "Japan",
-                "company": "Caster",
+                "company": "Caster Co., Ltd., Tokyo",
+                "country": "Japan",
                 "company_logo_url": "/sponsers/caster.svg",
-                "text": "Roman's strategic legal counsel was crucial for navigating the complex Japanese market. His bilingual expertise and cultural understanding made the decisive difference in our successful market entry.",
+                "text": "Roman's strategic legal counsel was instrumental in navigating the complex Japanese market. His bilingual expertise and cultural understanding made all the difference in our successful market entry.",
                 "rating": 5,
                 "website_url": "https://caster.co.jp/"
             },
             {
-                "name": "Wiresoft AG",
-                "position": "Switzerland",
-                "company": "Wiresoft",
+                "company": "Wiresoft AG",
+                "country": "Switzerland",
                 "company_logo_url": "/sponsers/wiresoft.avif",
-                "text": "Roman's expertise in technology law and contract negotiations was invaluable during our expansion phase. His strategic approach saved us significant time and resources while securing our competitive advantage.",
+                "text": "Roman's expertise in technology law and contract negotiations was invaluable during our expansion phase. His strategic approach saved us significant time and resources while ensuring we maintained our competitive edge.",
                 "rating": 5,
                 "website_url": "https://www.wiresoft.com/"
             },
             {
-                "name": "Rollcake Inc., Tokyo",
-                "position": "Japan",
-                "company": "Rollcake",
+                "company": "Rollcake Inc., Tokyo",
+                "country": "Japan",
                 "company_logo_url": "/sponsers/rollcake.webp",
                 "text": "Roman's expertise in startup law and venture capital was exactly what we needed. His practical advice and strategic thinking helped us secure funding and scale our operations effectively.",
                 "rating": 5,
                 "website_url": "https://rollcake.co.jp/"
             },
             {
-                "name": "Blitzhandel24",
-                "position": "Germany",
+                "company": "Quandoo",
+                "country": "Japan",
+                "company_logo_url": "/sponsers/quandoo.avif",
+                "text": "Roman's expertise in employment law and corporate governance was crucial during our rapid growth phase. His practical solutions kept us compliant while supporting our ambitious expansion plans.",
+                "rating": 5,
+                "website_url": "https://www.quandoo.com/"
+            },
+            {
                 "company": "Blitzhandel24",
+                "country": "Germany",
                 "company_logo_url": "/sponsers/blitzhandel24.avif",
                 "text": "Roman's practical approach to legal challenges has transformed how we handle compliance and contracts. His business-oriented solutions helped us scale efficiently while minimizing risks.",
                 "rating": 5,

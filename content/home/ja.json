@@ -95,50 +95,45 @@
         "image_url": "/tokyo-business.avif"
     },
     "reviews": {
-        "title": "お客様の声",
-        "subtitle": "戦略的な法的カウンセリングとビジネスソリューションで、業界を超えて主要企業から信頼されています",
+        "title": "business solutions",
+        "subtitle": "",
         "webText": "ウェブサイトを見る",
         "cards": [
             {
-                "name": "Quandoo",
-                "position": "日本",
-                "company": "Quandoo",
-                "company_logo_url": "/sponsers/quandoo.avif",
-                "text": "ローマン氏の労働法とコーポレートガバナンスにおける専門知識は、私たちの急速な成長段階において決定的でした。彼の実践的なソリューションにより、私たちはコンプライアンスを保ちながら、同時に野心的な拡張計画をサポートすることができました。",
-                "rating": 5,
-                "website_url": "https://www.quandoo.com/"
-            },
-            {
-                "name": "Caster Co., Ltd., Tokyo",
-                "position": "日本",
-                "company": "Caster",
+                "company": "Caster Co., Ltd., Tokyo",
+                "country": "日本",
                 "company_logo_url": "/sponsers/caster.svg",
                 "text": "ローマン氏の戦略的な法的助言は、複雑な日本市場でのナビゲーションにおいて決定的でした。彼のバイリンガルな専門知識と文化的理解が、私たちの成功した市場参入において決定的な違いをもたらしました。",
                 "rating": 5,
                 "website_url": "https://caster.co.jp/"
             },
             {
-                "name": "Wiresoft AG",
-                "position": "スイス",
-                "company": "Wiresoft",
+                "company": "Wiresoft AG",
+                "country": "スイス",
                 "company_logo_url": "/sponsers/wiresoft.avif",
                 "text": "ローマン氏のテクノロジー法と契約交渉における専門知識は、私たちの拡張段階において非常に価値がありました。彼の戦略的アプローチにより、私たちは大幅な時間とリソースを節約し、同時に競争優位を確保することができました。",
                 "rating": 5,
                 "website_url": "https://www.wiresoft.com/"
             },
             {
-                "name": "Rollcake Inc., Tokyo",
-                "position": "日本",
-                "company": "Rollcake",
+                "company": "Rollcake Inc., Tokyo",
+                "country": "日本",
                 "company_logo_url": "/sponsers/rollcake.webp",
                 "text": "ローマン氏のスタートアップ法とベンチャーキャピタルにおける専門知識は、まさに私たちが必要としていたものでした。彼の実践的なアドバイスと戦略的思考により、私たちは資金調達を確保し、事業を効果的にスケールすることができました。",
                 "rating": 5,
                 "website_url": "https://rollcake.co.jp/"
             },
             {
-                "name": "Blitzhandel24",
-                "position": "ドイツ",
+                "company": "Quandoo",
+                "country": "日本",
+                "company_logo_url": "/sponsers/quandoo.avif",
+                "text": "ローマン氏の労働法とコーポレートガバナンスにおける専門知識は、私たちの急速な成長段階において決定的でした。彼の実践的なソリューションにより、私たちはコンプライアンスを保ちながら、同時に野心的な拡張計画をサポートすることができました。",
+                "rating": 5,
+                "website_url": "https://www.quandoo.com/"
+            },
+            {
                 "company": "Blitzhandel24",
+                "country": "ドイツ",
                 "company_logo_url": "/sponsers/blitzhandel24.avif",
                 "text": "ローマン氏の法的課題に対する実践的アプローチは、私たちがコンプライアンスと契約をどのように扱うかを変革しました。彼のビジネス志向のソリューションにより、私たちは効率的にスケールし、同時にリスクを最小化することができました。",
                 "rating": 5,

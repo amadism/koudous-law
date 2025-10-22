@@ -6,11 +6,22 @@
     "phoneLink": "tel:+493052001249",
     "bookCall": "電話予約"
   },
-  "location": {
-    "title": "ベルリンオフィス",
-    "address": {
-      "line1": "Kurfürstendamm 67",
-      "line2": "10707 Berlin, Germany"
+  "locations": {
+    "berlin": {
+      "title": "ベルリンオフィス",
+      "address": {
+        "line1": "Kurfürstendamm 67",
+        "line2": "10707 Berlin, Germany"
+      }
+    },
+    "tokyo": {
+      "title": "東京オフィス",
+      "address": {
+        "line1": "東五反田5-21-4",
+        "line2": "パティオ池田山1F",
+        "line3": "品川区",
+        "line4": "東京都, 日本"
+      }
     }
   },
   "copyright": "© 2025 Koudous International Law Office",

@@ -106,7 +106,7 @@ type ContactContent = {
   }
 }
 
-const { data: contact, refresh } = await useAsyncData<any>(() => 
+const { data: contact, refresh } = useAsyncData<any>(() => 
   queryCollection('contact').where('stem', '=', `contact/${locale.value}`).first()
 )
 

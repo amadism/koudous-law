@@ -1,13 +1,14 @@
 <script setup>
 import { watch } from 'vue'
 const { locale } = useI18n()
-  const { data: about, refresh } = await useAsyncData(() => 
+
+const { data: about, refresh } = useAsyncData(() => 
   queryCollection('about').where('stem', '=', `about/${locale.value}`).first()
 )
 
-  watch(locale, () => {
-    refresh()
-  })
+watch(locale, () => {
+  refresh()
+})
 
 const missionRef = ref(null)
 const aboutImageRef = ref(null)
@@ -36,7 +37,7 @@ onMounted(() => {
     slideInRight(aboutContentRef.value.querySelector('.about-extra'), { delay: 0.3 })
   }
 })
-  </script>
+</script>
 
 
 <template>

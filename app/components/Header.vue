@@ -1,8 +1,8 @@
 <template>
   <UHeader mode="drawer">
       <template #left>
-          <img @click="router.push('/')" v-show="colorMode.value === 'light'" src="/koudous_logo_bright.svg" alt="Logo" class="h-10 cursor-pointer">
-          <img @click="router.push('/')" v-show="colorMode.value === 'dark'" src="/koudous_logo.svg" alt="Logo" class="h-10 cursor-pointer">
+          <img @click="toHome" v-show="colorMode.value === 'light'" src="/koudous_logo_bright.svg" alt="Logo" class="h-10 cursor-pointer">
+          <img @click="toHome" v-show="colorMode.value === 'dark'" src="/koudous_logo.svg" alt="Logo" class="h-10 cursor-pointer">
       </template>
 
       <div class="flex-1 flex justify-center">
@@ -34,17 +34,17 @@
 import { watch } from 'vue'
 const { t, locales, locale } = useI18n()
 const colorMode = useColorMode()
-import { useRouter } from 'vue-router'
+import { useRouter, useRoute } from 'vue-router'
 const router = useRouter()
+const route = useRoute()
 
-const { data: navlinks, refresh } = await useAsyncData(() => 
+const { data: navlinks, refresh } = useAsyncData(() => 
   queryCollection('navlinks').where('stem', '=', `navlinks/${locale.value}`).first()
 )
 
 watch(locale, () => {
-refresh()
+  refresh()
 })
-
 
 const navigationItems = computed(() => {
   const items = (navlinks.value?.items || []).map((item) => {
@@ -67,4 +67,12 @@ const navigationItems = computed(() => {
   return items
 })
 
+
+const toHome = () => {
+  if(route.path === '/') {
+  document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
+  return
+  }
+  router.push('/')
+}
 </script>

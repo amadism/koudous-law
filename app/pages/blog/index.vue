@@ -2,7 +2,7 @@
 import { watch } from 'vue'
 const { locale } = useI18n()
 
-const { data: blogs, refresh } = await useAsyncData(
+const { data: blogs, refresh } = useAsyncData(
   'blogs',
   async () => {
     const results = await queryCollection('blog').all()

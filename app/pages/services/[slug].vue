@@ -3,7 +3,7 @@ import { watch } from 'vue'
 const route = useRoute()
 const { locale } = useI18n()
 
-const { data: content, refresh } = await useAsyncData(
+const { data: content, refresh } = useAsyncData(
   () => route.params.slug,
   () => queryCollection('services').where('stem', '=', `services/${route.params.slug}/${locale.value}`).first()
 )
@@ -11,6 +11,7 @@ const { data: content, refresh } = await useAsyncData(
 watch(locale, () => {
   refresh()
 })
+
 watch(() => route.params.slug, () => {
   refresh()
 })

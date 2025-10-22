@@ -3,7 +3,7 @@ import { watch } from 'vue'
 const route = useRoute()
 const { locale } = useI18n()
 
-const { data: content, refresh } = await useAsyncData(
+const { data: content, refresh } = useAsyncData(
   () => `blog-${route.params.slug}`,
   () => queryCollection('blog').where('stem', '=', `blog/${route.params.slug}/${locale.value}`).first()
 )

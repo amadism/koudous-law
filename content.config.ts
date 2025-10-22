@@ -110,13 +110,26 @@ const footerSchema = z.object({
   contact: z.object({
     title: z.string(),
     email: z.string(),
+    phone: z.string(),
+    phoneLink: z.string(),
     bookCall: z.string(),
   }),
-  location: z.object({
-    title: z.string(),
-    address: z.object({
-      line1: z.string(),
-      line2: z.string(),
+  locations: z.object({
+    berlin: z.object({
+      title: z.string(),
+      address: z.object({
+        line1: z.string(),
+        line2: z.string(),
+      }),
+    }),
+    tokyo: z.object({
+      title: z.string(),
+      address: z.object({
+        line1: z.string(),
+        line2: z.string(),
+        line3: z.string(),
+        line4: z.string(),
+      }),
     }),
   }),
   copyright: z.string(),
@@ -147,8 +160,28 @@ export default defineContentConfig({
     cookieConsent: defineCollection({ type: 'data', source: 'cookieConsent/**.json', schema: z.object({
       title: z.string(),
       description: z.string(),
-      decline: z.string(),
-      accept: z.string(),
+      categories: z.object({
+        essential: z.object({
+          title: z.string(),
+          description: z.string(),
+        }),
+        statistics: z.object({
+          title: z.string(),
+          description: z.string(),
+        }),
+        personalized: z.object({
+          title: z.string(),
+          description: z.string(),
+        }),
+        marketing: z.object({
+          title: z.string(),
+          description: z.string(),
+        }),
+      }),
+      buttons: z.object({
+        acceptAll: z.string(),
+        acceptSelection: z.string(),
+      }),
     }) }),
   },
 })

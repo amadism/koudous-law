@@ -99,50 +99,45 @@
         "image_url": "/tokyo-business.avif"
     },
     "reviews": {
-        "title": "Was unsere Mandanten sagen",
-        "subtitle": "Vertraut von führenden Unternehmen verschiedener Branchen für strategische Rechtsberatung und Geschäftslösungen",
+        "title": "business solutions",
+        "subtitle": "",
         "webText": "Website besuchen",
         "cards": [
             {
-                "name": "Quandoo",
-                "position": "Japan",
-                "company": "Quandoo",
-                "company_logo_url": "/sponsers/quandoo.avif",
-                "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer raschen Wachstumsphase. Seine praktischen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne.",
-                "rating": 5,
-                "website_url": "https://www.quandoo.com/"
-            },
-            {
-                "name": "Caster Co., Ltd., Tokyo",
-                "position": "Japan",
-                "company": "Caster",
+                "company": "Caster Co., Ltd., Tokyo",
+                "country": "Japan",
                 "company_logo_url": "/sponsers/caster.svg",
                 "text": "Romans strategische Rechtsberatung war entscheidend für die Navigation im komplexen japanischen Markt. Seine zweisprachige Expertise und sein kulturelles Verständnis machten den entscheidenden Unterschied bei unserem erfolgreichen Markteintritt.",
                 "rating": 5,
                 "website_url": "https://caster.co.jp/"
             },
             {
-                "name": "Wiresoft AG",
-                "position": "Schweiz",
-                "company": "Wiresoft",
+                "company": "Wiresoft AG",
+                "country": "Schweiz",
                 "company_logo_url": "/sponsers/wiresoft.avif",
                 "text": "Romans Expertise im Technologierecht und bei Vertragsverhandlungen war während unserer Expansionsphase unbezahlbar. Sein strategischer Ansatz sparte uns erhebliche Zeit und Ressourcen und sicherte gleichzeitig unseren Wettbewerbsvorteil.",
                 "rating": 5,
                 "website_url": "https://www.wiresoft.com/"
             },
             {
-                "name": "Rollcake Inc., Tokyo",
-                "position": "Japan",
-                "company": "Rollcake",
+                "company": "Rollcake Inc., Tokyo",
+                "country": "Japan",
                 "company_logo_url": "/sponsers/rollcake.webp",
                 "text": "Romans Expertise im Startup-Recht und Venture Capital war genau das, was wir brauchten. Sein praktischer Rat und strategisches Denken halfen uns, Finanzierung zu sichern und unsere Operationen effektiv zu skalieren.",
                 "rating": 5,
                 "website_url": "https://rollcake.co.jp/"
             },
             {
-                "name": "Blitzhandel24",
-                "position": "Deutschland",
+                "company": "Quandoo",
+                "country": "Japan",
+                "company_logo_url": "/sponsers/quandoo.avif",
+                "text": "Romans Expertise im Arbeitsrecht und in der Corporate Governance war entscheidend während unserer raschen Wachstumsphase. Seine praktischen Lösungen hielten uns compliant und unterstützten gleichzeitig unsere ehrgeizigen Expansionspläne.",
+                "rating": 5,
+                "website_url": "https://www.quandoo.com/"
+            },
+            {
                 "company": "Blitzhandel24",
+                "country": "Deutschland",
                 "company_logo_url": "/sponsers/blitzhandel24.avif",
                 "text": "Romans praktischer Ansatz bei rechtlichen Herausforderungen hat transformiert, wie wir Compliance und Verträge handhaben. Seine geschäftsorientierten Lösungen halfen uns, effizient zu skalieren und gleichzeitig Risiken zu minimieren.",
                 "rating": 5,

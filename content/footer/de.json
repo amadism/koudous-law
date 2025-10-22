@@ -1,16 +1,27 @@
 {
   "contact": {
-    "title": "Get in Touch",
+    "title": "Kontakt",
     "email": "info@koudous-law.de",
     "phone": "+49 (0)30 5200 1249",
     "phoneLink": "tel:+493052001249",
     "bookCall": "Termin vereinbaren"
   },
-  "location": {
-    "title": "Berlin Location",
-    "address": {
-      "line1": "Kurfürstendamm 67",
-      "line2": "10707 Berlin, Germany"
+  "locations": {
+    "berlin": {
+      "title": "Berlin Standort",
+      "address": {
+        "line1": "Kurfürstendamm 67",
+        "line2": "10707 Berlin, Deutschland"
+      }
+    },
+    "tokyo": {
+      "title": "Tokyo Standort",
+      "address": {
+        "line1": "Higashi-Gotanda 5-21-4",
+        "line2": "Patio Ikedayama 1F",
+        "line3": "Shinagawa-ku",
+        "line4": "Tokyo, Japan"
+      }
     }
   },
   "copyright": "© 2025 Koudous International Law Office",
