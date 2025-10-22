@@ -2,7 +2,7 @@
     <div class="py-12 lg:py-24 overflow-x-hidden">
         <UContainer class="mb-10 flex flex-col items-center">
             <h1 ref="titleRef" class="text-2xl font-bold mb-2 text-white text-center">{{ data.title }}</h1>
-            <h2 ref="subtitleRef" v-if="data.subtitle" class="text-2xl font-bold text-primary mb-2 text-center">{{ data.subtitle }}</h2>
+            <h2 ref="subtitleRef" v-if="data.subtitle" class="text-xl text-primary mb-2 text-center">{{ data.subtitle }}</h2>
         </UContainer>
         <div ref="carouselRef">
             <UCarousel
