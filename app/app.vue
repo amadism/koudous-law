@@ -11,20 +11,6 @@
 </template>
 
 <script setup>
-const colorMode = useColorMode();
-
-// onMounted(async () => {
-//   const language = process.client ? localStorage.getItem("language") : null;
-//   if (language && language !== locale.value) {
-//     await setLocale(language);
-//   }
-// });
-
-// watch(locale, () => {
-//   if (process.client) {
-//     localStorage.setItem("language", locale.value);
-//   }
-// });
 </script>
 
 <style>
