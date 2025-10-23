@@ -15,7 +15,7 @@ GDPR第4条第7項に基づくデータ処理の責任者は、弁護士ロー�
 
 **電話：+49 (0)30 5200 1249**
 
-**メール：info@koudous-law.de**
+**メール：<info@koudous-law.de>**
 
 ## データ処理の概要
 
@@ -77,7 +77,7 @@ Koudous LawがEUまたは欧州経済領域（EEA）外でデータを処理ま�
 - 国のデータ保護レベルを認めるEU「十分性決定」（GDPR第45条）。
 - 標準契約条項（GDPR第46条第2項(c)）またはお客様の明示的な同意（GDPR第49条第1項）。
 
-例：EU-US Data Privacy Framework（DPF）では、一部の米国企業が安全と認証されています（www.dataprivacyframework.gov/を参照）。このようなプロバイダーを使用する場合は、お知らせします。詳細については、EU委員会のウェブサイト（ec.europa.eu/info/law/law-topic/data-protection）をご覧ください。
+例：EU-US Data Privacy Framework（DPF）では、一部の米国企業が安全と認証されています（[www.dataprivacyframework.gov/を参照）。このようなプロバイダーを使用する場合は、お知らせします。詳細については、EU委員会のウェブサイト（ec.europa.eu/info/law/law-topic/data-protection）をご覧ください。](http://www.dataprivacyframework.gov/%E3%82%92%E5%8F%82%E7%85%A7%EF%BC%89%E3%80%82%E3%81%93%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%97%E3%83%AD%E3%83%90%E3%82%A4%E3%83%80%E3%83%BC%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%81%AF%E3%80%81%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%E8%A9%B3%E7%B4%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AF%E3%80%81EU%E5%A7%94%E5%93%A1%E4%BC%9A%E3%81%AE%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88%EF%BC%88ec.europa.eu/info/law/law-topic/data-protection%EF%BC%89%E3%82%92%E3%81%94%E8%A6%A7%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%E3%80%82)
 
 ## データの削除
 
@@ -119,7 +119,7 @@ Koudous Lawは、オンラインサービスを提供するためにデータ（
 
 ## ウェブ分析
 
-Koudous Lawは、Vercel AnalyticsやGoogle Analyticsなどのツールを使用して、ウェブサイトの使用状況（例：訪問したページ）を仮名化して分析します。これにより、同意または利益に基づいて改善を図ります。
+Koudous LawはGoogle Analyticsを使用し、ウェブサイトの使用状況（例：訪問したページ）を仮名化して分析します。これにより、同意または利益に基づいて改善を図ります。
 
 ## ソーシャルメディア
 
@@ -134,4 +134,3 @@ Koudous Lawは、InstagramやLinkedInなどのプラットフォームにプロ�
 **住所：Alt-Moabit 59-61, 10555 Berlin**
 
 **入口：Alt-Moabit 60**
-

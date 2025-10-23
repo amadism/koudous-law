@@ -4,32 +4,92 @@
       "type": "group",
       "label": "Dienstleistungen",
       "children": [
-        { "label": "Honorare", "path": "/services/fees" },
-        { "label": "General Counsel", "path": "/services/general-counsel" },
-        { "label": "Aufbau & Unterstutzung Rechtsabteilung", "path": "/services/legal-department" },
-        { "label": "Legal Interim", "path": "/services/legal-interim" },
-        { "label": "Legal on Demand", "path": "/services/legal-on-demand" }
+        {
+          "label": "Honorare",
+          "path": "/services/fees"
+        },
+        {
+          "label": "General Counsel",
+          "path": "/services/general-counsel"
+        },
+        {
+          "label": "Rechtsabteilung",
+          "path": "/services/legal-department"
+        },
+        {
+          "label": "Legal Interim",
+          "path": "/services/legal-interim"
+        },
+        {
+          "label": "Legal on Demand",
+          "path": "/services/legal-on-demand"
+        }
       ]
     },
     {
       "type": "group",
       "label": "Fachgebiete",
       "children": [
-        { "label": "Wirtschaftsrecht", "path": "/expertise/business-law" },
-        { "label": "Compliance", "path": "/expertise/compliance" },
-        { "label": "Vertragsrecht", "path": "/expertise/contract-law" },
-        { "label": "Gesellschaftsrecht", "path": "/expertise/corporate-law" },
-        { "label": "Strafrecht", "path": "/expertise/criminal-law" },
-        { "label": "Arbeitsrecht", "path": "/expertise/employment-law" },
-        { "label": "Esports-Recht", "path": "/expertise/esports-law" },
-        { "label": "Medienrecht", "path": "/expertise/media-law" },
-        { "label": "IT-Recht", "path": "/expertise/technology-law" },
-        { "label": "Mietrecht", "path": "/expertise/tenancy-law" },
-        { "label": "Vertriebsrecht", "path": "/expertise/distribution-law" }
+        {
+          "label": "Wirtschaftsrecht",
+          "path": "/expertise/business-law"
+        },
+        {
+          "label": "Compliance",
+          "path": "/expertise/compliance"
+        },
+        {
+          "label": "Vertragsrecht",
+          "path": "/expertise/contract-law"
+        },
+        {
+          "label": "Gesellschaftsrecht",
+          "path": "/expertise/corporate-law"
+        },
+        {
+          "label": "Strafrecht",
+          "path": "/expertise/criminal-law"
+        },
+        {
+          "label": "Arbeitsrecht",
+          "path": "/expertise/employment-law"
+        },
+        {
+          "label": "Esports-Recht",
+          "path": "/expertise/esports-law"
+        },
+        {
+          "label": "Medienrecht",
+          "path": "/expertise/media-law"
+        },
+        {
+          "label": "IT-Recht",
+          "path": "/expertise/technology-law"
+        },
+        {
+          "label": "Mietrecht",
+          "path": "/expertise/tenancy-law"
+        },
+        {
+          "label": "Vertriebsrecht",
+          "path": "/expertise/distribution-law"
+        }
       ]
     },
-    { "type": "link", "label": "Blog", "path": "/blog" },
-    { "type": "link", "label": "Über Mich", "path": "/about" },
-    { "type": "link", "label": "Kontakt", "path": "/contact" }
+    {
+      "type": "link",
+      "label": "Blog",
+      "path": "/blog"
+    },
+    {
+      "type": "link",
+      "label": "Über Mich",
+      "path": "/about"
+    },
+    {
+      "type": "link",
+      "label": "Kontakt",
+      "path": "/contact"
+    }
   ]
 }

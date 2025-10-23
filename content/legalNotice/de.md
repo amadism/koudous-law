@@ -9,7 +9,7 @@ subtitle: Angaben gemäß § 5 TMG
 
 **Adresse:** Kurfürstendamm 67, 10707 Berlin
 
-**E-Mail:** info@koudous-law.de
+**E-Mail:** <info@koudous-law.de>
 
 **USt-IdNr.:** DE327818393
 
@@ -49,7 +49,7 @@ Handelsregisternummer: HRB 233618
 
 Telefon: +49 89 205094-000
 
-E-Mail: service@markel.de
+E-Mail: <service@markel.de>
 
 **Deckungssumme:**
 
@@ -61,7 +61,7 @@ Im Falle von Streitigkeiten zwischen Rechtsanwälten und ihren Auftraggebern bes
 
 **Website:** [www.brak.de](https://www.brak.de)
 
-**E-Mail:** schlichtungsstelle@brak.de
+**E-Mail:** <schlichtungsstelle@brak.de>
 
 ## Haftungsausschluss
 
@@ -72,4 +72,3 @@ Für die Inhalte externer Websites, die über Hyperlinks von dieser Website aus 
 ## Urheberrecht
 
 Alle Inhalte dieser Website, einschließlich Texte, Grafiken, Logos und Bilder, sind urheberrechtlich geschützt. Jede Vervielfältigung, Verbreitung oder Nutzung ohne vorherige schriftliche Zustimmung ist untersagt.
-

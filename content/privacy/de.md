@@ -1,6 +1,7 @@
 ---
 title: Datenschutzhinweise
-subtitle: Wie Koudous Law Ihre persönlichen Daten sammelt, verwendet und schützt, in Übereinstimmung mit der DSGVO und deutschen Datenschutzgesetzen.
+subtitle: Wie Koudous Law Ihre persönlichen Daten sammelt, verwendet und
+  schützt, in Übereinstimmung mit der DSGVO und deutschen Datenschutzgesetzen.
 ---
 
 Koudous Law möchte Ihnen erklären, welche persönlichen Daten wir sammeln, wenn Sie unsere Website oder Angebote nutzen. Nach der Datenschutz-Grundverordnung (DSGVO) sind persönliche Daten alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen, z. B. Name, Adresse, E-Mail oder Ihr Verhalten auf der Website.
@@ -15,7 +16,7 @@ Verantwortlich für die Datenverarbeitung nach Artikel 4 Absatz 7 DSGVO ist Rech
 
 **Telefon: +49 (0)30 5200 1249**
 
-**E‑Mail: info@koudous-law.de**
+**E‑Mail: <info@koudous-law.de>**
 
 ## Überblick über die Datenverarbeitung
 
@@ -77,7 +78,7 @@ Wenn Koudous Law Daten außerhalb der EU oder des Europäischen Wirtschaftsraums
 - Durch einen EU-"Angemessenheitsbeschluss" (Art. 45 DSGVO), der das Datenschutzniveau eines Landes anerkennt.
 - Durch Standardvertragsklauseln (Art. 46 Abs. 2 lit. c DSGVO) oder Ihre ausdrückliche Zustimmung (Art. 49 Abs. 1 DSGVO).
 
-Beispiel: Im EU-US Data Privacy Framework (DPF) sind einige US-Firmen als sicher zertifiziert (siehe www.dataprivacyframework.gov/). Wir teilen Ihnen mit, wenn wir solche Anbieter nutzen. Mehr Infos gibt's auf der Website der EU-Kommission (ec.europa.eu/info/law/law-topic/data-protection).
+Beispiel: Im EU-US Data Privacy Framework (DPF) sind einige US-Firmen als sicher zertifiziert (siehe [www.dataprivacyframework.gov/](http://www.dataprivacyframework.gov/)). Wir teilen Ihnen mit, wenn wir solche Anbieter nutzen. Mehr Infos gibt's auf der Website der EU-Kommission (ec.europa.eu/info/law/law-topic/data-protection).
 
 ## Löschung von Daten
 
@@ -119,7 +120,7 @@ Wenn Sie Koudous Law kontaktieren (z. B. per E-Mail oder Formular), verarbeiten 
 
 ## Webanalyse
 
-Koudous Law nutzt Tools wie Vercel Analytics oder Google Analytics, um die Nutzung unserer Website (z. B. besuchte Seiten) pseudonymisiert zu analysieren. Das hilft uns, sie zu verbessern, basierend auf Zustimmung oder Interessen.
+Koudous Law nutzt Google Analytics, um die Nutzung unserer Website (z. B. besuchte Seiten) pseudonymisiert zu analysieren. Das hilft uns, sie zu verbessern, basierend auf Zustimmung oder Interessen.
 
 ## Soziale Medien
 
@@ -134,4 +135,3 @@ Bei Fragen oder Beschwerden wenden Sie sich an:
 **Adresse: Alt-Moabit 59-61, 10555 Berlin**
 
 **Eingang: Alt-Moabit 60**
-

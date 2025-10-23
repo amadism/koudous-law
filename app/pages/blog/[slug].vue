@@ -135,7 +135,9 @@ onMounted(() => {
                       prose-ul:text-toned prose-ul:my-6
                       prose-ol:text-toned prose-ol:my-6
                       prose-li:my-2
-                      prose-code:text-primary prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:px-1 prose-code:rounded">
+                      prose-code:text-primary prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:px-1 prose-code:rounded
+                      prose-img:max-h-[60dvh]
+                      ">
             <ContentRenderer :value="content" />
           </div>
         </div>

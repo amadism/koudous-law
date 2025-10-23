@@ -1,6 +1,7 @@
 ---
 title: Privacy Notice
-subtitle: How Koudous Law collects, uses, and protects your personal data, in compliance with GDPR and German data protection laws.
+subtitle: How Koudous Law collects, uses, and protects your personal data, in
+  compliance with GDPR and German data protection laws.
 ---
 
 Koudous Law would like to explain which personal data we collect when you use our website or services. According to the General Data Protection Regulation (GDPR), personal data is any information relating to an identified or identifiable person, such as name, address, email, or your behavior on the website.
@@ -15,7 +16,7 @@ Responsible for data processing according to Article 4(7) GDPR is Attorney Roman
 
 **Phone: +49 (0)30 5200 1249**
 
-**Email: info@koudous-law.de**
+**Email: <info@koudous-law.de>**
 
 ## Overview of data processing
 
@@ -77,7 +78,7 @@ If Koudous Law processes or shares data outside the EU or the European Economic 
 - An EU "adequacy decision" (Art. 45 GDPR), which recognizes the data protection level of a country.
 - Standard contractual clauses (Art. 46(2)(c) GDPR) or your express consent (Art. 49(1) GDPR).
 
-Example: In the EU-US Data Privacy Framework (DPF), some US companies are certified as secure (see www.dataprivacyframework.gov/). We will inform you if we use such providers. More information is available on the EU Commission website (ec.europa.eu/info/law/law-topic/data-protection).
+Example: In the EU-US Data Privacy Framework (DPF), some US companies are certified as secure (see [www.dataprivacyframework.gov/](http://www.dataprivacyframework.gov/)). We will inform you if we use such providers. More information is available on the EU Commission website (ec.europa.eu/info/law/law-topic/data-protection).
 
 ## Deletion of data
 
@@ -119,7 +120,7 @@ If you contact Koudous Law (e.g. by email or form), we process your information 
 
 ## Web analytics
 
-Koudous Law uses tools like Vercel Analytics or Google Analytics to analyze pseudonymized usage of our website (e.g. pages visited). This helps us improve it, based on consent or interests.
+Koudous Law uses Google Analytics to analyze pseudonymized usage of our website (e.g. pages visited). This helps us improve it, based on consent or interests.
 
 ## Social media
 
@@ -134,4 +135,3 @@ For questions or complaints, contact:
 **Address: Alt-Moabit 59-61, 10555 Berlin**
 
 **Entrance: Alt-Moabit 60**
-

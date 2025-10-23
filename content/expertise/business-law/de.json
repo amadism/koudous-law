@@ -1,32 +1,32 @@
 {
-  "title": "Wirtschaftsrecht: Ihr rechtlicher Motor für Wachstum",
-  "intro": "Wirtschaftsrecht ist nicht nur ein verstaubtes Regelwerk – es ist der Treibstoff, der die Fähigkeit Ihres Unternehmens antreibt, zu operieren, zu konkurrieren und in einer Welt zu wachsen, die nicht nett spielt.",
+  "title": "Wirtschaftsrecht: Der unsichtbare Treiber Ihres Erfolgs",
+  "intro": "Wirtschaftsrecht ist für uns mehr als ein Regelwerk – es ist der Motor, der Unternehmen durch unvorhersehbare Märkte lenkt. Wir verwandeln rechtliche Hürden in Wettbewerbsvorteile: sei es bei Vertragsabschlüssen, Produktstarts oder Konfliktlösungen. Denn: Solide Beratung schützt nicht nur vor Risiken, sondern schafft Raum für nachhaltiges Wachstum.",
   "howIHelp": {
-    "heading": "Wie ich helfe",
-    "description": "Ich beginne damit, das Gesamtbild zu erfassen – Ihre Produkte, Ihre Partner, Ihre Pläne – damit meine Lösungen jedes Mal ins Schwarze treffen.",
-    "details": "Streit am brauen? Ich bin Ihr Problemlöser – ob es sich um eine Vertragsverletzung oder einen Betriebsgeheimnisdiebstahl handelt."
+    "heading": "Wie unsere Kanzlei Sie unterstützt",
+    "description": "Wir tauchen tief in Ihr Geschäft ein – Produkte, Partner, Ziele – und entwickeln daraus Lösungen, die genau passen. Keine Vorlagen, sondern individuelle Strategien. Egal ob Tech, Handel oder Dienstleistungen: Wir sichern Verträge ab, lösen Streitigkeiten und optimieren Prozesse, damit Sie wachsen können.",
+    "details": ""
   },
   "services": {
-    "heading": "Zentrale Wirtschaftsrecht-Dienstleistungen",
+    "heading": "Unsere Kernbereiche umfassen:",
     "list": [
-      "Vertragserstellung und -prüfung, die Ihre Interessen und Einnahmequellen schützt",
-      "Streitbeilegung, die Konflikte schnell und effektiv löst",
-      "IP-Schutz zur Sicherung Ihrer Marken, Urheberrechte und Patente",
-      "Regulatorische Compliance, die Ihr Unternehmen im Einklang mit geltenden Gesetzen hält",
-      "Produkteinführungsunterstützung von Lieferketten-Überprüfung bis Marketing-Claim-Verifizierung",
-      "Rechtliche Betriebsoptimierung mit Vorlagen und Protokollen für Skalierung"
+      "Verträge, die halten: Von Lieferantenabkommen bis Joint Ventures – wir prüfen und gestalten, um Ihre Interessen zu wahren.",
+      "Streitbeilegung: Pragmatisch und effizient, durch Mediation oder Gericht – Konflikte werden zu klaren Erfolgen.",
+      "IP-Schutz: Marken, Patente, Rechte – wir bauen Schutzwälle und wehren Bedrohungen ab.",
+      "Compliance & Regulatorik: DSGVO, ESG und mehr – wir halten Sie konform, ohne dass Strafen drohen.",
+      "Produkt-Launches: Lieferketten-Audits, Marketing-Claims – für reibungslose Markteinführungen.",
+      "Skalierungs-Optimierung: Vorlagen, Protokolle, Audits – rechtliche Routine, die Ihr Team entlastet."
     ],
-    "extra": "Ich höre nicht beim Offensichtlichen auf. Ein Produkt launchen? Ich überprüfe Ihre Lieferkette, kläre Ihre Marketing-Claims und schütze Sie vor Haftungsrückschlägen. Skalieren? Ich optimiere Ihre Rechtsoperationen, damit Wachstum nicht zum Chaos wird – denken Sie an Vertragsvorlagen, Streitprotokolle, IP-Checklisten. Von einem Partner verbrannt? Ich habe schiefgegangene Deals gerettet und Vergleiche gewonnen, die Unternehmen am Leben hielten.",
-    "details": "Ich habe alles bewältigt – E-Commerce-Bedingungen, die Rückbuchungen vermeiden, Franchise-Vereinbarungen, die smart skalieren, Einzelhandelsdeals, die Rücksendungen umgehen. Meine Unterstützung passt sich Ihren Bedürfnissen an: Ein kleines Unternehmen erhält schnelle Lösungen; ein großer Player erhält eine vollständige rechtliche Optimierung. Jede Klausel, die ich schreibe, jeder Kampf, den ich führe, hält Sie schlank, aggressiv und wachsend. Sie bekommen nicht nur einen Anwalt – Sie bekommen einen Strategen, der rechtliche Hindernisse in Startrampen für Ihren nächsten Sieg verwandelt."
+    "extra": "",
+    "details": ""
   },
   "whyMe": {
-    "heading": "Warum ich",
-    "description": "Ich habe Jahre damit verbracht, Unternehmen durch rechtliche Stürme und Wachstumsschübe zu führen.",
-    "details": "Ich habe jeden Winkel bearbeitet – Gastgewerbe mit seinen Lieferanten-Verstrickungen, Tech mit seinen Datenkriegen. Ich höre nicht beim Offensichtlichen auf. Ein Produkt launchen? Ich überprüfe Ihre Lieferkette, kläre Ihre Marketing-Claims. Ich habe alles bewältigt – E-Commerce-Bedingungen, die Rückbuchungen vermeiden, Franchise-Vereinbarungen, die smart skalieren. Was mich auszeichnet, ist der Fokus auf Ergebnisse. Kunden haben Anwälte fallen gelassen, die sie in Memos begraben. Der Beweis liegt im Pudding: Ich habe einen Einzelhändler von einem Geschäft auf zehn ohne rechtliche Probleme gebracht."
+    "heading": "Warum Koudous Law ?",
+    "description": "Wir kennen die Herausforderungen aus der Praxis – von Tech, Gastgewerbe über Pharma, Health Services bis zu Start-Up & VC, Crypto & Fashion.",
+    "details": "Als Kanzlei mit Fokus auf internationales Geschäft bringen wir nicht nur Expertise, sondern echtes Gespür für internationale Dynamiken. Unsere Mandanten schätzen: Keine Aktenberge, sondern handfeste Ergebnisse. Wir sind Partner – effizient, direkt und immer vorausschauend."
   },
   "cta": {
-    "heading": "Bereit, Ihr Unternehmenswachstum mit solider rechtlicher Unterstützung zu befeuern?",
-    "text": "Lassen Sie uns besprechen, wie meine Wirtschaftsrecht-Expertise Ihrem Unternehmen helfen kann, mit Vertrauen zu operieren, zu konkurrieren und zu wachsen.",
+    "heading": "Recht dient den Menschen und Unternehmen. Lassen Sie uns sprechen.",
+    "text": "Wie können wir Ihr Wachstum absichern? Ein Gespräch, ein Kaffee – der erste Schritt ist einfach.",
     "button": "Beratungstermin vereinbaren"
   }
 }
